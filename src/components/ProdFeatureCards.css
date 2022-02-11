@@ -6,6 +6,7 @@
 .feature__card__item {
     background-color: transparent;
     border-left: 3px solid #2957CB;
+    padding-left: 10px;
     flex-grow: 1;
     display: block;
     margin: 10px;
