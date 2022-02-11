@@ -34,7 +34,7 @@
 }
 
 .sec-prod-cards {
-    display: block;
+    display: flex;
 
 }
 
