@@ -1,0 +1,49 @@
+.sec-container-features {
+    background: url('./padlock-background.png') center center/cover;
+    min-height: 600px;
+    font-family: 'Inter';
+    vertical-align: center;
+    color: #fff;
+}
+
+.prod-features-list {
+    margin-inline-start: 50px;
+}
+
+.sec-header {
+    text-align: left;
+    display: block;
+    float: left;
+    /* display: inline-block; */
+    width: 300px;
+}
+
+.why-header {
+    font-size: xxx-large;
+    text-align: left;
+    line-height: 48px;
+    margin-block-start: 90px;
+    margin-block-end: 0px;
+}
+
+.prod-features {
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    margin-block-start: 5px;
+    margin-block-end: 40px;
+}
+
+.sec-prod-cards {
+    display: block;
+
+}
+
+.prod-cards-first-col {
+    display: block;
+    float: left;
+}
+
+.prod-cards-second-col {
+    display: block;
+    float: left;
+}

@@ -1,0 +1,26 @@
+.feature__card__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature__card__item {
+    background-color: transparent;
+    border-left: 3px solid #2957CB;
+    flex-grow: 1;
+    display: block;
+    margin: 10px;
+}
+
+.feature__card__header {
+    margin-block: 0px;
+}
+
+.feature__card__subheader {
+    margin-block: 0px;
+
+}
+
+.feature__card__description {
+    margin-block: 0px;
+
+}

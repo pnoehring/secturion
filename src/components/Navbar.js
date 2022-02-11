@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './logo-white.png';
 import "./Navbar.css";
 import { Button } from './Button'
@@ -19,6 +19,10 @@ function Navbar() {
         }
     };
 
+    useEffect(() => {
+        showButton()
+    }, []);
+
     const [isOpen, setIsOpen] = useState(false);
     const toggleProductDropdown = () => setIsOpen(!isOpen);
 
@@ -28,8 +32,8 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" >
-                        <img src={logo}/>
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu} >
+                        <img src={logo} height={57} width={425}/>
                     </Link>
                     {/* menu icon will toggle between lines and X */}
                     <div className='menu-icon' onClick={handleClick}>
@@ -89,7 +93,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
+                            {button && <Button 
+                            buttonStyle='btn--outline'
+                            link='/contact'
+                            >
+                                CONTACT
+                                </Button>}
                         </li>
                     </ul>
                 </div>  
