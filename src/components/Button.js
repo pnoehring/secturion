@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 import {Link} from 'react-router-dom';
 
-const STYLES = ['btn--primary', 'btn--outline'];
+const STYLES = ['btn--primary', 'btn--outline', 'btn--primary-alt', 'btn--outline-alt'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
@@ -11,7 +11,8 @@ export const Button = ({
     type, 
     onClick, 
     buttonStyle, 
-    buttonSize
+    buttonSize,
+    link
 }) => {
     // apply btn--primary style be default, if no style specified
         const checkButtonStyle = STYLES.includes(buttonStyle)
@@ -23,7 +24,7 @@ export const Button = ({
          : SIZES[0]
 
          return (
-             <Link to='/' className='btn-mobile'>
+             <Link to={link} className='btn-mobile'>
                  <button
                  className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                  onClick={onClick}

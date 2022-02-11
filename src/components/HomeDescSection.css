@@ -1,0 +1,40 @@
+.secturion-desc {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+}
+.bold-blue {
+    color: #2957CB;
+    font-weight: 500;
+}
+
+.section-div {
+    text-align: center;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* .fas fa-trademark {
+    font-size: ;
+} */
+
+.paragraph-links {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #2957CB;
+}
+
+.paragraph-links:hover { 
+    border-bottom: none;
+    /* border-bottom: 2px solid #000; */
+    /* font-weight: 500; */
+    color: #2957CB;
+    transition: all 0.2s ease;
+}
+
+.see-our-products:hover {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: #2957CB;
+}

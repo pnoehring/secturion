@@ -5,25 +5,25 @@
 
 .btn {
     padding: 8px 20px;
-    border-radius: 2px;
     outline: none;
     border: none;
     cursor: pointer;
+    font-family: 'Inter';
+    border-radius: 16px;
 }
 
-.btn--primary {
+.btn--primary, .btn--primary-alt, .btn--outline-alt:hover {
     background-color: var(--primary);
     color: var(--font);
     border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
 }
 
 .btn--outline {
     background-color: transparent;
     color: var(--font);
-    padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
-    border-radius: 16px;
 }
 
 .btn--medium {
@@ -32,12 +32,24 @@
 }
 
 .btn--large {
-    padding: 12px 26px;
-    font-size: 20px;
+    padding: 8px 20px;
+    font-size: 1em;
 }
 
-.btn--medium:hover, .btn--large:hover {
-    background: #2957CB;
-    color: #fff;
+.btn--outline:hover {
+    background: var(--primary);
+    color: var(--font);
+}
+
+.btn--primary:hover {
+    background: transparent;
+    border: 1px solid var(--primary);
+}
+
+.btn--primary-alt:hover, .btn--outline-alt {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
     transition: all 0.3s ease-out;
+    border-radius: 16px;
 }

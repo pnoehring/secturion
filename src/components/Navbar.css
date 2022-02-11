@@ -1,6 +1,6 @@
 .navbar {
   background: #0F172D;
-  height: 600px;
+  height: 160px;
   /* display: grid; */
   justify-content: center;
   align-items: center;
@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   width: 100%;
 }
 
@@ -19,7 +19,7 @@
   align-items: flex-start;
   /* vertical-align: top; */
   height: 100px;
-  width: 100%;
+  /* width: 100%; */
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -32,7 +32,9 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
+
+
   /* vertical-align: top; */
   /* width: 100%; */
 }
@@ -52,7 +54,7 @@
   /* width: 60vw; */
   justify-content: end;
   margin-right: 2rem;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 /* .nav-item {
