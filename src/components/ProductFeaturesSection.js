@@ -14,8 +14,8 @@ function ProductFeaturesSection() {
                     <Button>CONTACT US</Button>
                 </li>
                 <li className='sec-prod-cards'>
-                    <ul>
-                    <li className='prod-cards-first-col'>
+                    <ul className='prod-cards-list'>
+                    <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Un-hackable'
                         subheader='FROM THE NETWORK'
@@ -29,17 +29,6 @@ function ProductFeaturesSection() {
                                our products.'
                     />
                     <ProdFeatureCards
-                        header='Transparent'
-                        subheader='TO THE NETWORK'
-                        description='Secturion products are inserted in-line in
-                         the Ethernet network. Once the products are configured,
-                          it operates transparently to the network. Since the Data
-                           at rest network encryptor is file-based, it is agnostic
-                            to the lower level data storage protocols. '
-                    />
-                    </li>
-                    <li className='prod-cards-second-col'>
-                    <ProdFeatureCards
                         header='Consistent'
                         subheader='DATA &amp; LOW NETWORK LATENCY'
                         description='Secturion products provide constant data rates
@@ -48,6 +37,17 @@ function ProductFeaturesSection() {
                            data rate consistency unpredictable. Secturion&apos;s latency
                             is in the low microseconds, and the data rate is
                              consistent.'
+                    />
+                    </li>
+                    <li className='prod-cards-rows'>
+                    <ProdFeatureCards
+                        header='Transparent'
+                        subheader='TO THE NETWORK'
+                        description='Secturion products are inserted in-line in
+                         the Ethernet network. Once the products are configured,
+                          it operates transparently to the network. Since the Data
+                           at rest network encryptor is file-based, it is agnostic
+                            to the lower level data storage protocols. '
                     />
                     <ProdFeatureCards
                         header='Reliable'

@@ -5,6 +5,7 @@ import HeroSection from '../HeroSection';
 import HomeDescSection from '../HomeDescSection';
 import HomeOurProductSection from '../HomeOurProductSection';
 import ProductFeaturesSection from '../ProductFeaturesSection';
+import HomeQuoteSection from '../HomeQuoteSection';
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
 
         </HomeOurProductSection>
         <ProductFeaturesSection/>
+        <HomeQuoteSection />
         </>
     );
 }
