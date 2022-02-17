@@ -10,26 +10,32 @@
     cursor: pointer;
     font-family: 'Inter';
     border-radius: 16px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
 }
 
 .btn--primary, .btn--primary-alt, .btn--outline-alt:hover {
     background-color: var(--primary);
     color: var(--font);
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
 }
 
 .btn--outline {
     background-color: transparent;
     color: var(--font);
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
+}
+
+.btn--square {
+    background-color: var(--primary);
+    color: var(--font);
+    border-radius: 0;
 }
 
 .btn--medium {
     padding: 8px 20px;
     font-size: 1em;
 }
+
+/* TODO: no "medium size anymore" */
 
 .btn--large {
     padding: 8px 20px;
@@ -41,7 +47,7 @@
     color: var(--font);
 }
 
-.btn--primary:hover {
+.btn--primary:hover, .btn--square:hover {
     background: transparent;
     border: 1px solid var(--primary);
 }

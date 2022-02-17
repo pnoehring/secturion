@@ -3,15 +3,29 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
+import DataInTransmit from './components/pages/DataInTransmit';
+import DataAtRest from './components/pages/DataAtRest';
+import About from './components/pages/About';
+import Resources from './components/pages/Resources';
+import Contact from './components/pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
     <Router>
+      <div className='wrapper'>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home}/>
+        <Route path='/data-in-transmit' component={DataInTransmit} />
+        <Route path='/data-at-rest' component={DataAtRest} />
+        <Route path='/about' component={About} />
+        <Route path='/resources' component={Resources} />
+        <Route path='/contact' component={Contact} />
       </Switch>
+      </div>
+      <Footer />
     </Router>
     </>
   );

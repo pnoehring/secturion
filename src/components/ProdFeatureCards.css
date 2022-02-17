@@ -1,6 +1,7 @@
 .feature__card__container {
     display: flex;
     flex-direction: column;
+    width: 350px;
 }
 
 .feature__card__item {
@@ -18,10 +19,15 @@
 
 .feature__card__subheader {
     margin-block: 0px;
-
+    font-size: x-small;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 3px;
 }
+
 
 .feature__card__description {
     margin-block: 0px;
-
+    margin-top: 8px;
+    font-size: small;
 }

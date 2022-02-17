@@ -1,0 +1,22 @@
+.content-hero-container {
+    background: url('./hero-background-image-smol.png') center center/cover
+    no-repeat;
+    background-size: 500px 336px;
+    background-position: right;
+    background-color: #0F172D;
+    color: #fff;
+    font-family: 'Inter';
+    height: 200px;
+    text-align: center;
+}
+
+.hero-header {
+    font-size: smaller;
+    letter-spacing: 1.5px;
+}
+
+.hero-content {
+    font-size: xxx-large;
+    font-weight: 600;
+    margin-block-start: 0;
+}

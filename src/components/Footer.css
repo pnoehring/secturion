@@ -1,0 +1,18 @@
+.footer-container {
+    background: #0F172D;
+    height: 60px;
+    font-family: 'Inter';
+    position: sticky;
+    padding-top: 40px;
+    /* flex-shrink: 0; */
+    /* margin-top: -60px; */
+    margin-top: auto;
+}
+
+.copyright-text {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: small;
+    letter-spacing: 1.5px;
+}
