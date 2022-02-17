@@ -11,7 +11,12 @@ function ProductFeaturesSection() {
                 <li className='sec-header'>
                     <h1 className='why-header'>Why You Need Secturion</h1>
                     <p className='prod-features'>KEY PRODUCT FEATURES</p>
-                    <Button>CONTACT US</Button>
+                    <Button
+                        link='/contact'
+                    >
+                        CONTACT US
+                        </Button>
+                    {/* TODO: Do we want a different :hover here? */}
                 </li>
                 <li className='sec-prod-cards'>
                     <ul className='prod-cards-list'>
@@ -61,6 +66,17 @@ function ProductFeaturesSection() {
                     </ul>
                 </li>
             </ul>
+            <div className='btn-sec'>
+                {/* TODO: where does this link to? */}
+            <Button
+            buttonStyle={'btn--square'}
+            buttonSize={'btn--medium'}
+            link='/about'
+            >
+                MORE&nbsp;&nbsp;
+                <i class="fas fa-caret-right" />
+                </Button>
+            </div>
         </div>
     );
 }

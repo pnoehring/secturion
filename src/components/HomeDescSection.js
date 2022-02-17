@@ -26,9 +26,11 @@ function HomeDescSection() {
                 end-to-end cloud based data storage and data in transit.
             </p>
             <div className='btn-div'>
+                {/* TODO: where does this button link to? */}
             <Button
                 buttonSize='btn--large'
                 buttonStyle='btn--primary-alt'
+                link='/'
             >
                 SEE OUR PRODUCTS
             </Button>

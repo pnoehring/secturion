@@ -1,6 +1,7 @@
 import react from "react";
 import './HomeQuoteSection.css'
-import { Button } from "./Button";
+import { Button } from './Button';
+import soldier from './soldier.png';
 
 function HomeQuoteSection() {
     return (
@@ -18,15 +19,20 @@ function HomeQuoteSection() {
             </div>
             <div>
             <ul className="bottom-list">
-                <li>
-                    <img src='./soldier.png' />
-
-                </li>
-                <li className='mission'>
+                <div className="soldier-image">
+                    <img src={soldier} />
+                </div>
+                <div className='mission'>
                     <p className='header'>OUR MISSION</p>
                     <h1 className='protect-data'>Protecting Your Data</h1>
-                    <Button>CONTACT US</Button>
-                </li>
+                    <Button
+                        buttonSize='btn--large'
+                        buttonStyle='btn--primary-alt'
+                        link='/contact'
+                    >
+                        CONTACT US
+                    </Button>
+                </div>
             </ul>
             </div>
         </div>
