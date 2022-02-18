@@ -46,6 +46,7 @@ function Navbar() {
                                 // to='/products' 
                                 className='nav-links' 
                                 onClick={closeMobileMenu}
+                                to='/'
                             >
                                 PRODUCTS&nbsp;
                                 <i class="fas fa-caret-down" />
@@ -76,11 +77,11 @@ function Navbar() {
                         </div>
                         <li className='nav-item'>
                             <Link 
-                                to='/about' 
+                                to='/applications' 
                                 className='nav-links' 
                                 onClick={closeMobileMenu}
                             >
-                                ABOUT
+                                APPLICATIONS
                             </Link>
                         </li>
                         <li className='nav-item'>
