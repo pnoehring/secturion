@@ -1,5 +1,6 @@
 .sec-container-features {
     background: url('./padlock-background.png') center center/cover;
+    background-position: left;
     min-height: 515px;
     font-family: 'Inter';
     /* vertical-align: center; */

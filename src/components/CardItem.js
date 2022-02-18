@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from './Button';
-import './Cards.css';
 
 function CardItem(props) {
   return (
@@ -17,7 +16,7 @@ function CardItem(props) {
               buttonSize='btn--medium'
               buttonStyle='btn--outline-alt'
               link={props.path}>
-              LEARN MORE
+              {props.button}
             </Button>
     </li>
   </>

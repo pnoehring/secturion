@@ -2,8 +2,9 @@ import React from 'react';
 import '../App.css';
 import './HomeOurProductSection.css';
 import CardItem from './CardItem';
-import darkstor from './darkstor.png'
-import darklink from './darklink.png'
+import darkstor from './darkstor.png';
+import darklink from './darklink.png';
+import './Cards.css';
 
 function HomeOurProductSection() {
     return (
@@ -26,6 +27,7 @@ function HomeOurProductSection() {
                   providers or data centers or local storage units'
                   label='DARKSTOR'
                   path='/data-in-transmit'
+                  button='LEARN MORE'
                   />
                 {/* </li> */}
                 {/* <li className='cards__item'> */}
@@ -37,6 +39,7 @@ function HomeOurProductSection() {
                     service) using Secturion&apos;s MESH technology.'
                   label='DARKLINK'
                   path='/data-at-rest'
+                  button='LEARN MORE'
                   />
                   {/* </li> */}
           {/* </div> */}

@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import test from './img-2-thumbnail.jpg';
+import helmet from './helmet_mid.png';
 
 
 function HeroSection() {
@@ -31,7 +31,7 @@ function HeroSection() {
 
     <section className='section-2'>
         <div>
-        <img src={test} />
+        <img src={helmet} />
         </div>
     </section>
 </section>

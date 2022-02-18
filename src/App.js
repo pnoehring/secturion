@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import DataInTransmit from './components/pages/DataInTransmit';
 import DataAtRest from './components/pages/DataAtRest';
-import About from './components/pages/About';
+import Applications from './components/pages/Applications';
 import Resources from './components/pages/Resources';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
@@ -20,7 +20,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/data-in-transmit' component={DataInTransmit} />
         <Route path='/data-at-rest' component={DataAtRest} />
-        <Route path='/about' component={About} />
+        <Route path='/applications' component={Applications} />
         <Route path='/resources' component={Resources} />
         <Route path='/contact' component={Contact} />
       </Switch>
