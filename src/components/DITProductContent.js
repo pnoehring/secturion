@@ -1,5 +1,5 @@
 import React from 'react';
-import './DITProductContent.css';
+import './ProductContent.css';
 import './ProductCards.css';
 import ProductCards from './ProductCards';
 import tenG from './10g_tactical_dite.png';
@@ -10,11 +10,11 @@ import secureEnterprise from './secure_enterprise.png';
 
 function DITProductContent() {
   return (
-    <div className='dit-product-content'>
+    <div className='product-content'>
         <div className='desc-container'>
             <h className='prod-header'>100G DARE: Airborne &#38; Ground</h>
             {/* TODO: what should this actually say? */}
-            <p className='prod-desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            <p className='prod-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
               sed do eiusmod tempor incididunt ut labore et dolore magna 
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
               ullamco laboris nisi ut aliquip ex ea commodo consequat. 

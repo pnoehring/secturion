@@ -1,5 +1,5 @@
 .sec-container {
-    background: url('./inverted-background.png') center center/cover;
+    background: url('./images/inverted-background.png') center center/cover;
     /* no-repeat; */
     background-size: 872px 586px;
     height: 600px;

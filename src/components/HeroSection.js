@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import helmet from './helmet_mid.png';
+import helmet from './images/helmet_mid.png';
 
 
 function HeroSection() {

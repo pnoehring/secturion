@@ -1,5 +1,5 @@
 import React from 'react';
-import './DARProductContent.css';
+import './ProductContent.css';
 import ProductCards from './ProductCards';
 import gnd from './gnd_dare.png';
 import air from './air_dare.png';
@@ -9,11 +9,11 @@ import oneGTactical from './1g_tactical_dare.png';
 
 function DARProductContent() {
   return (
-    <div className='dar-product-content'>
+    <div className='product-content'>
         <div className='desc-container'>
             <h className='prod-header'>DarkLink: Secure Site-to-Site</h>
             {/* TODO: what should this actually say? */}
-            <p className='prod-desc'>DarkLink will secure corporations
+            <p className='prod-description'>DarkLink will secure corporations
              or governments that have multiple sites, securely meshing
               together over an open commercial switching network at data
                rates from 1 Giga-bits/sec, 10G, 100G, and 400 Giga-bits/sec.

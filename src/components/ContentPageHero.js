@@ -4,8 +4,14 @@ import './ContentPageHero.css';
 function ContentPageHero(props) {
   return (
     <div className='content-hero-container'>
-        <h className='hero-header'>{props.header}</h>
-        <p className='hero-content'>{props.subHeader}</p>
+      <ul className='content-list'>
+        <li>
+          <h className='hero-header'>{props.header}</h>
+        </li>
+        <li>
+          <p className='hero-content'>{props.subHeader}</p>
+        </li>
+      </ul>
     </div>
   )
 }

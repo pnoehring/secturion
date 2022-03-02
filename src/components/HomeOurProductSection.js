@@ -2,8 +2,8 @@ import React from 'react';
 import '../App.css';
 import './HomeOurProductSection.css';
 import CardItem from './CardItem';
-import darkstor from './darkstor.png';
-import darklink from './darklink.png';
+import darkstor from './images/darkstor.png';
+import darklink from './images/darklink.png';
 import './Cards.css';
 
 function HomeOurProductSection() {

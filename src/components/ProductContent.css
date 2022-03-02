@@ -1,12 +1,12 @@
-.dit-product-content {
+.product-content {
     background-color: #fff;
-    background-image: url('./number_cloud.png') ;
+    background-image: url('./binary-cloud.png') ;
     background-position: center top;
     /* justify-content: center; */
     font-family: 'Inter';
     /* align-items: center; */
     text-align: center;
-    min-height: 1800px;
+    /* min-height: 1800px; */
 }
 
 .desc-container {
@@ -22,7 +22,7 @@
     letter-spacing: 1.5px;
 }
 
-.prod-descr {
+.prod-description {
     margin-bottom: 0;
 }
 

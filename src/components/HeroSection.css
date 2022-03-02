@@ -1,6 +1,6 @@
 /* for less than 1100 px, make the backgroun image centered */
 .hero-container {
-    background: url('./hero-background-image.png') center center/cover
+    background: url('./images/hero-background-image.png') center center/cover
     no-repeat;
     background-size: 872px 586px;
     background-position: right;
