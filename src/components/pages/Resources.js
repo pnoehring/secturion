@@ -1,17 +1,16 @@
 import React from 'react';
 import '../../App.css';
 import ContentPageHero from '../ContentPageHero';
+import ResourcesContent from '../ResourcesContent';
 
 export default function Resources() {
     return( 
     <div>
     <ContentPageHero
-        //header='OUR PRODUCTS'
+        header=''
         subHeader='Resources'
     />
-    <h1 className='resources'>
-        Resources
-        </h1>
+    <ResourcesContent/>
     </div>
     );
 }

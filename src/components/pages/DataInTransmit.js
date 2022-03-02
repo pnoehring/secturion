@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import ContentPageHero from '../ContentPageHero';
 import DITProductContent from '../DITProductContent';
+import ProductPageFooter from '../ProductPageFooter';
 
 export default function DataInTransmit() {
     return( <div>
@@ -10,6 +11,7 @@ export default function DataInTransmit() {
         subHeader='Secturion Enterprise Data in Transit Encryptors'
     />
     <DITProductContent/>
+    <ProductPageFooter />
     </div>
     );
 }

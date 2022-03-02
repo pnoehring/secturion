@@ -1,7 +1,7 @@
 import react from "react";
 import './HomeQuoteSection.css'
 import { Button } from './Button';
-import soldier from './soldier.png';
+import soldier from './images/soldier.png';
 
 function HomeQuoteSection() {
     return (

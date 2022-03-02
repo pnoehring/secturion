@@ -1,17 +1,16 @@
 import React from 'react';
 import '../../App.css';
+import ContactUsContent from '../ContactUsContent';
 import ContentPageHero from '../ContentPageHero';
 
 export default function Contact() {
     return( 
     <div>
     <ContentPageHero
-        //header='OUR PRODUCTS'
-        subHeader='Contact'
+        header=''
+        subHeader='Contact Us'
     />
-    <h1 className='contact'>
-        Contact
-        </h1>
+    <ContactUsContent />
     </div>
     );
 }

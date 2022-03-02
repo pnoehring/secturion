@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import ContentPageHero from '../ContentPageHero.js';
 import DARProductContent from '../DARProductContent';
+import ProductPageFooter from '../ProductPageFooter';
 
 export default function DataAtRest() {
     return( 
@@ -11,6 +12,7 @@ export default function DataAtRest() {
         subHeader='Secturion Tactical Data at Rest Encryptors'
     />
     <DARProductContent/>
+    <ProductPageFooter />
     </div>
     );
 }

@@ -1,20 +1,20 @@
 import React from 'react';
-import './DITProductContent.css';
+import './ProductContent.css';
 import './ProductCards.css';
 import ProductCards from './ProductCards';
-import tenG from './10g_tactical_dite.png';
-import oneG from './1g_tactical_dite.png';
-import secureTactical from './secure_tactical.png';
-import oneSix from './1.6tb_macsec.png';
-import secureEnterprise from './secure_enterprise.png';
+import tenG from './images/10g_tactical_dite.png';
+import oneG from './images/1g_tactical_dite.png';
+import secureTactical from './images/secure_tactical.png';
+import oneSix from './images/1.6tb_macsec.png';
+import secureEnterprise from './images/secure_enterprise.png';
 
 function DITProductContent() {
   return (
-    <div className='dit-product-content'>
+    <div className='product-content'>
         <div className='desc-container'>
             <h className='prod-header'>100G DARE: Airborne &#38; Ground</h>
             {/* TODO: what should this actually say? */}
-            <p className='prod-desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            <p className='prod-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
               sed do eiusmod tempor incididunt ut labore et dolore magna 
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
               ullamco laboris nisi ut aliquip ex ea commodo consequat. 
