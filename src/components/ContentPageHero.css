@@ -1,12 +1,12 @@
 .content-hero-container {
-    background: url('./hero-background-image-smol.png') center center/cover
+    background: url('./images/hero-background-image-small.png') 
     no-repeat;
     background-size: 500px 336px;
-    background-position: right;
+    background-position: 70% 90%;
     background-color: #0F172D;
     color: #fff;
     font-family: 'Inter';
-    min-height: 160px;
+    min-height: 250px;
     text-align: center;
     /* align-items: center; */
 }
@@ -14,6 +14,7 @@
 .content-list {
     list-style: none;
     display: inline-block;
+    padding-inline-start: 0;
 }
 
 .hero-header {
@@ -26,5 +27,11 @@
     font-size: xxx-large;
     font-weight: 600;
     margin-block-start: 0;
+    max-width: 800px;
+}
+
+.hero-content-only {
+    font-size: xxx-large;
+    font-weight: 600;
     max-width: 800px;
 }

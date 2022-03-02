@@ -6,7 +6,7 @@ export default function Applications() {
     return( 
     <div>
     <ContentPageHero
-        //header='OUR PRODUCTS'
+        header=''
         subHeader='Applications'
     />
     <h1 className='applications'>

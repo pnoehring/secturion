@@ -2,11 +2,11 @@ import React from 'react';
 import './ProductContent.css';
 import './ProductCards.css';
 import ProductCards from './ProductCards';
-import tenG from './10g_tactical_dite.png';
-import oneG from './1g_tactical_dite.png';
-import secureTactical from './secure_tactical.png';
-import oneSix from './1.6tb_macsec.png';
-import secureEnterprise from './secure_enterprise.png';
+import tenG from './images/10g_tactical_dite.png';
+import oneG from './images/1g_tactical_dite.png';
+import secureTactical from './images/secure_tactical.png';
+import oneSix from './images/1.6tb_macsec.png';
+import secureEnterprise from './images/secure_enterprise.png';
 
 function DITProductContent() {
   return (

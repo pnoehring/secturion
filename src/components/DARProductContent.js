@@ -1,10 +1,10 @@
 import React from 'react';
 import './ProductContent.css';
 import ProductCards from './ProductCards';
-import gnd from './gnd_dare.png';
-import air from './air_dare.png';
-import tenGTactical from './10g_tactical_dare.png';
-import oneGTactical from './1g_tactical_dare.png';
+import gnd from './images/gnd_dare.png';
+import air from './images/air_dare.png';
+import tenGTactical from './images/10g_tactical_dare.png';
+import oneGTactical from './images/1g_tactical_dare.png';
 
 
 function DARProductContent() {

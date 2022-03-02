@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProductPageFooter.css';
-import hacker from './hacker.png';
+import hacker from './images/hacker.png';
 
 function ProductPageFooter() {
   return (
