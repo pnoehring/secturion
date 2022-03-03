@@ -2,7 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import helmet from './images/helmet_mid.png';
+import helmet from './images/helmet-white-thumbnail.png';
+// import {ReactComponent as Image} from './images/helmet-white.svg';
 
 
 function HeroSection() {
@@ -31,6 +32,7 @@ function HeroSection() {
 
     <section className='section-2'>
         <div>
+          {/* <Image/> */}
         <img src={helmet} />
         </div>
     </section>

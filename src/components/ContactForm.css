@@ -1,0 +1,41 @@
+.contact-form {
+    align-items: center;
+}
+
+.name-email-div {
+    display: inline-flex;
+}
+
+.contact-textbox {
+    /* display: flex; */
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    border: 1px solid #2957CB;
+    padding: 10px;
+    background: #fff;
+    margin: 0.5em;
+    /* margin: 3rem; */
+    border-radius: 4px;
+    width: 250px;
+}
+
+.message-textbox {
+    vertical-align: top;
+}
+
+.contact-message-textbox {
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    border: 1px solid #2957CB;
+    padding: 10px;
+    background: #fff;
+    /* margin: 3rem; */
+    border-radius: 10px;
+    margin: 0.5em;
+    width: 825px;
+    height: 100px;
+    text-align: left;
+    /* vertical-align: top; */
+}
+
+.contact-button {
+    margin: 30px;
+}

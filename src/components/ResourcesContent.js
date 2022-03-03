@@ -5,6 +5,8 @@ import ProductCards from './ProductCards';
 function ResourcesContent() {
   return (
     <div className='resources-container'>
+      <div className='prod-cards-container'>
+
           <ProductCards
             src=''
             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -32,6 +34,7 @@ function ResourcesContent() {
             path='/read-more'
             button='READ MORE'
           />
+      </div>
     </div>
   );
 }
