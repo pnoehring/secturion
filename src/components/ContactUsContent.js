@@ -1,6 +1,8 @@
 import React from 'react';
 import ContactForm from './ContactForm';
 import './ContactUsContent.css';
+import email from './images/email-solid.png';
+import phone from './images/phone-solid.png';
 
 function ContactUsContent() {
   return (
@@ -11,15 +13,16 @@ function ContactUsContent() {
          adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.
         </p>
+        </div>
         <ul className='email-phone'>
-            <li> EMAIL ADDRESS
+            <li><img src={email} /> &nbsp;&nbsp;secturion@secturion.com
 
             </li>
-            <li> PHONE NUMBER
+            <li><img src={phone} /> &nbsp;&nbsp;(123)456-7890
 
             </li>
         </ul>
-    </div>
+ 
         <ContactForm />
     </div>
   );

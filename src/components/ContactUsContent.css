@@ -2,7 +2,7 @@
     background: url('./images/electrical-lines-gray.png')
     no-repeat;
     background-size: 500px 336px;
-    background-position: 70% 90%;
+    background-position: 90% 80%;
     font-family: 'Inter';
     text-align: center;
 }
@@ -18,19 +18,34 @@
 }
 
 .contact-us {
-    font-size: x-large;
+    font-size: xx-large;
 
 }
 
 .contact-explanation {
     margin-block-start: 0.25em;
     font-size: small;
-    max-width: 600px;
+    /* max-width: 600px; */
     line-height: 1.5;
 }
 
 .email-phone {
     list-style: none;
-    display: flex;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 20px;
+    padding-inline-start: 0;
+    letter-spacing: 2.5px;
+}
+
+.email-phone li {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.email-phone li img {
+    display: block;
+    margin: 0 auto;
     float: left;
+
 }

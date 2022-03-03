@@ -1,6 +1,17 @@
 .resources-container {
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/circle-outlines.png"), 
+        url("./images/circle-outlines.png");
+    background-position: -20% -10%, 110% 180%;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+}
+
+.prod-cards-container {
     background-color: #fff;
     margin-right: 100px;
     margin-left: 100px;
-
+    background: transparent;
+    width: -webkit-fill-available;
 }

@@ -8,19 +8,27 @@ function ContactForm() {
     {/* onSubmit={clearfrom} */}
 
     <form className='contact-form'>
+        <div className='name-email-div'>
     <div className='contact-info-textbox'>
-        <input type='text' placeholder='First Name' name='first_name' />      
+        <input className='contact-textbox' type='text' placeholder='First Name' name='first_name' />      
     </div>
     <div className='contact-info-textbox'>
-        <input type='text' placeholder='Last Name' name='last_name' />      
+        <input className='contact-textbox' type='text' placeholder='Last Name' name='last_name' />      
     </div>
     <div className='contact-info-textbox'>
-        <input type='email' placeholder='Email' name='email' />    
+        <input className='contact-textbox' type='email' placeholder='Email' name='email' />    
+    </div>
     </div>
     <div className='message-textbox' >
-        <input type='text' placeholder='Message' name='message' />    
+        <input className='contact-message-textbox' type='text' placeholder='Message' name='message' />    
     </div>
-    <Button>Contact Us</Button>
+    <div className='contact-button'>
+    <Button
+        buttonSize='btn--large'
+        buttonStyle='btn--primary-alt'>
+        CONTACT US
+    </Button>
+    </div>
 </form>
 </>
   );
