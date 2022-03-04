@@ -9,9 +9,16 @@ function ProductFeaturesSection() {
 
     const [isVisible, setIsVisible] = useState(true);
     const transition = useTransition(isVisible, {
-        from: {x: 0, opacity: 1},
-        enter: {},
-        leave: {x:-200, opacity: 0}
+        from: {x:200, opacity: 0},
+        enter: {x: 0, y: 0, opacity: 1},
+        leave: {x:-200, opacity: 0},
+        delay: 400
+    });
+    const transitionOpp = useTransition(!isVisible, {
+        from: {x:200, opacity: 0},
+        enter: {x: 0, y: 0, opacity: 1},
+        leave: {x:-200, opacity: 0},
+
     });
 
     return (
@@ -74,7 +81,9 @@ function ProductFeaturesSection() {
                     />
                     </li>
                     </animated.ul> : '' )}
-            {/* <animated.ul style={style}>
+                    {transition((style, item) =>
+                    !item ? 
+            <animated.ul style={style}>
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Updatable'
@@ -110,7 +119,7 @@ function ProductFeaturesSection() {
                             to the lower level data storage protocols. '
                     />
                     </li>
-            </animated.ul> )} */}
+            </animated.ul> : '' )}
             </li>
             </ul>
             <div className='btn-sec'>
