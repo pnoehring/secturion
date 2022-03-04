@@ -33,9 +33,32 @@
     width: 825px;
     height: 100px;
     text-align: left;
+    resize: none;
+    font-family: 'Inter';
     /* vertical-align: top; */
 }
 
 .contact-button {
     margin: 30px;
+}
+
+.submit-button {
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    border-radius: 16px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    background-color: var(--primary);
+    color: var(--font);
+}
+
+.submit-button:hover {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 16px;
 }

@@ -1,10 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../App.css';
 import { Button } from './Button';
 import ProdFeatureCards from './ProdFeatureCards';
-import './ProductFeaturesSection.css'
+import './ProductFeaturesSection.css';
+import {useTransition, animated} from 'react-spring';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function ProductFeaturesSection() {
+
+    const [isVisible, setIsVisible] = useState(true);
+    const transition = useTransition(isVisible, {
+        from: {x:200, opacity: 0},
+        enter: {x: 0, y: 0, opacity: 1},
+        leave: {x:-200, opacity: 0},
+    });
+    const transitionOpp = useTransition(!isVisible, {
+        from: {x:200, opacity: 0},
+        enter: {x: 0, y: 0, opacity: 1},
+        leave: {x:-200, opacity: 0},
+
+    });
+
+    const [activeSlide, setActiveSlide] = useState(0);
+
     return (
         <div className='sec-container-features'>
             <ul className='prod-features-list'>
@@ -19,7 +38,11 @@ function ProductFeaturesSection() {
                     {/* TODO: Do we want a different :hover here? */}
                 </li>
                 <li className='sec-prod-cards'>
-                    <ul className='prod-cards-list'>
+                    {/* <Carousel > */}
+                    {/* {transition((style, item) =>
+                    item ? 
+            <animated.ul style={style}> */}
+                <ul className='prod-cards-list'>
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Un-hackable'
@@ -63,19 +86,61 @@ function ProductFeaturesSection() {
                            99.999% up-time availability of operations.'
                     />
                     </li>
+                    {/* </animated.ul> : '' )} */}
                     </ul>
-                </li>
+            {/* {transition((style, item) =>
+            !item ? 
+            <animated.ul style={style}> */}
+            {/* <ul>
+                    <li className='prod-cards-rows'>
+                    <ProdFeatureCards
+                        header='Updatable'
+                        subheader='FROM THE NETWORK'
+                        description='Sophisticated hackers can disable,
+                         monitor or modify any software-based security features
+                          undetected.  Our functions are programmed into the
+                           FPGAs with NO network access, making it impssible
+                            to hack from the netwok. Secturion also uses an
+                             anti-tamper sensors feature that will disable the
+                              product if attackers physically tamper or alter
+                               our products.'
+                    />
+                    <ProdFeatureCards
+                        header='Memory-Saving'
+                        subheader='FROM THE NETWORK'
+                        description='Secturion products provide constant data rates
+                         and low latency across a network. Other operating system-based
+                          security application that share sources making latency and
+                           data rate consistency unpredictable. Secturion&apos;s latency
+                            is in the low microseconds, and the data rate is
+                             consistent.'
+                    />
+                    </li>
+                    <li className='prod-cards-rows'>
+                    <ProdFeatureCards
+                        header='Zero Trust System'
+                        subheader='FROM THE NETWORK'
+                        description='Secturion products are inserted in-line in
+                         the Ethernet network. Once the products are configured,
+                          it operates transparently to the network. Since the Data
+                           at rest network encryptor is file-based, it is agnostic
+                            to the lower level data storage protocols. '
+                    />
+                    </li>
+            </ul> */}
+            {/* </animated.ul> : '' )} */}
+            {/* </Carousel> */}
+            </li>
             </ul>
             <div className='btn-sec'>
-                {/* TODO: where does this link to? */}
-            <Button
-            buttonStyle={'btn--square'}
-            buttonSize={'btn--medium'}
-            link='/about'
+            <button className='more-button'
+            onClick={() => {
+                setIsVisible(v => !v);
+            }}
             >
                 MORE&nbsp;&nbsp;
                 <i class="fas fa-caret-right" />
-                </Button>
+            </button>
             </div>
         </div>
     );

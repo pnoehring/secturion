@@ -30,7 +30,7 @@ function HomeDescSection() {
             <Button
                 buttonSize='btn--large'
                 buttonStyle='btn--primary-alt'
-                link='/'
+                link='/products'
             >
                 SEE OUR PRODUCTS
             </Button>

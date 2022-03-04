@@ -40,15 +40,23 @@ function Navbar() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className='nav-item'>
+                            <Link 
+                                to='/' 
+                                className='nav-links' 
+                                onClick={closeMobileMenu}
+                            >
+                                HOME
+                            </Link>
+                        </li>
                         <div>
                             <div onMouseEnter={toggleProductDropdown} onMouseLeave={toggleProductDropdown}>
                             <Link 
-                                // to='/products' 
+                                to='/products' 
                                 className='nav-links' 
                                 onClick={closeMobileMenu}
-                                to='/'
                             >
-                                PRODUCTS&nbsp;
+                                PRODUCTS&nbsp;&nbsp;
                                 <i class="fas fa-caret-down" />
                             </Link>
                             {isOpen && (
@@ -75,15 +83,6 @@ function Navbar() {
                             )}
                             </div>
                         </div>
-                        <li className='nav-item'>
-                            <Link 
-                                to='/applications' 
-                                className='nav-links' 
-                                onClick={closeMobileMenu}
-                            >
-                                APPLICATIONS
-                            </Link>
-                        </li>
                         <li className='nav-item'>
                             <Link 
                                 to='/resources' 

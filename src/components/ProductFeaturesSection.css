@@ -53,7 +53,34 @@
     margin-top: 40px;
 }
 
+.prod-cards-rows-shift {
+    display: flex;
+    float: left;
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
 .btn-sec {
     margin-right: 75px;
     float: right;
+}
+
+.more-button {
+    background-color: var(--primary);
+    color: var(--font);
+    padding: 8px 20px;
+    font-size: 1em;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.more-button:hover {
+    background: transparent;
+    border: 1px solid #2957CB;
 }
