@@ -38,6 +38,9 @@ function ProductFeaturesSection() {
                 </li>
                 <li className='sec-prod-cards'>
                     <Carousel>
+                    {/* {transition((style, item) =>
+                    !item ? 
+            <animated.ul style={style}> */}
                 <ul className='prod-cards-list'>
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
@@ -82,6 +85,7 @@ function ProductFeaturesSection() {
                            99.999% up-time availability of operations.'
                     />
                     </li>
+                    {/* </animated.ul> : '' )} */}
                     </ul>
             <ul>
                     <li className='prod-cards-rows'>
