@@ -4,6 +4,7 @@ import { Button } from './Button';
 import ProdFeatureCards from './ProdFeatureCards';
 import './ProductFeaturesSection.css';
 import {useTransition, animated} from 'react-spring';
+import { Carousel } from 'react-responsive-carousel';
 
 function ProductFeaturesSection() {
 
@@ -12,7 +13,6 @@ function ProductFeaturesSection() {
         from: {x:200, opacity: 0},
         enter: {x: 0, y: 0, opacity: 1},
         leave: {x:-200, opacity: 0},
-        delay: 400
     });
     const transitionOpp = useTransition(!isVisible, {
         from: {x:200, opacity: 0},
@@ -20,6 +20,8 @@ function ProductFeaturesSection() {
         leave: {x:-200, opacity: 0},
 
     });
+
+    const [activeSlide, setActiveSlide] = useState(0);
 
     return (
         <div className='sec-container-features'>
@@ -35,8 +37,8 @@ function ProductFeaturesSection() {
                     {/* TODO: Do we want a different :hover here? */}
                 </li>
                 <li className='sec-prod-cards'>
-                {transition((style, item) =>
-                item ? <animated.ul className='prod-cards-list' style={style}>
+                    <Carousel>
+                <ul className='prod-cards-list'>
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Un-hackable'
@@ -80,10 +82,8 @@ function ProductFeaturesSection() {
                            99.999% up-time availability of operations.'
                     />
                     </li>
-                    </animated.ul> : '' )}
-                    {transition((style, item) =>
-                    !item ? 
-            <animated.ul style={style}>
+                    </ul>
+            <ul>
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Updatable'
@@ -119,7 +119,8 @@ function ProductFeaturesSection() {
                             to the lower level data storage protocols. '
                     />
                     </li>
-            </animated.ul> : '' )}
+            </ul>
+            </Carousel>
             </li>
             </ul>
             <div className='btn-sec'>
