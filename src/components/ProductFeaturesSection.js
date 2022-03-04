@@ -5,6 +5,7 @@ import ProdFeatureCards from './ProdFeatureCards';
 import './ProductFeaturesSection.css';
 import {useTransition, animated} from 'react-spring';
 import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function ProductFeaturesSection() {
 
@@ -37,9 +38,9 @@ function ProductFeaturesSection() {
                     {/* TODO: Do we want a different :hover here? */}
                 </li>
                 <li className='sec-prod-cards'>
-                    <Carousel>
+                    {/* <Carousel > */}
                     {/* {transition((style, item) =>
-                    !item ? 
+                    item ? 
             <animated.ul style={style}> */}
                 <ul className='prod-cards-list'>
                     <li className='prod-cards-rows'>
@@ -87,7 +88,10 @@ function ProductFeaturesSection() {
                     </li>
                     {/* </animated.ul> : '' )} */}
                     </ul>
-            <ul>
+            {/* {transition((style, item) =>
+            !item ? 
+            <animated.ul style={style}> */}
+            {/* <ul>
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Updatable'
@@ -123,8 +127,9 @@ function ProductFeaturesSection() {
                             to the lower level data storage protocols. '
                     />
                     </li>
-            </ul>
-            </Carousel>
+            </ul> */}
+            {/* </animated.ul> : '' )} */}
+            {/* </Carousel> */}
             </li>
             </ul>
             <div className='btn-sec'>
