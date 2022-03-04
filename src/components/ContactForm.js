@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Button } from './Button';
 import './ContactForm.css'; 
+import emailjs, { send } from '@emailjs/browser';
 
 function ContactForm() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_ei7vths', 'template_78yvzsi',
+       form.current, 'xf6bAX508-YyAqgck')
+        // .then((result) => {
+        //     console.log(result.text);
+        // }, (error) => {
+        //     console.log(error.text);
+        // });
+
+        window.location.reload(false);
+    };
+
+    const justRefresh =() => window.location.reload(false);
+
   return (
       <>
-    {/* onSubmit={clearfrom} */}
-
-    <form className='contact-form'>
+      {/* to send email, change onSumbit to sendEmail */}
+    <form className='contact-form' ref={form} onSubmit={justRefresh}>
         <div className='name-email-div'>
     <div className='contact-info-textbox'>
         <input className='contact-textbox' type='text' placeholder='First Name' name='first_name' />      
@@ -20,14 +39,10 @@ function ContactForm() {
     </div>
     </div>
     <div className='message-textbox' >
-        <input className='contact-message-textbox' type='text' placeholder='Message' name='message' />    
+        <textarea className='contact-message-textbox' type='text' placeholder='Message' name='message' />    
     </div>
     <div className='contact-button'>
-    <Button
-        buttonSize='btn--large'
-        buttonStyle='btn--primary-alt'>
-        CONTACT US
-    </Button>
+    <input className='submit-button' type="submit" value="CONTACT US" />
     </div>
 </form>
 </>
