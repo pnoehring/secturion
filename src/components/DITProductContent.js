@@ -12,7 +12,7 @@ function DITProductContent() {
   return (
     <div className='product-content'>
         <div className='desc-container'>
-            <h className='prod-header'>100G DARE: Airborne &#38; Ground</h>
+            <h className='prod-header'>DarkStor: Lorem ipsum dolor</h>
             {/* TODO: what should this actually say? */}
             <p className='prod-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
               sed do eiusmod tempor incididunt ut labore et dolore magna 

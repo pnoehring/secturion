@@ -12,6 +12,10 @@ import GoToPDF from './components/pages/GoToPDF';
 import Products from './components/pages/Products';
 import{ init } from '@emailjs/browser';
 import ScrollToTop from './components/ScrollToTop';
+import GndDare from './components/pages/products/GndDare';
+import AirDare from './components/pages/products/AirDare';
+import TenGTacticalDare from './components/pages/products/TenGTacticalDare';
+import OneGTacticalDare from './components/pages/products/OneGTacticalDare';
 init("xf6bAX508-YyAqgck");
 
 function App() {
@@ -29,6 +33,10 @@ function App() {
         <Route path='/read-more' component={GoToPDF} />
         <Route path='/contact' component={Contact} />
         <Route path='/products' component={Products} />
+        <Route path='/gnd-dare' component={GndDare} />
+        <Route path='/air-dare' component={AirDare} />
+        <Route path='/10g-tactical-dare' component={TenGTacticalDare} />
+        <Route path='/1g-tactical-dare' component={OneGTacticalDare} />
       </Switch>
       </div>
       <Footer />

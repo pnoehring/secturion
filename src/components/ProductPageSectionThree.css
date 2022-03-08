@@ -1,0 +1,13 @@
+.prod-page-section-one-container {
+    color: black;
+}
+
+.sec-three-list {
+    list-style: none;
+    display: flex;
+}
+
+.sec-three-info {
+    float: left;
+    margin-right: 100px;
+}
