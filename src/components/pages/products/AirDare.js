@@ -11,6 +11,7 @@ function AirDare() {
       subHeader='Secturion Data At Rest Encryptor'
     />
   <OneProductPage
+    dir = {true}
     src = {air}
     // TODO fix spacing
     text={<span>Used in conjunction with DarkLink Model S, DarkLink Model E
@@ -21,7 +22,7 @@ function AirDare() {
       ensure reliable and secure operation DarkLink is
         designed with Intels family of FPGAs, which offers high performance
         and protection from network and physical attacks.</span>}
-    label = '100G DARE'
+    label = '100G AIR DARE'
   />
     </div>
   );

@@ -1,18 +1,18 @@
 import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
-import tactical from '../../images/10g_tactical_dare.png';
+import macsec from '../../images/1.6tb_macsec.png';
 
-function TenGTacticalDare() {
+function OnePointSixTera() {
   return (
     <div>
     <ContentPageHero
     header=''
-    subHeader='Secturion Data At Rest Encryptor'
+    subHeader='Secturion Data In Transmit Encryptor'
   />
 <OneProductPage
-  dir = {true}
-  src = {tactical}
+    dir = {false}
+  src = {macsec}
   // TODO fix spacing
   text={<span>Used in conjunction with DarkLink Model S, DarkLink Model E
   is a site-to-branch MACsec encryptor with data rates of 1Gbps or
@@ -22,10 +22,10 @@ function TenGTacticalDare() {
     ensure reliable and secure operation DarkLink is
       designed with Intels family of FPGAs, which offers high performance
       and protection from network and physical attacks.</span>}
-  label = '10G TACTICAL DARE'
+  label = '1.6 TERA/BITS MACSEC ETHERNET ENCRYPTOR'
 />
   </div>
   );
 }
 
-export default TenGTacticalDare
+export default OnePointSixTera

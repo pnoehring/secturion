@@ -14,9 +14,9 @@ import { Link } from 'react-router-dom';
 
 function OneProductPage(props) {
   return (
-    <>
+    <div className='for-background'>
       <div className='one-prod-page-container'>
-        <Link className='back-to-products-page' to='/data-at-rest'>&#x3c;&nbsp;Back to Products Page</Link>
+        <Link className='back-to-products-page' to={props.dir ? '/data-at-rest' : '/data-in-transmit'}>&#x3c;&nbsp;Back to Products Page</Link>
         {/* TODO: insert left carrot  */}
         <ProductPageSectionOne
          src = {props.src}
@@ -29,7 +29,7 @@ function OneProductPage(props) {
         <ProductPageSectionFive />
         <ProductPageSectionSix />
     </div>
-    </>
+    </div>
   );
 }
 
