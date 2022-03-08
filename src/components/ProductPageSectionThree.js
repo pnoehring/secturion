@@ -4,8 +4,13 @@ import './ProductPageSectionThree.css';
 
 export default function ProductPageSectionThree() {
   return (
-    <div className='prod-page-section-one-container'>
+    <div className='prod-page-section-three-container'>
 <ul className='sec-three-list'>
+  <li className='sec-three-figure-section'>
+    <figure className='prod_page_sec_img-wrap' >
+        <img src={daregraphic} className='prod_page_sec_img' />
+    </figure>
+</li>
 <li className='sec-three-info'>
         <p className='sec-three-header'>Applications</p>
         <p className='sec-three-text'>
@@ -19,11 +24,7 @@ export default function ProductPageSectionThree() {
                officia deserunt mollit anim id est laborum.
             </p>
 </li>
-<li className='figure-section'>
-    <figure className='prod_page_sec_img-wrap' >
-        <img src={daregraphic} className='prod_page_sec_img' />
-    </figure>
-</li>
+
 </ul>
 </div>
   );
