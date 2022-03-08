@@ -16,7 +16,7 @@ function OneProductPage(props) {
   return (
     <div className='for-background'>
       <div className='one-prod-page-container'>
-        <Link className='back-to-products-page' to={props.dir ? '/data-at-rest' : '/data-in-transmit'}>&#x3c;&nbsp;Back to Products Page</Link>
+        <Link className='back-to-products-page' to={props.dir ? '/data-at-rest' : '/data-in-transit'}>&#x3c;&nbsp;Back to Products Page</Link>
         {/* TODO: insert left carrot  */}
         <ProductPageSectionOne
          src = {props.src}

@@ -63,11 +63,11 @@ function Navbar() {
                             <div>
                                     <li className='nav-item-sub'>
                                         <Link 
-                                            to='/data-in-transmit' 
+                                            to='/data-in-transit' 
                                             className='nav-links' 
                                             onClick={closeMobileMenu}
                                             >
-                                                DATA IN TRANSMIT
+                                                DATA IN TRANSIT
                                         </Link>
                                     </li>
                                     <li className='nav-item-sub'>

@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import DataInTransmit from './components/pages/DataInTransmit';
+import DataInTransit from './components/pages/DataInTransit';
 import DataAtRest from './components/pages/DataAtRest';
 import Resources from './components/pages/Resources';
 import Contact from './components/pages/Contact';
@@ -33,7 +33,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home}/>
-        <Route path='/data-in-transmit' component={DataInTransmit} />
+        <Route path='/data-in-transit' component={DataInTransit} />
         <Route path='/data-at-rest' component={DataAtRest} />
         <Route path='/resources' component={Resources} />
         <Route path='/read-more' component={GoToPDF} />

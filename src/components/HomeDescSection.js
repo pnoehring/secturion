@@ -11,7 +11,7 @@ function HomeDescSection() {
                 Secturion offers easy-to-install enterprise class,&nbsp;
                 <span className='bold-blue'>ULTRA-HIGH PERFORMANCE LINE OF NETWORK SECURITY
                 APPLIANCES.&nbsp;</span>
-                <Link to="/data-in-transmit" className="paragraph-links"
+                <Link to="/data-in-transit" className="paragraph-links"
                 >
                     DarkStor&trade;
                 </Link>

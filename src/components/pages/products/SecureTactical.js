@@ -8,7 +8,7 @@ function SecureTactical() {
     <div>
     <ContentPageHero
     header=''
-    subHeader='Secturion Data In Transmit Encryptor'
+    subHeader='Secturion Data In Transit Encryptor'
   />
 <OneProductPage
     dir = {false}

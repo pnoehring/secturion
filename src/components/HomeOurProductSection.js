@@ -26,7 +26,7 @@ function HomeOurProductSection() {
                   from 1Gbs to 100Gbs secure data storage into cloud
                   providers or data centers or local storage units'
                   label='DARKSTOR'
-                  path='/data-in-transmit'
+                  path='/data-in-transit'
                   button='LEARN MORE'
                   />
                 {/* </li> */}
