@@ -35,7 +35,7 @@ function DARProductContent() {
             to other associated sites over a 10/40/100G network using MACsec
             per IEEE 802.1AE.'
             label='100G GND DARE'
-            path='/10g-tactical-dite'
+            path='/gnd-dare'
             button='VIEW PRODUCT'
           />
           <ProductCards
@@ -44,7 +44,7 @@ function DARProductContent() {
             to other associated sites over a 10/40/100G network using MACsec
             per IEEE 802.1AE.'
             label='100G AIR DARE'
-            path='/1g-tactical-dite'
+            path='/air-dare'
             button='VIEW PRODUCT'
           />
           <ProductCards
@@ -53,7 +53,7 @@ function DARProductContent() {
             to other associated sites over a 10/40/100G network using MACsec
             per IEEE 802.1AE.'
             label='10G TACTICAL DARE'
-            path='/secure-tactical'
+            path='/10g-tactical-dare'
             button='VIEW PRODUCT'
           />
           <ProductCards
@@ -62,7 +62,7 @@ function DARProductContent() {
             to other associated sites over a 10/40/100G network using MACsec
             per IEEE 802.1AE.'
             label='1G TACTICAL DARE'
-            path='/1.6-macsec'
+            path='/1g-tactical-dare'
             button='VIEW PRODUCT'
           />
         </div>

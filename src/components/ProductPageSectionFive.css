@@ -1,0 +1,28 @@
+.sec-five-container {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 50px;
+    text-align: center;
+    align-content: center;
+    /* padding-bottom: 4em;
+    border-bottom: solid 4px #2957CB; */
+}
+
+.empty-div {
+    margin-left: 16em;
+    margin-right: 16em;
+    padding-bottom: 4em;
+    border-bottom: solid 4px #2957CB;
+}
+
+.sec-five-container border {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sec-five-container span {
+    font-size: xx-large;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,42 @@
+.expander-style {
+    margin: 6px 0;
+    padding: 2px;
+    /* border-top: 1px solid gray;
+    border-bottom: 1px solid gray; */
+}
+
+.headerStyle {
+	display: flex;
+    cursor: pointer;
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid rgb(218, 216, 216);
+    color: black
+
+};
+
+.contentStyle {
+	overflow: hidden;
+    transition: all 0.3s;
+};
+
+.contentExpandedStyle {
+	overflow: hidden;
+    transition: all 0.3s;
+    padding: 4px 0;
+    border: 1px solid #85C1E9;
+    height: auto;
+    filter: opacity(1);
+};
+
+.contentCollapsedStyle {
+	overflow: hidden;
+    transition: all 0.3s;
+  	padding: 0 0;
+    border: 1px solid transparent;
+    height: 0;
+    filter: opacity(0);
+};
+
+.bolded-headers {
+    font-weight: 600;
+}

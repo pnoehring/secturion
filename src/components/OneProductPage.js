@@ -1,0 +1,34 @@
+import React from 'react';
+import './OneProductPage.css';
+import ProductPageSectionOne from './ProductPageSectionOne';
+import gnd from './images/gnd_dare.png';
+import air from './images/air_dare.png';
+import tenGTactical from './images/10g_tactical_dare.png';
+import oneGTactical from './images/1g_tactical_dare.png';
+import ProductPageSectionTwo from './ProductPageSectionTwo';
+import ProductPageSectionThree from './ProductPageSectionThree';
+import ProductPageSectionFour from './ProductPageSectionFour';
+import ProductPageSectionFive from './ProductPageSectionFive';
+import ProductPageSectionSix from './ProductPageSectionSix';
+
+function OneProductPage(props) {
+  return (
+    <div className='back-to-products-page'>Back to Products Page
+      <div className='one-prod-page-container'>
+        {/* TODO: insert left carrot  */}
+        <ProductPageSectionOne
+         src = {props.src}
+         label = {props.label}
+         text = {props.text}
+         />
+        <ProductPageSectionTwo />
+        <ProductPageSectionThree />
+        <ProductPageSectionFour />
+        <ProductPageSectionFive />
+        <ProductPageSectionSix />
+    </div>
+    </div>
+  )
+}
+
+export default OneProductPage

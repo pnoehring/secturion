@@ -1,0 +1,19 @@
+.sec-six-container {
+    text-align: center;
+    align-items: center;
+    margin-top: 4em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-six-container h {
+    /* display: flex; */
+    font-size: xx-large;
+    color: black;
+    font-weight: 400;
+}
+
+.sec-six-container p {
+    margin-block-end: 2em;
+}

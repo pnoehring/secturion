@@ -1,0 +1,22 @@
+.prod-page-sec-two-container {
+    margin-top: 1em;
+    color: black;
+    /* font-family: 'Inter'; */
+    border-bottom: 1px solid lightgray;
+}
+
+.features-header {
+    font-size: larger;
+    font-weight: 300;
+    
+}
+
+.features-list {
+    font-size: small;
+    
+    margin-bottom: 20px;
+}
+
+.features-list li {
+    margin-bottom: 5px;
+}
