@@ -1,14 +1,15 @@
+.prod-page-section-one-container {
+    border-bottom: 1px solid lightgray;
+}
+
 .prod_cards_item_label {
     font-family: 'Inter';
     font-size: larger;
     font-weight: 500;
     color: #2957CB;
+    display: flex;
 }
 
 .prods_cards_items_text {
     font-size: smaller;
-}
-
-.prod-page-section-one-container {
-    border-bottom: 1px solid lightgray;
 }

@@ -14,7 +14,7 @@ import './Expander.css';
 // };
 
 const titleStyle = {
-    padding: '3px',
+    padding: '10px',
 	flex: 'none',
   indent: 10
 };
@@ -24,7 +24,7 @@ const spacerStyle = {
 };
 
 const iconStyle = {
-	padding: '3px',
+	padding: '10px',
 	flex: 'none'
 };
 
@@ -61,7 +61,7 @@ export const Expander = ({title, children}) => {
           <i className={expanded ? 'fas fa-chevron-up' : 'fas fa-chevron-down'} />
             </div>
         </div>
-        <div style={expanded ? contentExpandedStyle : contentCollapsedStyle}>
+        <div style={expanded ? contentExpandedStyle : contentCollapsedStyle} className='children-text'>
           {children}
         </div>
       </div>

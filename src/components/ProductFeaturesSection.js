@@ -11,10 +11,15 @@ function ProductFeaturesSection() {
 
     const [isVisible, setIsVisible] = useState(true);
     const transition = useTransition(isVisible, {
-        from: {x:200, opacity: 0},
+        from: {x:0, y:0, opacity: 0},
         enter: {x: 0, y: 0, opacity: 1},
-        leave: {x:-200, opacity: 0},
+        // leave: {x:0, y:0, opacity: 0}
     });
+    // const transition = useTransition(isVisible, {
+    //     from: {x:200, opacity: 0},
+    //     enter: {x: 0, y: 0, opacity: 1},
+    //     leave: {x:-200, opacity: 0},
+    // });
     const transitionOpp = useTransition(!isVisible, {
         from: {x:200, opacity: 0},
         enter: {x: 0, y: 0, opacity: 1},
@@ -39,10 +44,9 @@ function ProductFeaturesSection() {
                 </li>
                 <li className='sec-prod-cards'>
                     {/* <Carousel > */}
-                    {/* {transition((style, item) =>
+                    {transition((style, item) =>
                     item ? 
-            <animated.ul style={style}> */}
-                <ul className='prod-cards-list'>
+                <animated.ul style={style} className='prod-cards-list'>
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Un-hackable'
@@ -87,11 +91,11 @@ function ProductFeaturesSection() {
                     />
                     </li>
                     {/* </animated.ul> : '' )} */}
-                    </ul>
-            {/* {transition((style, item) =>
-            !item ? 
-            <animated.ul style={style}> */}
-            {/* <ul>
+                    </animated.ul> :
+            // {transition((style, item) =>
+            // !item ? 
+            <animated.ul>
+            {/* <ul> */}
                     <li className='prod-cards-rows'>
                     <ProdFeatureCards
                         header='Updatable'
@@ -127,7 +131,8 @@ function ProductFeaturesSection() {
                             to the lower level data storage protocols. '
                     />
                     </li>
-            </ul> */}
+            {/* </ul> */}
+            </animated.ul> )}
             {/* </animated.ul> : '' )} */}
             {/* </Carousel> */}
             </li>

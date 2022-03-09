@@ -9,7 +9,7 @@ function ProductPageSectionFour() {
         <p className='network-sec'>Planned FIPS-140-2, level 3</p>
       </Expander>
       <Expander title="Ease of Use Setup and Maintenance">
-        <ul>
+        <ul className='network-sec'>
           <li>Remote management using SNMP v2 or v3 or browser-based management</li>
           <li>Key manager support via KMIP (Key Management Interoperability Protocol), compatible with 3rd-party external key manager products</li>
           <li>Dual redundant hot swappable AC power supplies</li>
@@ -20,11 +20,11 @@ function ProductPageSectionFour() {
         <div className='network-sec'>
         <h className='bolded-headers'>Data Interfaces</h>
         <p className='no-space-para'>Separate clear data and encrypted data ports</p>
-        <p className='no-space-para'>10 Gbs (SFP+), 40 Gbs (QSFP), 100 Gbps (QSFP28) or 100 Gbps (CXP0</p>
+        <p>10 Gbs (SFP+), 40 Gbs (QSFP), 100 Gbps (QSFP28) or 100 Gbps (CXP0</p>
         <h className='bolded-headers'>Remote Management Interface</h>
-        <p className='no-space-para'>HTTPS/SNMP v2 or v3 Interface RJ-45 10/100/1000 Mbps</p>
+        <p >HTTPS/SNMP v2 or v3 Interface RJ-45 10/100/1000 Mbps</p>
         <h className='bolded-headers'>High Availability</h>
-        <p className='no-space-para'>RJ-45 10/100/1000 Mbps sync interface</p>
+        <p>RJ-45 10/100/1000 Mbps sync interface</p>
         </div>
       </Expander>
       <Expander title="Security">

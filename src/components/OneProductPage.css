@@ -1,11 +1,22 @@
+.for-background {
+    background: url("./images/circle-outlines.png") no-repeat 120% 98%;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+
+}
+
 .one-prod-page-container {
     margin-right: 80px;
     margin-left: 80px;
+    font-family: 'Inter';
 }
 
 .back-to-products-page {
     margin: 30px;
     font-weight: 300;
     color: gray;
+    display: table;
+    text-decoration: none;
 }
 

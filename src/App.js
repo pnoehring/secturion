@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import DataInTransmit from './components/pages/DataInTransmit';
+import DataInTransit from './components/pages/DataInTransit';
 import DataAtRest from './components/pages/DataAtRest';
 import Resources from './components/pages/Resources';
 import Contact from './components/pages/Contact';
@@ -16,6 +16,12 @@ import GndDare from './components/pages/products/GndDare';
 import AirDare from './components/pages/products/AirDare';
 import TenGTacticalDare from './components/pages/products/TenGTacticalDare';
 import OneGTacticalDare from './components/pages/products/OneGTacticalDare';
+import OnePointSixTera from './components/pages/products/OnePointSixTera';
+import OneGTacticalDite from './components/pages/products/OneGTacticalDite';
+import TenGTacticalDite from './components/pages/products/TenGTacticalDite';
+import SecureEnterprise from './components/pages/products/SecureEnterprise';
+import SecureTactical from './components/pages/products/SecureTactical';
+
 init("xf6bAX508-YyAqgck");
 
 function App() {
@@ -27,7 +33,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home}/>
-        <Route path='/data-in-transmit' component={DataInTransmit} />
+        <Route path='/data-in-transit' component={DataInTransit} />
         <Route path='/data-at-rest' component={DataAtRest} />
         <Route path='/resources' component={Resources} />
         <Route path='/read-more' component={GoToPDF} />
@@ -37,6 +43,11 @@ function App() {
         <Route path='/air-dare' component={AirDare} />
         <Route path='/10g-tactical-dare' component={TenGTacticalDare} />
         <Route path='/1g-tactical-dare' component={OneGTacticalDare} />
+        <Route path='/1.6-macsec' component={OnePointSixTera} />
+        <Route path='/1g-tactical-dite' component={OneGTacticalDite} />
+        <Route path='/10g-tactical-dite' component={TenGTacticalDite} />
+        <Route path='/secure-enterprise' component={SecureEnterprise} />
+        <Route path='/secure-tactical' component={SecureTactical} />
       </Switch>
       </div>
       <Footer />

@@ -1,17 +1,17 @@
 import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
-import tactical from '../../images/10g_tactical_dare.png';
+import tactical from '../../images/1g_tactical_dite.png';
 
-function TenGTacticalDare() {
+function OneGTacticalDite() {
   return (
     <div>
     <ContentPageHero
     header=''
-    subHeader='Secturion Data At Rest Encryptor'
+    subHeader='Secturion Data In Transit Encryptor'
   />
 <OneProductPage
-  dir = {true}
+    dir = {false}
   src = {tactical}
   // TODO fix spacing
   text={<span>Used in conjunction with DarkLink Model S, DarkLink Model E
@@ -22,10 +22,10 @@ function TenGTacticalDare() {
     ensure reliable and secure operation DarkLink is
       designed with Intels family of FPGAs, which offers high performance
       and protection from network and physical attacks.</span>}
-  label = '10G TACTICAL DARE'
+  label = '1G TACTICAL DITE'
 />
   </div>
   );
 }
 
-export default TenGTacticalDare
+export default OneGTacticalDite

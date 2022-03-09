@@ -4,7 +4,7 @@ import ContentPageHero from '../ContentPageHero';
 import DITProductContent from '../DITProductContent';
 import ProductPageFooter from '../ProductPageFooter';
 
-export default function DataInTransmit() {
+export default function DataInTransit() {
     return( <div>
     <ContentPageHero
         header='OUR PRODUCTS'

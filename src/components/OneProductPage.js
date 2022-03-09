@@ -10,11 +10,13 @@ import ProductPageSectionThree from './ProductPageSectionThree';
 import ProductPageSectionFour from './ProductPageSectionFour';
 import ProductPageSectionFive from './ProductPageSectionFive';
 import ProductPageSectionSix from './ProductPageSectionSix';
+import { Link } from 'react-router-dom';
 
 function OneProductPage(props) {
   return (
-    <div className='back-to-products-page'>Back to Products Page
+    <div className='for-background'>
       <div className='one-prod-page-container'>
+        <Link className='back-to-products-page' to={props.dir ? '/data-at-rest' : '/data-in-transit'}>&#x3c;&nbsp;Back to Products Page</Link>
         {/* TODO: insert left carrot  */}
         <ProductPageSectionOne
          src = {props.src}
@@ -28,7 +30,7 @@ function OneProductPage(props) {
         <ProductPageSectionSix />
     </div>
     </div>
-  )
+  );
 }
 
 export default OneProductPage

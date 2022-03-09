@@ -1,8 +1,8 @@
 .expander-style {
     margin: 6px 0;
     padding: 2px;
-    /* border-top: 1px solid gray;
-    border-bottom: 1px solid gray; */
+    border-top: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
 }
 
 .headerStyle {
@@ -17,6 +17,7 @@
 .contentStyle {
 	overflow: hidden;
     transition: all 0.3s;
+    font-size: small;
 };
 
 .contentExpandedStyle {
@@ -26,6 +27,7 @@
     border: 1px solid #85C1E9;
     height: auto;
     filter: opacity(1);
+    font-size: small;
 };
 
 .contentCollapsedStyle {
@@ -37,6 +39,6 @@
     filter: opacity(0);
 };
 
-.bolded-headers {
-    font-weight: 600;
+.children-text {
+    font-size: small;
 }

@@ -4,13 +4,17 @@
 }
 
 .bolded-headers {
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 1em;
+}
+
+.network-sec p {
+    margin-block-start: 0;
 }
 
 .no-space-para {
     margin-block-start: 0;
-    /* margin-block-end: 0; */
+    margin-block-end: 0;
 }
 
 .no-bullets {
@@ -19,6 +23,7 @@
 
 .no-bullets li {
     margin-bottom: 8px;
+    font-size: small;
 }
 
 .no-bullets ul {
@@ -28,5 +33,6 @@
 
 .network-sec {
     margin-top: 1em;
-    margin-left: 2.5em;
+    padding-inline-start: 40px;
+    font-size: small;
 }

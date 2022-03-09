@@ -1,13 +1,38 @@
-.prod-page-section-one-container {
+.prod-page-section-three-container {
     color: black;
+    display: table;
+    margin: 0 auto;
+    margin-top: 1em;
 }
 
 .sec-three-list {
     list-style: none;
-    display: flex;
+    /* display: inline-block; */
+    display: flow-root;
+    /* display: flex; */
+}
+
+.sec-three-header {
+    font-weight: 500;
+    font-size: large;
+    max-width: inherit;
+}
+
+.sec-three-text {
+    font-size: small;
+    max-width: inherit;
+
 }
 
 .sec-three-info {
     float: left;
-    margin-right: 100px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    max-width: 400px;
+    display: inline;
+}
+
+.sec-three-figure-section {
+    display: inline;
+    float: right;
 }
