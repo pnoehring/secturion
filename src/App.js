@@ -27,7 +27,7 @@ init("xf6bAX508-YyAqgck");
 function App() {
   return (
     <>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop/>
       <div className='wrapper'>
       <Navbar />
