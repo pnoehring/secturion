@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { Button } from './Button';
 import './ContactForm.css'; 
 import emailjs, { send } from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 function ContactForm() {
 
@@ -21,7 +22,8 @@ function ContactForm() {
         window.location.reload(false);
     };
 
-    const justRefresh =() => window.location.reload(false);
+    //const justRefresh =() => window.location.reload(false);
+    const justRefresh =() => <Link to='/contact'/>
 
   return (
       <>
