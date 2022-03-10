@@ -37,7 +37,7 @@ function Navbar() {
                     </Link>
                     {/* menu icon will toggle between lines and X */}
                     <div className='menu-icon' onClick={handleClick}>
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                        MENU&nbsp;<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
