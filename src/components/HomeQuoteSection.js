@@ -1,9 +1,23 @@
-import react from "react";
+import react, {useState} from "react";
 import './HomeQuoteSection.css'
 import { Button } from './Button';
 import soldier from './images/soldier.png';
+import mobileSoldier from './images/soldier-mobile.png';
 
 function HomeQuoteSection() {
+
+    const [mobile, setMobile] = useState(false);
+    const isMobile = () => {
+        if(window.innerWidth <= 765) {
+            setMobile(true)
+        } else {
+            setMobile(false)
+        }
+    };
+
+    window.addEventListener('resize', isMobile);
+    window.addEventListener('load', isMobile);
+
     return (
         <div className="quote-section-container">
             <div className="top-div">
@@ -20,7 +34,7 @@ function HomeQuoteSection() {
             <div>
             <ul className="bottom-list">
                 <div className="soldier-image">
-                    <img src={soldier} />
+                    <img src={mobile ? mobileSoldier : soldier} />
                 </div>
                 <div className='mission'>
                     <p className='header'>OUR MISSION</p>

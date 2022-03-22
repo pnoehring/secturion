@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 350px;
+    min-height: 200px;
+    margin: 5px;
 }
 
 .feature__card__item {
@@ -30,4 +32,42 @@
     margin-block: 0px;
     margin-top: 8px;
     font-size: small;
+}
+
+/* .feature__card__description-small {
+    display: none;
+} */
+
+@media screen and (max-width: 765px) {
+.feature__card__container-small {
+    display: block;
+    border-bottom: 3px solid #2957CB;
+    font: 'Inter';
+}
+
+    .feature__card__header-small {
+    margin-block: 5px;
+    font-size: xx-large;
+}
+
+.feature__card__subheader-small {
+    margin-block: 0px;
+    font-size: large;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+
+.feature__card__description {
+    margin-block: 0px;
+    margin-top: 8px;
+    font-size: small;
+}
+
+.read-more {
+    margin-block-start: 0.5em;
+    cursor: pointer;
+}
+
 }

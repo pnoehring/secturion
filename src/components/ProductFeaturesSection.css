@@ -1,16 +1,26 @@
 .sec-container-features {
     background: url('./images/padlock-background.png') center center/cover;
     background-position: left;
-    min-height: 515px;
+    /* min-height: 515px; */
     font-family: 'Inter';
     /* vertical-align: center; */
     color: #fff;
+    padding-bottom: 1em;
+}
+
+.grid {
+    display: grid;
+    width: 300px;
 }
 
 .prod-features-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-gap: 5px; */
     margin-inline-start: 50px;
     margin-inline-start: 50px;
-    margin-block: 0;
+    /* margin-block: 0; */
+    list-style: none;
 }
 
 .sec-header {
@@ -83,4 +93,88 @@
 .more-button:hover {
     background: transparent;
     border: 1px solid #2957CB;
+}
+
+.prod-cards-cols-3 {
+    display: none;
+}
+
+.prod-cards-cols-4 {
+    display: none;
+}
+
+@media screen and (max-width: 1120px) {
+    .prod-features-list {
+        display: grid;
+        grid-template-columns: auto auto;
+        /* grid-gap: 5px; */
+        margin-inline-start: 50px;
+        margin-inline-start: 50px;
+        /* margin-block: 0; */
+        list-style: none;
+    }
+
+    .prod-cards-cols-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .sec-container-features {
+        background: url('./images/padlock-background.png') left top;
+        background-color: #0F172D;
+
+        /* min-height: 515px; */
+        font-family: 'Inter';
+        /* vertical-align: center; */
+        color: #fff;
+        padding-bottom: 1em;
+    }
+
+    .more-button {
+        display: none;
+    }
+
+    .prod-features-list {
+        display: grid;
+        grid-template-columns: auto;
+        /* grid-gap: 5px; */
+        margin-inline-start: 50px;
+        margin-inline-start: 50px;
+        /* margin-block: 0; */
+        list-style: none;
+        place-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-inline-start: 0;
+    }
+
+    .why-header {
+        text-align: center;
+        margin-block-start: 20px;
+
+    }
+
+    .prod-features {
+        letter-spacing: 1.5px;
+        font-weight: 500;
+        margin-block-start: 5px;
+        margin-block-end: 10px;
+    }
+
+    .sec-header {
+        text-align: center;
+        /* width: 80%; */
+        padding-bottom: 25px;
+        border-bottom: 3px solid #2957CB;
+        /* width: auto; */
+        width: 90%;
+    }
+
+    .prod-cards-cols, .prod-cards-cols-2,
+     .prod-cards-cols-3, .prod-cards-cols-4 {
+        display: block;
+        width: 90%;
+        margin-left: 1em;
+    }
 }

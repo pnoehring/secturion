@@ -4,7 +4,7 @@ import { Button } from './Button';
 function CardItem(props) {
   return (
   <>
-    <li className='cards__item'>
+    <div className='cards__item'>
             <figure className='cards__item__pic-wrap' data-category={props.label}>
                 <img src={props.src} className='cards__item__img' />
                 <p className='cards__item__label'>{props.label}</p>
@@ -18,7 +18,7 @@ function CardItem(props) {
               link={props.path}>
               {props.button}
             </Button>
-    </li>
+    </div>
   </>
   );
 }

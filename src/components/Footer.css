@@ -1,4 +1,5 @@
 .footer-container {
+    /* z-index: 999; */
     background: #0F172D;
     height: 60px;
     font-family: 'Inter';
