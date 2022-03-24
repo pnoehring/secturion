@@ -20,7 +20,7 @@ function HomeDescSection() {
                  >
                     DarkLink&trade;
                  </Link>
-                 &nbsp;provide full-duplex
+                 &nbsp; &nbsp;provide full-duplex
                 throughput with data rates of 10/40/100 Gbps. 
                 Secturion is the soltuion to protect and secure
                 end-to-end cloud based data storage and data in transit.

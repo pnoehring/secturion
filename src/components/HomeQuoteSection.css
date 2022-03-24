@@ -52,7 +52,10 @@
 .soldier-image {
     display: block;
     float: left;
-    z-index: 100;
+    /* z-index: 100; */
+    padding: 0px;
+    margin: 0px;
+    /* vertical-align: bottom; */
     /* position:relative;
        bottom:150px;
        left:150px; */
@@ -100,6 +103,16 @@
 }
 
 @media screen and (max-width: 765px) {
+    .header {
+        color: #2957CB;
+        text-align: left;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        margin-block-start: 5px;
+        margin-block-end: 0px;
+        /* margin-top: 200px; */
+    }
+
     .mission {
         width: 250px;
         text-align: left;
@@ -107,18 +120,20 @@
         /* float: right; */
         display: table;
         z-index: 110;
-        top: 10px;
-        /* position: absolute; */
+        margin-top: 2em;
         position: relative;
-        bottom: 150px;
+        /* top: 10px; */
+        /* position: absolute; */
+        /* position: relative; */
+        /* bottom: 150px;
         left: 150px;
-        top: -497px;
+        top: -450px; */
     }
 
-    .bottom-list {
-        /* margin-left: 10%; */
-        /* margin-right: 60%; */
-    }
+    /* .bottom-list {
+        margin-left: 10%;
+        margin-right: 60%;
+    } */
 
     .protect-data {
     text-align: left;
@@ -128,8 +143,8 @@
 
     .soldier-image {
         display: block;
-        /* float: left; */
-        float: none;
+        float: left;
+        /* float: none; */
         z-index: 100;
         /* position:relative;
            bottom:150px;
@@ -138,9 +153,45 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
     .soldier-image {
         display: block;
         float: left;
+        /* margin-left: 10px; */
     }
+
+    .mission {
+        width: 250px;
+        text-align: left;
+        /* display: block; */
+        /* float: right; */
+        display: table-header-group;
+        z-index: 110;
+        position: relative;
+        left: -80px;
+        top: 58px;
+        /* left: 180px;
+        top: 220px; */
+        /* top: 10px; */
+        /* position: absolute; */
+        /* position: relative;
+        left: 150px;
+        top: -200px; */
+        /* bottom: 150px;
+        left: 150px;
+        top: -450px; */
+    }
+
+    .bottom-list {
+        margin-left: 25px;
+        display: -webkit-inline-box;
+        /* margin-right: auto; */
+    }
+
+    .protect-data {
+        text-align: left;
+            line-height: normal;
+            font-size: x-large;
+            width: 180px;
+        }
 }

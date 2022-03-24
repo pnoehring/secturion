@@ -23,6 +23,8 @@ function HeroSection() {
 // }, []);
 
   window.addEventListener('resize', showDisplay);
+  window.addEventListener('load', showDisplay);
+
 
   return (
   <div className='hero-container'>

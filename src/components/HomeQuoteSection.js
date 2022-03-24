@@ -31,11 +31,12 @@ function HomeQuoteSection() {
             FBI DIRECTOR (2001-2013)</span>
             </p>
             </div>
-            <div>
-            <ul className="bottom-list">
-                <div className="soldier-image">
+
+            <div className="bottom-list">
+                <figure className="soldier-image">
                     <img src={mobile ? mobileSoldier : soldier} />
-                </div>
+                    {/* <img src={soldier} /> */}
+                </figure>
                 <div className='mission'>
                     <p className='header'>OUR MISSION</p>
                     <h1 className='protect-data'>Protecting Your Data</h1>
@@ -47,7 +48,6 @@ function HomeQuoteSection() {
                         CONTACT US
                     </Button>
                 </div>
-            </ul>
             </div>
         </div>
     );
