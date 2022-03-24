@@ -1,7 +1,7 @@
 .quote-section-container {
     background-color: #fff;
     background-image: url('./images/binary-cloud.png') ;
-    height: 800px;
+    /* height: 800px; */
     text-align: center;
     /* display: flex; */
     justify-content: center;
@@ -12,7 +12,7 @@
 
 .quote-para {
     color: #2957CB;
-    width: 550px;
+    /* width: 550px; */
     display: inline-block;
 }
 
@@ -41,23 +41,44 @@
 
 .bottom-list {
     list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    padding-inline-start: 0;
     /* float: right; */
+    margin-bottom: 0;
 }
 
 .soldier-image {
     display: block;
     float: left;
+    z-index: 100;
+    /* position:relative;
+       bottom:150px;
+       left:150px; */
+    /* position: absolute; */
 }
 
 .top-div {
     text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .mission {
     width: 250px;
     text-align: left;
-    display: block;
-    float: right;
+    /* display: block; */
+    /* float: right; */
+    display: table;
+    z-index: 110;
+    top: 10px;
+    /* position: absolute; */
+    /* position: relative;
+    bottom: 150px;
+    left: 150px;
+    top: -497px; */
 }
 
 .header {
@@ -76,4 +97,50 @@
     line-height: 48px;
     margin-block-start: 0px;
     margin-block-end: 30px;
+}
+
+@media screen and (max-width: 765px) {
+    .mission {
+        width: 250px;
+        text-align: left;
+        /* display: block; */
+        /* float: right; */
+        display: table;
+        z-index: 110;
+        top: 10px;
+        /* position: absolute; */
+        position: relative;
+        bottom: 150px;
+        left: 150px;
+        top: -497px;
+    }
+
+    .bottom-list {
+        /* margin-left: 10%; */
+        /* margin-right: 60%; */
+    }
+
+    .protect-data {
+    text-align: left;
+        line-height: normal;
+        font-size: xx-large;
+    }
+
+    .soldier-image {
+        display: block;
+        /* float: left; */
+        float: none;
+        z-index: 100;
+        /* position:relative;
+           bottom:150px;
+           left:150px; */
+        /* position: absolute; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .soldier-image {
+        display: block;
+        float: left;
+    }
 }

@@ -17,7 +17,7 @@ function HomeOurProductSection() {
                     high-grade network encryptors:</p>    
 
         {/* <div className='cards'> */}
-      <ul className='cards__container'>
+      <div className='cards__container'>
           {/* <div className='cards__wrapper'> */}
               {/* <li className='cards__item'> */}
                   <CardItem 
@@ -43,7 +43,7 @@ function HomeOurProductSection() {
                   />
                   {/* </li> */}
           {/* </div> */}
-      </ul>
+      </div>
   {/* </div> */}
         </div>
     );
