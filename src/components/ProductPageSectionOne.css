@@ -1,8 +1,20 @@
 .prod-page-section-one-container {
     border-bottom: 1px solid lightgray;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
-.prod_cards_item_label {
+.prod-page-figure-section {
+    display: grid;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.product_page_items_info {
+    display: grid;
+}
+
+.product_name_label {
     font-family: 'Inter';
     font-size: larger;
     font-weight: 500;
@@ -10,6 +22,22 @@
     display: flex;
 }
 
-.prods_cards_items_text {
+.product_desc_text {
     font-size: smaller;
+}
+
+@media screen and (max-width: 900px) {
+    .prod-page-section-one-container {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+    }
+
+    .product_name_label {
+        display: block;
+    }
+
+
 }

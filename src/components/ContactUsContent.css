@@ -9,8 +9,8 @@
 
 .contact-us-header {
     border-bottom: 2px solid #2957CB;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 20%;
+    margin-left: 20%;
     letter-spacing: 1.5px;
     display: inline-block;
     margin-block-start: 2em;
@@ -31,21 +31,68 @@
 
 .email-phone {
     list-style: none;
-    display: inline-flex;
     font-weight: 500;
     font-size: 20px;
     padding-inline-start: 0;
     letter-spacing: 2.5px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    grid-template-columns: 50px 350px 50px 250px;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.email-phone p {
+    display: grid;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: left;
 }
 
 .email-phone li {
     margin-right: 40px;
     margin-left: 40px;
+    /* display: grid; */
 }
 
-.email-phone li img {
-    display: block;
-    margin: 0 auto;
-    float: left;
+.email-phone img {
+    justify-self: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
+@media screen and (max-width: 900px) {
+    .contact-us-header {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .email-phone {
+    grid-template-columns: 50px 300px 50px 200px;
+
+    }
+
+    .email-phone p {
+        font-size: smaller;
+
+        /* grid-template-columns: 50px 340px 50px 250px; */
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .email-phone {
+        grid-template-columns: 50px 160px 50px 150px;
+    
+        }
+
+        .email-phone p {
+            font-size: small;
+            letter-spacing: 1px;
+            /* grid-template-columns: 50px 340px 50px 250px; */
+    
+        }
 }

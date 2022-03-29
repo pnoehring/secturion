@@ -8,7 +8,7 @@ import helmet from './images/helmet-white-heropng.png';
 
 function HeroSection() {
 
-  const [center, setDisplay] = useState(false);
+  const [center, setDisplay] = useState(true);
 
   const showDisplay = () => {
     if(window.innerWidth <= 1110) {

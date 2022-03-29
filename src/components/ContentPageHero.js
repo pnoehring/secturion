@@ -6,7 +6,7 @@ function ContentPageHero(props) {
   {
   return (
     <div className='content-hero-container'>
-      <ul className='content-list'>
+      <ul className='content'>
         <li>
           <h className='hero-header'>{props.header}</h>
         </li>

@@ -1,11 +1,21 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Button } from './Button';
 import './ContactForm.css'; 
 import emailjs, { send } from '@emailjs/browser';
 
 function ContactForm() {
 
+    const [desktop, setDisplay] = useState(true);
     const form = useRef();
+
+    const showDisplay = () => {
+      if (window.innerWidth <= 700) {
+        setDisplay(false)
+      } else {
+        setDisplay(true)
+      }
+    };
+
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -22,6 +32,9 @@ function ContactForm() {
     };
 
     const justRefresh =() => window.location.reload(false);
+
+    window.addEventListener('resize', showDisplay);
+    window.addEventListener('load', showDisplay);
 
   return (
       <>
