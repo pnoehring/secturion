@@ -62,3 +62,21 @@
     transition: all 0.3s ease-out;
     border-radius: 16px;
 }
+
+@media screen and (max-width: 900px) {
+    .name-email-div {
+        display: block;
+    }
+
+    .contact-textbox {
+        width: -webkit-fill-available;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .contact-message-textbox {
+        width: -webkit-fill-available;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+}
