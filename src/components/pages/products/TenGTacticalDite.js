@@ -2,6 +2,7 @@ import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
 import tactical from '../../images/10g_tactical_dite.png';
+import tacticalMobile from '../../images/10g_tactical_dite_mobile.png';
 
 function TenGTacticalDite() {
   return (
@@ -13,6 +14,7 @@ function TenGTacticalDite() {
       <OneProductPage
         dir={false}
         src={tactical}
+        srcMobile={tacticalMobile}
         // TODO fix spacing
         text={<span>Used in conjunction with DarkLink Model S, DarkLink Model E
           is a site-to-branch MACsec encryptor with data rates of 1Gbps or

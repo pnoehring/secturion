@@ -1,18 +1,23 @@
 .prod-page-section-three-container {
     color: black;
-    display: table;
+    /* display: table; */
     margin: 0 auto;
     margin-top: 1em;
+    /* display: grid;
+    grid-template-columns: auto auto; */
 }
 
 .sec-three-list {
     list-style: none;
     /* display: inline-block; */
-    display: flow-root;
+    /* display: flow-root; */
+    display: grid;
+    grid-template-columns: auto auto;
     /* display: flex; */
 }
 
 .sec-three-header {
+    display: grid;
     font-weight: 500;
     font-size: large;
     max-width: inherit;
@@ -25,14 +30,60 @@
 }
 
 .sec-three-info {
-    float: left;
+    /* float: left; */
     /* margin-right: 100px;
     margin-left: 100px; */
     max-width: 400px;
     display: inline;
+    float: right;
+    padding-left: 20px;
+    justify-content: right;
+    justify-self: right;
 }
 
 .sec-three-figure-section {
     display: inline;
     float: right;
+}
+
+@media screen and (max-width: 1020px) {
+    .sec-three-figure-section {
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .prod-page-section-three-container {
+        display: block;
+        text-align: center;
+    }
+
+    .sec-three-list {
+        list-style: none;
+        display: block;
+        float: none;
+    }
+    
+    .sec-three-figure-section {
+        margin-left: 20px;
+        display: block;
+        float: none;
+    }
+
+    .sec-three-info {
+        display: block;
+        float: none;
+        padding-left: 0;
+        max-width: none;
+        margin-right: 10px;
+        margin-left: 10px;
+        min-width: 300px;
+    }
+
+    .sec-three-text {
+        font-size: small;
+        max-width: inherit;
+        display: block;
+    }
 }

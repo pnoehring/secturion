@@ -13,6 +13,8 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto
   }
   
   /* .cards__wrapper {
