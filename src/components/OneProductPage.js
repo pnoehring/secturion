@@ -20,6 +20,7 @@ function OneProductPage(props) {
         {/* TODO: insert left carrot  */}
         <ProductPageSectionOne
          src = {props.src}
+         srcMobile = {props.srcMobile}
          label = {props.label}
          text = {props.text}
          />

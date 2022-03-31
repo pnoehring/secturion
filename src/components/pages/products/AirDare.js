@@ -2,7 +2,7 @@ import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
 import air from '../../images/air_dare.png';
-import {test} from '../../Constants.js';
+import airMobile from '../../images/air_dare-mobile.png'
 
 function AirDare() {
   return (
@@ -14,6 +14,7 @@ function AirDare() {
       <OneProductPage
         dir={true}
         src={air}
+        srcMobile={airMobile}
         // TODO fix spacing
         text={<span>Used in conjunction with DarkLink Model S, DarkLink Model E
           is a site-to-branch MACsec encryptor with data rates of 1Gbps or
@@ -23,7 +24,6 @@ function AirDare() {
           ensure reliable and secure operation DarkLink is
           designed with Intels family of FPGAs, which offers high performance
           and protection from network and physical attacks.</span>}
-        // text={test}
         label='100G AIR DARE'
       />
     </div>

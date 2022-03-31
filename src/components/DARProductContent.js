@@ -11,7 +11,7 @@ function DARProductContent() {
   return (
     <div className='product-content'>
         <div className='desc-container'>
-            <h className='prod-header'>DarkLink: Secure Site-to-Site</h>
+            <h className='prod-header'>DarkStor: Secure Site-to-Site</h>
             {/* TODO: what should this actually say? */}
             <p className='prod-description'>DarkLink will secure corporations
              or governments that have multiple sites, securely meshing

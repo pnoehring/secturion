@@ -6,6 +6,7 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 300px;
 }
 
 .sec-six-container h {
@@ -17,4 +18,10 @@
 
 .sec-six-container p {
     margin-block-end: 2em;
+}
+
+@media screen and (max-width: 900px) {
+    .sec-six-container {
+        margin-top: 2em;
+    }
 }

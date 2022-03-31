@@ -14,7 +14,7 @@ function ProductPageSectionOne(props) {
   };
 
   window.addEventListener('resize', showDisplay);
-  window.addEventListener('load', showDisplay);
+  window.addEventListener('click', showDisplay);
 
   return (
     <div>
@@ -36,7 +36,7 @@ function ProductPageSectionOne(props) {
           <div className='prod-page-section-one-container'>
             <p className='product_name_label'>{props.label}</p>
             <figure className='prod_page_sec_img-wrap' >
-              <img src={props.src} className='prod_page_sec_img' />
+              <img src={desktop ? props.src : props.srcMobile} className='prod_page_sec_img' />
             </figure>
             <p className='product_desc_text'>{props.text}</p>
 

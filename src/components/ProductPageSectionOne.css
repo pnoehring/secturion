@@ -2,6 +2,7 @@
     border-bottom: 1px solid lightgray;
     display: grid;
     grid-template-columns: auto auto;
+    min-width: 300px;
 }
 
 .prod-page-figure-section {
@@ -37,6 +38,10 @@
 
     .product_name_label {
         display: block;
+    }
+
+    .prod_page_sec_img-wrap {
+        margin-inline-start: 0;
     }
 
 

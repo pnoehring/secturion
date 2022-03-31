@@ -9,8 +9,8 @@
 }
 
 .empty-div {
-    margin-left: 16em;
-    margin-right: 16em;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-bottom: 4em;
     border-bottom: solid 4px #2957CB;
 }
@@ -26,3 +26,26 @@
     font-weight: 400;
     margin-bottom: 1em;
 }
+
+@media screen and (max-width: 900px) {
+
+    .sec-five-container {
+        margin-left: 1em;
+        margin-right: 1em;
+        min-width: 300px;
+    }
+
+    .empty-div {
+        margin-left: 1%;
+        margin-right: 1%;
+    padding-bottom: 2em;
+
+    }
+}
+
+/* @media screen and (max-width: 700px) {
+    .empty-div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+} */
