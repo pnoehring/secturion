@@ -6,7 +6,7 @@ import './ProductFeaturesSection.css';
 
 function WhyYouNeedDesktop() {
     const [wide, setWide] = useState(false);
-    const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(true);
     const index = ["first", "second", "third", "fourth"];
     var [col, setCol] = useState("first");
 

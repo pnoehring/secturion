@@ -95,17 +95,15 @@
     border: 1px solid #2957CB;
 }
 
-@media screen and (max-width: 1120px) {
+/* @media screen and (max-width: 1120px) {
     .prod-features-list {
         display: grid;
         grid-template-columns: auto auto;
-        /* grid-gap: 5px; */
         margin-inline-start: 50px;
         margin-inline-start: 50px;
-        /* margin-block: 0; */
         list-style: none;
     }
-}
+} */
 
 @media screen and (max-width: 765px) {
     .sec-container-features {
