@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import { Button } from './Button';
 import ProdFeatureCards from './ProdFeatureCards';
@@ -10,7 +10,7 @@ function WhyYouNeedMobile() {
     const [isVisible, setIsVisible] = useState(true);
 
     const isMobile = () => {
-        if(window.innerWidth <= 765) {
+        if (window.innerWidth <= 765) {
             setMobile(true)
         } else {
             setMobile(false)
@@ -19,22 +19,24 @@ function WhyYouNeedMobile() {
 
     window.addEventListener('resize', isMobile);
     window.addEventListener('load', isMobile);
+    window.addEventListener('click', isMobile);
+
 
     return (
         <div>
             <ul className='prod-features-list'>
-            <li className='sec-header'>
+                <li className='sec-header'>
                     <h1 className='why-header'>Why You Need Secturion</h1>
                     <p className='prod-features'>KEY PRODUCT FEATURES</p>
                     <Button
                         link='/contact'
                     >
                         CONTACT US
-                        </Button>
+                    </Button>
                     {/* TODO: Do we want a different :hover here? */}
                 </li>
                 <li className='prod-cards-cols'>
-                <ProdFeatureCards
+                    <ProdFeatureCards
                         mobile={mobile}
                         header='Un-hackable'
                         subheader='FROM THE NETWORK'
@@ -57,9 +59,9 @@ function WhyYouNeedMobile() {
                            at rest network encryptor is file-based, it is agnostic
                             to the lower level data storage protocols. '
                     />
-                </li>                
+                </li>
                 <li className='prod-cards-cols-2'>
-                <ProdFeatureCards
+                    <ProdFeatureCards
                         mobile={mobile}
                         header='Consistent'
                         subheader='DATA &amp; LOW NETWORK LATENCY'
@@ -105,8 +107,8 @@ function WhyYouNeedMobile() {
                             is in the low microseconds, and the data rate is
                              consistent.'
                     />
-                    </li>
-                    <li className='prod-cards-cols-4'>
+                </li>
+                <li className='prod-cards-cols-4'>
                     <ProdFeatureCards
                         mobile={mobile}
                         header='Zero Trust System'
@@ -117,17 +119,17 @@ function WhyYouNeedMobile() {
                            at rest network encryptor is file-based, it is agnostic
                             to the lower level data storage protocols. '
                     />
-                    </li>
+                </li>
             </ul>
             <div className='btn-sec'>
-            <button className='more-button'
-            // onClick={() => {
-            //     setIsVisible(v => !v);
-            // }}
-            >
-                MORE&nbsp;&nbsp;
-                <i class="fas fa-caret-right" />
-            </button>
+                <button className='more-button'
+                // onClick={() => {
+                //     setIsVisible(v => !v);
+                // }}
+                >
+                    MORE&nbsp;&nbsp;
+                    <i class="fas fa-caret-right" />
+                </button>
             </div>
         </div>
     );

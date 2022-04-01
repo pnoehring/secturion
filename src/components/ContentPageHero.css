@@ -34,7 +34,7 @@
 }
 
 .hero-content {
-    font-size: xxx-large;
+    font-size: 48px;
     font-weight: 600;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -42,7 +42,7 @@
 }
 
 .hero-content-only {
-    font-size: xxx-large;
+    font-size: 48px;
     font-weight: 600;
     max-width: 800px;
 }

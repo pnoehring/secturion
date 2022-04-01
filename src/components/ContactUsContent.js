@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import ContactForm from './ContactForm';
 import './ContactUsContent.css';
 import email from './images/email-solid.png';
@@ -21,22 +21,24 @@ function ContactUsContent() {
 
   window.addEventListener('resize', showDisplay);
   window.addEventListener('load', showDisplay);
+  window.addEventListener('click', showDisplay);
+
 
   return (
     <div className='contact-container'>
-        <div className='contact-us-header'>
+      <div className='contact-us-header'>
         <h className='contact-us' >Contact Us</h>
         <p className='contact-explanation' >Lorem ipsum dolor sit amet, consectetur
-         adipiscing elit, sed do eiusmod tempor
+          adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.
         </p>
-        </div>
-        <div className='email-phone'>
-            <img src={desktop ? email : emailSmall} /> <p>&nbsp;&nbsp;secturion@secturion.com</p>
-            <img src={desktop ? phone : phoneSmall} /> <p>&nbsp;&nbsp;(123)456-7890</p>
-        </div>
- 
-        <ContactForm />
+      </div>
+      <div className='email-phone'>
+        <img src={desktop ? email : emailSmall} /> <p>&nbsp;&nbsp;secturion@secturion.com</p>
+        <img src={desktop ? phone : phoneSmall} /> <p>&nbsp;&nbsp;(123)456-7890</p>
+      </div>
+
+      <ContactForm />
     </div>
   );
 }
