@@ -11,7 +11,7 @@ import WhyYouNeedDesktop from './WhyYouNeedDesktop';
 
 function ProductFeaturesSection() {
 
-    const [mobile, setMobile] = useState(true);
+    const [mobile, setMobile] = useState(false);
     const [isVisible, setIsVisible] = useState(true);
     // const transition = useTransition(isVisible, {
     //     from: {x:0, y:0, opacity: 0},
@@ -41,7 +41,7 @@ function ProductFeaturesSection() {
     };
 
     window.addEventListener('resize', isMobile);
-    window.addEventListener('readystatechange', isMobile);
+    window.addEventListener('load', isMobile);
     window.addEventListener('click', isMobile);
 
     if (mobile) {
