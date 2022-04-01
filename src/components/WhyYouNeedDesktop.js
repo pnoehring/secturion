@@ -35,6 +35,8 @@ function WhyYouNeedDesktop() {
 
     window.addEventListener('resize', isWide);
     window.addEventListener('load', isWide);
+    window.addEventListener('click', isWide);
+
 
     if (wide) {
         return (

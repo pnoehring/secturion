@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import { Button } from './Button';
 import ProdFeatureCards from './ProdFeatureCards';
 import './ProductFeaturesSection.css';
-import {useTransition, animated} from 'react-spring';
+import { useTransition, animated } from 'react-spring';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyYouNeedMobile from './WhyYouNeedMobile';
@@ -11,7 +11,7 @@ import WhyYouNeedDesktop from './WhyYouNeedDesktop';
 
 function ProductFeaturesSection() {
 
-    const [mobile, setMobile] = useState(false);
+    const [mobile, setMobile] = useState(true);
     const [isVisible, setIsVisible] = useState(true);
     // const transition = useTransition(isVisible, {
     //     from: {x:0, y:0, opacity: 0},
@@ -33,7 +33,7 @@ function ProductFeaturesSection() {
     // const [activeSlide, setActiveSlide] = useState(0);
 
     const isMobile = () => {
-        if(window.innerWidth <= 765) {
+        if (window.innerWidth <= 765) {
             setMobile(true)
         } else {
             setMobile(false)
@@ -41,22 +41,25 @@ function ProductFeaturesSection() {
     };
 
     window.addEventListener('resize', isMobile);
-    window.addEventListener('load', isMobile);
+    window.addEventListener('readystatechange', isMobile);
+    window.addEventListener('click', isMobile);
 
     if (mobile) {
 
-    return (
-        <div className='sec-container-features'>
-            <WhyYouNeedMobile />
-        </div>
-    );}
+        return (
+            <div className='sec-container-features'>
+                <WhyYouNeedMobile />
+            </div>
+        );
+    }
 
-    if (!mobile) {
-    return (
-        <div className='sec-container-features'>
-            <WhyYouNeedDesktop />
-        </div>
-    );}
+    else {
+        return (
+            <div className='sec-container-features'>
+                <WhyYouNeedDesktop />
+            </div>
+        );
+    }
 }
 
 export default ProductFeaturesSection;

@@ -26,12 +26,15 @@ export default function ProductPageSectionThree() {
 
   window.addEventListener('resize', showDisplay);
   window.addEventListener('load', showDisplay);
+  window.addEventListener('click', showDisplay);
+
   window.addEventListener('resize', showBlock);
   window.addEventListener('load', showBlock);
+  window.addEventListener('click', showBlock);
 
   return (
     <div className='prod-page-section-three-container'>
-      {!block ? (      <div className='sec-three-list'>
+      {!block ? (<div className='sec-three-list'>
         <li className='sec-three-info'>
           <p className='sec-three-header'>Applications</p>
           <p className='sec-three-text'>
@@ -51,28 +54,28 @@ export default function ProductPageSectionThree() {
           </figure>
         </li>
       </div>) :
-      (
-      <div className='sec-three-list'>
-        <li className='sec-three-figure-section'>
-          <figure className='prod_page_sec_img-wrap' >
-            <img src={desktop ? daregraphic : daregraphicMobile} className='prod_page_sec_img' />
-          </figure>
-        </li>
-        <li className='sec-three-info'>
-          <p className='sec-three-header'>Applications</p>
-          <p className='sec-three-text'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </li>
-      </div>
-      )}
+        (
+          <div className='sec-three-list'>
+            <li className='sec-three-figure-section'>
+              <figure className='prod_page_sec_img-wrap' >
+                <img src={desktop ? daregraphic : daregraphicMobile} className='prod_page_sec_img' />
+              </figure>
+            </li>
+            <li className='sec-three-info'>
+              <p className='sec-three-header'>Applications</p>
+              <p className='sec-three-text'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.
+              </p>
+            </li>
+          </div>
+        )}
     </div>
   );
 }

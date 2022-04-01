@@ -24,7 +24,7 @@ function HeroSection() {
 
   window.addEventListener('resize', showDisplay);
   window.addEventListener('load', showDisplay);
-
+  window.addEventListener('click', showDisplay);
 
   return (
   <div className='hero-container'>

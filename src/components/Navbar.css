@@ -209,7 +209,12 @@
     /* font-size: 1.8rem; */
     cursor: pointer;
     padding: 10px;
-    width: -webkit-fill-available;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    /* width: -webkit-fill-available; */
     text-align: center;
   }
   
