@@ -1,8 +1,11 @@
 .sec-four-container {
-    display: inline-table;
+    display: block;
     font: 'Inter';
     color: black;
     min-width: 300px;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .bolded-headers {
