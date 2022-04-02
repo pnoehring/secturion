@@ -41,3 +41,9 @@
     padding-inline-start: 40px;
     font-size: small;
 }
+
+@media only screen and (max-width: 1200px) {
+    .sec-four-container {
+    max-width: none;
+    }
+}
