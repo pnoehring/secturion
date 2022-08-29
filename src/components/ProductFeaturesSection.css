@@ -105,6 +105,12 @@
     }
 } */
 
+@media screen and (min-width: 1120px) {
+    .btn-sec {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 765px) {
     .sec-container-features {
         background: url('./images/padlock-background.png') left top;

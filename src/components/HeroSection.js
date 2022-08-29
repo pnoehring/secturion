@@ -31,11 +31,14 @@ function HeroSection() {
       {center ? (<section className='hero-sections'>
     <section className='section-1'>
     <div>
-      <p className='protecting-header'>Protecting Your Data</p>
+      <p className='protecting-header'>Network Security Encryptors</p>
       <p className='protecting-paragraph'> 
-        DESIGNED AND TESTED TO PROTECT YOUR DATA FROM THE
-          EVER PRESENT THREAT OF NATION-STATE AND
-          CYBERCRIMINAL HACKERS.
+        As global threats continue to escalate and evolve, providing 
+        seamless, reliable data protection at every point in the 
+        digital operating environment is essential. Secturion encryptors
+        provide uniform foundational technology that can be implemented
+        across all agencies and platforms, resulting in a secure, resilient,
+        and transparent infrastructure.
         </p>
           <div>
             <Button

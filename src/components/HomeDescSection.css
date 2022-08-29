@@ -9,6 +9,14 @@
     font-weight: 500;
 }
 
+.systems-head {
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
 .section-div {
     text-align: center;
     /* min-height: 200px; */

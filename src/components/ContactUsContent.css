@@ -45,6 +45,11 @@
     margin-bottom: 1em;
 }
 
+.email-only {
+    margin: 0;
+    display: -webkit-inline-box;
+}
+
 .email-phone p {
     display: grid;
     margin-block-start: 0;

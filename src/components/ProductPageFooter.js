@@ -28,16 +28,28 @@ function ProductPageFooter() {
             <img src={hacker} height={400} width={431} />
           </section>
           <div className='need-for-data-protection'>
-            <h className='need-for-header'>The Need for Data Protection</h>
-            <p className='need-for-desc'>U.S. organizations such as the U.S. Department of Justice,
-              Internal Revenue Service, University of Central Florida,
-              Snapchat, Premier Healthcare, Verizon Enterprise Solutions,
-              Sony, Yahoo, and Cisco have all been part of large data
-              breaches. They are not alone. According to a 2015 Duke
-              University/CFO Global Business Outlook Survey, over 80%
-              of U.S. companies have been successfully hacked. These
-              successful hacking attacks involved stealing, changing,
-              or making public important data. No one appears to be safe.
+            <h className='need-for-header'>The Need for Data-in-Transit Protection</h>
+            <p className='need-for-desc'>
+            Data transmitted over a wide or local area network is susceptible
+             to snooping while in flight. Even if the files and data being
+              transmitted are encrypted, an adversary simply observing data
+               transfers can derive vital and damaging information from
+                the network stream such as unencrypted file names, email
+                 header information, and file destination. A single network
+                  attack can have devastating results and threaten the assets
+                   of an entire organization.<br/><br/>
+                   The&nbsp;
+                   <span className='italic'>DarkLink&nbsp;</span>
+                   Ethernet Data Encryptor secures a network by 
+                   encrypting all network transport data, including routing and 
+                   file metadata at the Ethernet layer using 256-bit key size 
+                   AES-GCM mode encryption with integrity authentication.&nbsp;
+                   <span className='italic'>DarkLink&nbsp;</span>
+                    negotiates transmission keys and secures the 
+                   network connections between sites.  Since EDE can also 
+                   negotiate unencrypted Ethernet connections,&nbsp;
+                   <span className='italic'>DarkLink&nbsp;</span> 
+                   can operate with existing EDE data connections as needed.
             </p>
           </div>
         </div>) : (
@@ -46,16 +58,28 @@ function ProductPageFooter() {
           <section className='image-section'>
             <img src={hackerMobile} />
           </section>
-          <p className='need-for-desc'>U.S. organizations such as the U.S. Department of Justice,
-            Internal Revenue Service, University of Central Florida,
-            Snapchat, Premier Healthcare, Verizon Enterprise Solutions,
-            Sony, Yahoo, and Cisco have all been part of large data
-            breaches. They are not alone. According to a 2015 Duke
-            University/CFO Global Business Outlook Survey, over 80%
-            of U.S. companies have been successfully hacked. These
-            successful hacking attacks involved stealing, changing,
-            or making public important data. No one appears to be safe.
-          </p>
+          <p className='need-for-desc'>
+            Data transmitted over a wide or local area network is susceptible
+             to snooping while in flight. Even if the files and data being
+              transmitted are encrypted, an adversary simply observing data
+               transfers can derive vital and damaging information from
+                the network stream such as unencrypted file names, email
+                 header information, and file destination. A single network
+                  attack can have devastating results and threaten the assets
+                   of an entire organization.<br/><br/>
+                   The&nbsp;
+                   <span className='italic'>DarkLink&nbsp;</span>
+                   Ethernet Data Encryptor secures a network by 
+                   encrypting all network transport data, including routing and 
+                   file metadata at the Ethernet layer using 256-bit key size 
+                   AES-GCM mode encryption with integrity authentication.&nbsp;
+                   <span className='italic'>DarkLink&nbsp;</span>
+                    negotiates transmission keys and secures the 
+                   network connections between sites.  Since EDE can also 
+                   negotiate unencrypted Ethernet connections,&nbsp;
+                   <span className='italic'>DarkLink&nbsp;</span> 
+                   can operate with existing EDE data connections as needed.
+            </p>
         </div>
       )}
 
