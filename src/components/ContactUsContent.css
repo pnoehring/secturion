@@ -47,6 +47,10 @@
     display: -webkit-inline-box;
 }
 
+.email-only p {
+    margin: 0;
+}
+
 .email-phone p {
     display: grid;
     margin-block-start: 0;

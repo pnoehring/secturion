@@ -57,7 +57,7 @@
 
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1230px) {
     .hero-container {
         background: url('./images/hero-background-image.png') center center/cover no-repeat;
         background-color: #0F172D;
@@ -88,6 +88,7 @@
     }
 
     .protecting-paragraph {
+        font-size: medium;
         align-items: center;
         text-align: center;
         margin-right: auto;

@@ -31,12 +31,9 @@ function ContactUsContent() {
         below and our Secturion team will contact you shortly.
         </p>
       </div>
-      {/* <div className='email-phone'>
-        <img src={desktop ? email : emailSmall} /> <p>&nbsp;&nbsp;contact@secturion.com</p>
-        <img src={desktop ? phone : phoneSmall} /> <p>&nbsp;&nbsp;(123)456-7890</p>
-      </div> */}
       <div className='email-only'>
-        <img src={desktop ? email : emailSmall} /> <p>&nbsp;&nbsp;contact@secturion.com</p>
+        <img src={desktop ? email : emailSmall} /> 
+        <p>&nbsp;&nbsp;contact@secturion.com</p>
       </div>
 
       <ContactForm />

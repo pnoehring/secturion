@@ -10,7 +10,7 @@ function HeroSection() {
   const [center, setDisplay] = useState(true);
 
   const showDisplay = () => {
-    if (window.innerWidth <= 1110) {
+    if (window.innerWidth <= 1230) {
       setDisplay(false)
     } else {
       setDisplay(true)
@@ -56,16 +56,19 @@ function HeroSection() {
       </section>) : (
 
         <div className='small-container'>
-          <p className='protecting-header'>Protecting Your Data</p>
+          <p className='protecting-header'>Network Security Encryptors</p>
           <section className='section-2'>
             <div>
               <img src={helmet} />
             </div>
           </section>
           <p className='protecting-paragraph'>
-            DESIGNED AND TESTED TO PROTECT YOUR DATA FROM THE
-            EVER PRESENT THREAT OF NATION-STATE AND
-            CYBERCRIMINAL HACKERS.
+            As global threats continue to escalate and evolve, providing
+            seamless, reliable data protection at every point in the
+            digital operating environment is essential. Secturion encryptors
+            provide uniform foundational technology that can be implemented
+            across all agencies and platforms, resulting in a secure, resilient,
+            and transparent infrastructure.
           </p>
           <div className='contact-button-div'>
             <Button
