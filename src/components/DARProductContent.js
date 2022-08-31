@@ -1,10 +1,6 @@
 import React from 'react';
 import './ProductContent.css';
 import ProductCards from './ProductCards';
-import gnd from './images/gnd_dare.png';
-import air from './images/air_dare.png';
-import tenGTactical from './images/10g_tactical_dare.png';
-import oneGTactical from './images/1g_tactical_dare.png';
 import darkStor from './images/DarkStorFont.png';
 import TenGTacticalDARE from './images/DarkStor-10GTacticalDARE.png';
 import HundredGGroundDare from './images/DarkStor-100GGroundDare.png';
@@ -26,7 +22,6 @@ function DARProductContent() {
       <div className='cards-container'>
         <ProductCards
           src={TenGTacticalDARE}
-          //TODO: make Darkstor italic
           text={<span>The&nbsp;
             <span className='italic'>DarkStor</span>
             &nbsp;10 Gbps Tactical DARE is a network file and block
@@ -34,13 +29,11 @@ function DARProductContent() {
           label={<span>
             <span className='italic'>DarkStor</span>-10G Tactical DARE
           </span>}
-          //TODO: Update path
           path='/darkstor-10g-tactical-dare'
           button='VIEW PRODUCT'
         />
         <ProductCards
           src={HundredGGroundDare}
-          //TODO: make Darkstor italic
           text={<span>The&nbsp;
             <span className='italic'>DarkStor</span>
             -100 Gbps (KG-267) Ground DARE is an enterprise-level
@@ -50,24 +43,21 @@ function DARProductContent() {
             <span className='italic'>DarkStor</span>-100G (KG-267)
             Ground DARE
           </span>}
-          //TODO: Update path
           path='/darkstor-100g-ground-dare'
           button='VIEW PRODUCT'
         />
         <ProductCards
           src={HundredGAirborneDare}
-          // TODO: make Darkstor italic
           text={<span>The&nbsp;
             <span className='italic'>DarkStor</span>
-            -100 Gbps KG-268 Airborne DARE is an enterprise-level 
-            network file and block encryptor that is agnostic to 
-            service providers, operating systems, storage controller, 
+            -100 Gbps KG-268 Airborne DARE is an enterprise-level
+            network file and block encryptor that is agnostic to
+            service providers, operating systems, storage controller,
             and storage media devices.</span>}
           label={<span>
             <span className='italic'>DarkStor</span>-100G (KG-268)
             Airborne DARE
           </span>}
-          //TODO:update path
           path='/darkstor-100g-airborne-dare'
           button='VIEW PRODUCT'
         />

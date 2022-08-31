@@ -2,11 +2,6 @@ import React from 'react';
 import './ProductContent.css';
 import './ProductCards.css';
 import ProductCards from './ProductCards';
-import tenG from './images/10g_tactical_dite.png';
-import oneG from './images/1g_tactical_dite.png';
-import secureTactical from './images/secure_tactical.png';
-import oneSix from './images/1.6tb_macsec.png';
-import secureEnterprise from './images/secure_enterprise.png';
 import darkLink from './images/DarkLinkFont.png';
 import DarkLinkTenGTacticalEDE from './images/DarkLink-10GTacticalEDE.png';
 import DarkLinkHundredGEDE from './images/DarkLink-100GEDE.png';
@@ -73,8 +68,8 @@ function DITProductContent() {
           src={DarkLinkHundredGEDE}
           text={<span>The&nbsp;
             <span className='italic'>DarkLink</span>
-            -400G EDE is an enterprise-level encryptor 
-            designed to meet DoD Ethernet Data 
+            -400G EDE is an enterprise-level encryptor
+            designed to meet DoD Ethernet Data
             Encryption (EDE) specifications.&nbsp;
             <span className='italic'>DarkLink</span>
             -400G EDE

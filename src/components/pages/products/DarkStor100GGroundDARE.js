@@ -2,7 +2,8 @@ import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
 import HundredGGroundDare from '../../images/DarkStor-100GGroundDare.png';
-
+import graphic from '../../images/darkstor_graphic_thumbnail.png';
+import graphicMoble from '../../images/darkstor_graphic_small.png';
 
 function DarkStor100GGroundDARE() {
   return (
@@ -17,7 +18,8 @@ function DarkStor100GGroundDARE() {
         dir={true}
         src={HundredGGroundDare}
         srcMobile={HundredGGroundDare}
-        // TODO fix spacing
+        graphic={graphic}
+        graphicMobile={graphicMoble}
         text={<span>
           <span className='italic'>DarkStor</span>&trade;
           secures network data storage for

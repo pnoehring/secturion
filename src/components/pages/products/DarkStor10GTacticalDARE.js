@@ -2,6 +2,8 @@ import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
 import TenGTacticalDARE from '../../images/DarkStor-10GTacticalDARE.png';
+import graphic from '../../images/darkstor_graphic_thumbnail.png';
+import graphicMobile from '../../images/darkstor_graphic_small.png';
 
 
 function DarkStor10GTacticalDARE() {
@@ -17,6 +19,8 @@ function DarkStor10GTacticalDARE() {
         dir={true}
         src={TenGTacticalDARE}
         srcMobile={TenGTacticalDARE}
+        graphic={graphic}
+        graphicMobile={graphicMobile}
         text={<span>
           <span className='italic'>DarkStor</span>&trade;
           secures network data storage

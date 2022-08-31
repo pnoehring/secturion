@@ -15,11 +15,8 @@ import ScrollToTop from './components/ScrollToTop';
 import DarkStor10GTacticalDARE from './components/pages/products/DarkStor10GTacticalDARE';
 import DarkStor100GGroundDARE from './components/pages/products/DarkStor100GGroundDARE';
 import DarkStor100GAirborneDARE from './components/pages/products/DarkStor100GAirborneDARE';
-import OneGTacticalDare from './components/pages/products/OneGTacticalDare';
-import OnePointSixTera from './components/pages/products/OnePointSixTera';
 import DarkLink100GEDE from './components/pages/products/DarkLink100GEDE';
 import DarkLink10GTacticalEDE from './components/pages/products/DarkLink10GTacticalEDE';
-import SecureEnterprise from './components/pages/products/SecureEnterprise';
 import DarkLink400GEDE from './components/pages/products/DarkLink400GEDE';
 
 init("xf6bAX508-YyAqgck");
@@ -42,11 +39,8 @@ function App() {
         <Route path='/darkstor-10g-tactical-dare' component={DarkStor10GTacticalDARE} />
         <Route path='/darkstor-100g-ground-dare' component={DarkStor100GGroundDARE} />
         <Route path='/darkstor-100g-airborne-dare' component={DarkStor100GAirborneDARE} />
-        <Route path='/1g-tactical-dare' component={OneGTacticalDare} />
-        <Route path='/1.6-macsec' component={OnePointSixTera} />
         <Route path='/darklink-100g-ede' component={DarkLink100GEDE} />
         <Route path='/darklink-10g-tactical-ede' component={DarkLink10GTacticalEDE} />
-        <Route path='/secure-enterprise' component={SecureEnterprise} />
         <Route path='/darklink-400g-ede' component={DarkLink400GEDE} />
       </Switch>
       </div>

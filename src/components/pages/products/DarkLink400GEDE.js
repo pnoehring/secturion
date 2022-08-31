@@ -2,6 +2,8 @@ import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
 import DarkLinkHundredGEDE from '../../images/DarkStor-100GAirborneDARE.png';
+import graphic from '../../images/darklink_graphic_thumbnail.png';
+import graphicMoble from '../../images/darklink_graphic_small.png';
 
 function DarkLink400GEDE() {
   return (
@@ -14,7 +16,8 @@ function DarkLink400GEDE() {
         dir={false}
         src={DarkLinkHundredGEDE}
         srcMobile={DarkLinkHundredGEDE}
-        // TODO fix spacing
+        graphic={graphic}
+        graphicMobile={graphicMoble}
         text={<span>The&nbsp;
           <span className='italic'>DarkLink</span>
           &trade;-400G EDE is an enterprise-level Encryptor 

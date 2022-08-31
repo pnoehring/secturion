@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import daregraphic from './images/100G-dare-graphic-thumbnail.png';
-import daregraphicMobile from './images/100G-dare-graphic-small.png';
 import './ProductPageSectionThree.css';
-import { Link } from 'react-router-dom';
 
 export default function ProductPageSectionThree(props) {
 
@@ -43,7 +40,7 @@ export default function ProductPageSectionThree(props) {
         </li>
         <li className='sec-three-figure-section'>
           <figure className='prod_page_sec_img-wrap' >
-            <img src={desktop ? daregraphic : daregraphicMobile} className='prod_page_sec_img' />
+            <img src={desktop ? props.graphic : props.graphicMobile} className='prod_page_sec_img' />
           </figure>
         </li>
       </div>) :
@@ -51,7 +48,7 @@ export default function ProductPageSectionThree(props) {
           <div className='sec-three-list'>
             <li className='sec-three-figure-section'>
               <figure className='prod_page_sec_img-wrap' >
-                <img src={desktop ? daregraphic : daregraphicMobile} className='prod_page_sec_img' />
+                <img src={desktop ? props.graphic : props.graphicMobile} className='prod_page_sec_img' />
               </figure>
             </li>
             <li className='sec-three-info'>

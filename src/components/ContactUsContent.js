@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import ContactForm from './ContactForm';
 import './ContactUsContent.css';
 import email from './images/email-solid.png';
-import phone from './images/phone.png';
 import emailSmall from './images/email_solid_small.png';
-import phoneSmall from './images/phone_solid_small.png';
 
 
 function ContactUsContent() {

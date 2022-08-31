@@ -1,10 +1,6 @@
 import React from 'react';
 import './OneProductPage.css';
 import ProductPageSectionOne from './ProductPageSectionOne';
-import gnd from './images/gnd_dare.png';
-import air from './images/air_dare.png';
-import tenGTactical from './images/10g_tactical_dare.png';
-import oneGTactical from './images/1g_tactical_dare.png';
 import ProductPageSectionTwo from './ProductPageSectionTwo';
 import ProductPageSectionTwoFive from './ProductPageSectionTwoFive';
 import ProductPageSectionThree from './ProductPageSectionThree';
@@ -30,6 +26,8 @@ function OneProductPage(props) {
           features={props.features}
         />
         <ProductPageSectionThree
+          graphic={props.graphic}
+          graphicMobile={props.graphicMobile}
           applications={props.applications} />
         <ProductPageSectionTwoFive
           linkText={props.linkText}

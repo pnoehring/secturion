@@ -2,6 +2,8 @@ import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
 import HundredGAirborneDare from '../../images/DarkStor-100GAirborneDARE.png';
+import graphic from '../../images/darkstor_graphic_thumbnail.png';
+import graphicMoble from '../../images/darkstor_graphic_small.png';
 
 function DarkStor100GAirborneDARE() {
   return (
@@ -15,7 +17,8 @@ function DarkStor100GAirborneDARE() {
         dir={true}
         src={HundredGAirborneDare}
         srcMobile={HundredGAirborneDare}
-        // TODO fix spacing
+        graphic={graphic}
+        graphicMobile={graphicMoble}
         text={<span>
           <span className='italic'>DarkStor</span>&trade;
           secures airborne network data storage systems.&nbsp;

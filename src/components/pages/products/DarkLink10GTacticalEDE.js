@@ -2,7 +2,8 @@ import React from 'react';
 import ContentPageHero from '../../ContentPageHero';
 import OneProductPage from '../../OneProductPage';
 import DarkLinkTenGTacticalEDE from '../../images/DarkLink-10GTacticalEDE.png';
-
+import graphic from '../../images/darklink_graphic_thumbnail.png';
+import graphicMoble from '../../images/darklink_graphic_small.png';
 
 function DarkLink10GTacticalEDE() {
   return (
@@ -14,8 +15,9 @@ function DarkLink10GTacticalEDE() {
       <OneProductPage
         dir={false}
         src={DarkLinkTenGTacticalEDE}
-        srcMobile={DarkLinkTenGTacticalEDE}
-        // TODO fix spacing
+        srcMobile={DarkLinkTenGTacticalEDE}        
+        graphic={graphic}
+        graphicMobile={graphicMoble}
         text={<span>The&nbsp;
           <span className='italic'>DarkLink</span>
           &trade;-10G Tactical

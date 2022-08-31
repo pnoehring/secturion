@@ -19,14 +19,9 @@
 
 .section-div {
     text-align: center;
-    /* min-height: 200px; */
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
-/* .fas fa-trademark {
-    font-size: ;
-} */
 
 .paragraph-links {
     text-decoration: none;
@@ -36,8 +31,6 @@
 
 .paragraph-links:hover { 
     border-bottom: none;
-    /* border-bottom: 2px solid #000; */
-    /* font-weight: 500; */
     color: #2957CB;
     transition: all 0.2s ease;
 }

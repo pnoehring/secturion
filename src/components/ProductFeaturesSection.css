@@ -1,5 +1,5 @@
 .sec-container-features {
-    background: url('./images/padlock-background.png') center center/cover;
+    background: url('./images/padlock-background_cropped.jpg') center center/cover;
     background-position: left;
     /* min-height: 515px; */
     font-family: 'Inter';
@@ -113,7 +113,7 @@
 
 @media screen and (max-width: 765px) {
     .sec-container-features {
-        background: url('./images/padlock-background.png') left top;
+        background: url('./images/padlock-background_small.jpg') left top;
         background-color: #0F172D;
 
         /* min-height: 515px; */
