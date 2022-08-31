@@ -11,11 +11,23 @@
     min-width: 300px;
 }
 
+.prods-body {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}
+
 .section-head {
     color: #2957CB;
     font-weight: 500;
     margin: 0px;
     letter-spacing: 1.5px;
+}
+
+.paragraph-links {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #2957CB;
 }
 
 /* .product-div {
@@ -28,4 +40,13 @@
     border-bottom: 3px solid #2957CB;
     display: inline-block;
     margin: 0px;
+}
+
+@media screen and (max-width: 1110px) {
+    .prods-body {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 30px;
+        min-width: 320px;
+    }
 }

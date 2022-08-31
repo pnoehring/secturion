@@ -1,17 +1,12 @@
 /* for less than 1100 px, make the backgroun image centered */
 .hero-container {
-    background: url('./images/hero-background-image.png') center center/cover
-    no-repeat;
+    background: url('./images/hero-background-image.png') center center/cover no-repeat;
     background-size: 872px 586px;
     background-position: right;
     background-color: #0F172D;
     color: #fff;
     font-family: 'Inter';
-    /* grid-template-columns: 100px 80px;
-    grid-gap: 5px; */
     min-height: 500px;
-    /* list-style: none; */
-    /* text-align: left; */
 }
 
 .protecting-header {
@@ -35,7 +30,7 @@
 }
 
 .protecting-paragraph {
-    width: 550px;
+    width: 650px;
     font-size: 18px;
     margin-block-start: 10px;
     margin-block-end: 20px;
@@ -46,7 +41,6 @@
     overflow: hidden;
     float: left;
     padding: 10px;
-    /* margin-right: 125px; */
     margin-right: 10%;
     margin-left: 50px;
     width: -webkit-fill-available;
@@ -54,35 +48,22 @@
 }
 
 .section-1 {
-    float:left;
+    float: left;
     margin-top: 4em;
 }
 
 .section-2 {
     float: right;
-    
-}
 
-/* <style>
-    section { border:1px solid red; padding:10px; overflow:hidden; }
-    section > section { float:left; }
-    .indent-1 { padding-left:120px; }
-</style> */
+}
 
 @media screen and (max-width: 1110px) {
     .hero-container {
-        background: url('./images/hero-background-image.png') center center/cover
-        no-repeat;
-        /* background-size: 872px 586px;
-        background-position: right; */
+        background: url('./images/hero-background-image.png') center center/cover no-repeat;
         background-color: #0F172D;
         color: #fff;
         font-family: 'Inter';
-        /* grid-template-columns: 100px 80px;
-        grid-gap: 5px; */
         min-height: 500px;
-        /* list-style: none; */
-        /* text-align: left; */
     }
 
     .small-container {
@@ -90,7 +71,6 @@
     }
 
     .protecting-header {
-        /* border-bottom: 4px solid #2957CB; */
         border-bottom: none;
         margin: 1em;
         text-align: center;

@@ -1,14 +1,11 @@
 .content-hero-container {
-    background: url('./images/hero-background-image-small.png') 
-    no-repeat;
+    background: url('./images/hero-background-image-small.png') no-repeat;
     background-size: 500px 336px;
     background-position: 70% 90%;
     background-color: #0F172D;
     color: #fff;
     font-family: 'Inter';
-    /* min-height: 250px; */
     text-align: center;
-    /* align-items: center; */
     padding-top: 3em;
     padding-bottom: 3em;
 }
@@ -53,8 +50,4 @@
         padding-top: 1em;
         padding-bottom: 1em;
     }
-
-    /* .hero-content {
-        margin-block-end: 0;
-    } */
 }

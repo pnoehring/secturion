@@ -40,24 +40,24 @@ function WhyYouNeedMobile() {
                         mobile={mobile}
                         header='Un-hackable'
                         subheader='FROM THE NETWORK'
-                        description='Sophisticated hackers can disable,
-                         monitor or modify any software-based security features
-                          undetected.  Our functions are programmed into the
-                           FPGAs with NO network access, making it impssible
-                            to hack from the netwok. Secturion also uses an
-                             anti-tamper sensors feature that will disable the
-                              product if attackers physically tamper or alter
-                               our products.'
+                        description={<span>Secturion products utilize hardware-based
+                            architecture with NO network access - making it impossible
+                            to hack out products from the network.<br/><br/>
+                            
+                            As an added line
+                            of defense, fail-safe and tamper features disable the 
+                            encryptor if attackers physically tamper or alter our
+                            encryptors.</span>}
                     />
                     <ProdFeatureCards
                         mobile={mobile}
                         header='Transparent'
                         subheader='TO THE NETWORK'
-                        description='Secturion products are inserted in-line in
-                         the Ethernet network. Once the products are configured,
-                          it operates transparently to the network. Since the Data
-                           at rest network encryptor is file-based, it is agnostic
-                            to the lower level data storage protocols. '
+                        description={<span>Easy to install plug-and-play design.<br/><br/>
+                        Designed to be seamless with your Ethernet network,
+                        providing a transparent experience for all users.<br/><br/>
+                        File-based technology is agnostic to all lower-level
+                        data storage protocols.</span>}
                     />
                 </li>
                 <li className='prod-cards-cols-2'>
@@ -65,59 +65,24 @@ function WhyYouNeedMobile() {
                         mobile={mobile}
                         header='Consistent'
                         subheader='DATA &amp; LOW NETWORK LATENCY'
-                        description='Secturion products provide constant data rates
-                         and low latency across a network. Other operating system-based
-                          security application that share sources making latency and
-                           data rate consistency unpredictable. Secturion&apos;s latency
-                            is in the low microseconds, and the data rate is
-                             consistent.'
+                        description={<span>Delivers consistent data rates with 
+                            faster throughputs, allowing your network to be flexible
+                            and collaborative anywhere in the world.<br/><br/>
+                            Data is delivered
+                            securely and swiftly with ultra-low latency.<br/><br/>
+                            Encryption with data rates up to 400 Gbps provides 
+                            protection for every cybersecurity challenge.</span>}
                     />
                     <ProdFeatureCards
                         mobile={mobile}
                         header='Reliable'
-                        subheader='HIGH AVAILABILITY-RELIABILITY'
-                        description='Secturion products have a typical mean time before
-                         failure (MTBF) of 100,000 hours plus of operation. Secturion
-                          network encryptors provide your network reliability for
-                           99.999% up-time availability of operations.'
-                    />
-                </li>
-                <li className='prod-cards-cols-3'>
-                    <ProdFeatureCards
-                        mobile={mobile}
-                        header='Updatable'
-                        subheader='FROM THE NETWORK'
-                        description='Sophisticated hackers can disable,
-                         monitor or modify any software-based security features
-                          undetected.  Our functions are programmed into the
-                           FPGAs with NO network access, making it impssible
-                            to hack from the netwok. Secturion also uses an
-                             anti-tamper sensors feature that will disable the
-                              product if attackers physically tamper or alter
-                               our products.'
-                    />
-                    <ProdFeatureCards
-                        mobile={mobile}
-                        header='Memory-Saving'
-                        subheader='FROM THE NETWORK'
-                        description='Secturion products provide constant data rates
-                         and low latency across a network. Other operating system-based
-                          security application that share sources making latency and
-                           data rate consistency unpredictable. Secturion&apos;s latency
-                            is in the low microseconds, and the data rate is
-                             consistent.'
-                    />
-                </li>
-                <li className='prod-cards-cols-4'>
-                    <ProdFeatureCards
-                        mobile={mobile}
-                        header='Zero Trust System'
-                        subheader='FROM THE NETWORK'
-                        description='Secturion products are inserted in-line in
-                         the Ethernet network. Once the products are configured,
-                          it operates transparently to the network. Since the Data
-                           at rest network encryptor is file-based, it is agnostic
-                            to the lower level data storage protocols. '
+                        subheader='HIGH AVAILBILITY &amp; RELIABILITY' 
+                        description={<span>High availability with 99.999&#x25; uptime.<br/><br/>
+                        Mean Time Before Failure (MTBF) of over 250,000 hours of 
+                        product operation, our highly reliable security encyptors
+                        deliver and excellent return on investment.<br/><br/>
+                        Secure firmware upgradable to future protocols and 
+                        cryptographic standards.</span>}
                     />
                 </li>
             </ul>

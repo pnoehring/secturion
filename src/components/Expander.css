@@ -2,42 +2,47 @@
     margin: 6px 0;
     padding: 2px;
     border-top: 1px solid gray;
-    /* border-bottom: 1px solid gray; */
 }
 
 .headerStyle {
-	display: flex;
+    display: flex;
     cursor: pointer;
-    /* border-top: 1px solid gray; */
     border-bottom: 1px solid rgb(218, 216, 216);
     color: black
+}
 
-};
+;
 
 .contentStyle {
-	overflow: hidden;
+    overflow: hidden;
     transition: all 0.3s;
     font-size: small;
-};
+}
+
+;
 
 .contentExpandedStyle {
-	overflow: hidden;
+    overflow: hidden;
     transition: all 0.3s;
     padding: 4px 0;
     border: 1px solid #85C1E9;
     height: auto;
     filter: opacity(1);
     font-size: small;
-};
+}
+
+;
 
 .contentCollapsedStyle {
-	overflow: hidden;
+    overflow: hidden;
     transition: all 0.3s;
-  	padding: 0 0;
+    padding: 0 0;
     border: 1px solid transparent;
     height: 0;
     filter: opacity(0);
-};
+}
+
+;
 
 .children-text {
     font-size: small;

@@ -24,11 +24,28 @@
     letter-spacing: 1.5px;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .prod-description {
     margin-bottom: 0;
     margin-left: 20px;
     margin-right: 20px;
-    min-width: 350px;
+    min-width: 300px;
+}
+
+.abbr {
+    text-decoration: none;
+    border-bottom: 2px solid #2957CB;
+    cursor: pointer;
+}
+
+.abbr-hover {
+    cursor: grab;
+    border-bottom: none;
+    color: #2957CB;
+    transition: all 0.2s ease;
 }
 
 .cards-container {
@@ -42,5 +59,9 @@
     .product-content {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .prod-header {
+        font-size: large;
     }
   }

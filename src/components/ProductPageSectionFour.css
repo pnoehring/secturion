@@ -3,7 +3,7 @@
     font: 'Inter';
     color: black;
     min-width: 300px;
-    max-width: 80%;
+    max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -42,8 +42,7 @@
     font-size: small;
 }
 
-@media only screen and (max-width: 1200px) {
-    .sec-four-container {
-    max-width: none;
-    }
+.algorithms-header {
+    margin-inline-start: 20px;
+    font-size: 15px;
 }

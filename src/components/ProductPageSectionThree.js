@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import daregraphic from './images/100G-dare-graphic-thumbnail.png';
-import daregraphicMobile from './images/100G-dare-graphic-small.png';
 import './ProductPageSectionThree.css';
 
-export default function ProductPageSectionThree() {
+export default function ProductPageSectionThree(props) {
 
   const [desktop, setDisplay] = useState(true);
   const [block, setBlock] = useState(false);
@@ -37,20 +35,12 @@ export default function ProductPageSectionThree() {
       {!block ? (<div className='sec-three-list'>
         <li className='sec-three-info'>
           <p className='sec-three-header'>Applications</p>
-          <p className='sec-three-text'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+          <p className='sec-three-text'>{props.applications}
           </p>
         </li>
         <li className='sec-three-figure-section'>
           <figure className='prod_page_sec_img-wrap' >
-            <img src={desktop ? daregraphic : daregraphicMobile} className='prod_page_sec_img' />
+            <img src={desktop ? props.graphic : props.graphicMobile} className='prod_page_sec_img' />
           </figure>
         </li>
       </div>) :
@@ -58,21 +48,12 @@ export default function ProductPageSectionThree() {
           <div className='sec-three-list'>
             <li className='sec-three-figure-section'>
               <figure className='prod_page_sec_img-wrap' >
-                <img src={desktop ? daregraphic : daregraphicMobile} className='prod_page_sec_img' />
+                <img src={desktop ? props.graphic : props.graphicMobile} className='prod_page_sec_img' />
               </figure>
             </li>
             <li className='sec-three-info'>
               <p className='sec-three-header'>Applications</p>
-              <p className='sec-three-text'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum.
-              </p>
+              <p className='sec-three-text'>{props.applications}</p>
             </li>
           </div>
         )}

@@ -1,6 +1,5 @@
 .contact-container {
-    background: url('./images/electrical-lines-gray.png')
-    no-repeat;
+    background: url('./images/electrical-lines-gray.png') no-repeat;
     background-size: 500px 336px;
     background-position: 90% 80%;
     font-family: 'Inter';
@@ -39,10 +38,13 @@
     grid-auto-columns: 1fr;
     grid-auto-flow: column;
     grid-template-columns: 50px 350px 50px 250px;
-    /* margin-left: 15%;
-    margin-right: 15%; */
     justify-content: center;
     margin-bottom: 1em;
+}
+
+.email-only {
+    margin: 0;
+    display: -webkit-inline-box;
 }
 
 .email-phone p {
@@ -55,7 +57,6 @@
 .email-phone li {
     margin-right: 40px;
     margin-left: 40px;
-    /* display: grid; */
 }
 
 .email-phone img {
@@ -71,28 +72,24 @@
     }
 
     .email-phone {
-    grid-template-columns: 50px 300px 50px 200px;
+        grid-template-columns: 50px 300px 50px 200px;
 
     }
 
     .email-phone p {
         font-size: smaller;
-
-        /* grid-template-columns: 50px 340px 50px 250px; */
-
     }
 }
 
 @media screen and (max-width: 700px) {
     .email-phone {
         grid-template-columns: 50px 160px 50px 150px;
-    
-        }
 
-        .email-phone p {
-            font-size: small;
-            letter-spacing: 1px;
-            /* grid-template-columns: 50px 340px 50px 250px; */
-    
-        }
+    }
+
+    .email-phone p {
+        font-size: small;
+        letter-spacing: 1px;
+
+    }
 }

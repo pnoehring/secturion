@@ -12,15 +12,12 @@ import GoToPDF from './components/pages/GoToPDF';
 import Products from './components/pages/Products';
 import{ init } from '@emailjs/browser';
 import ScrollToTop from './components/ScrollToTop';
-import GndDare from './components/pages/products/GndDare';
-import AirDare from './components/pages/products/AirDare';
-import TenGTacticalDare from './components/pages/products/TenGTacticalDare';
-import OneGTacticalDare from './components/pages/products/OneGTacticalDare';
-import OnePointSixTera from './components/pages/products/OnePointSixTera';
-import OneGTacticalDite from './components/pages/products/OneGTacticalDite';
-import TenGTacticalDite from './components/pages/products/TenGTacticalDite';
-import SecureEnterprise from './components/pages/products/SecureEnterprise';
-import SecureTactical from './components/pages/products/SecureTactical';
+import DarkStor10GTacticalDARE from './components/pages/products/DarkStor10GTacticalDARE';
+import DarkStor100GGroundDARE from './components/pages/products/DarkStor100GGroundDARE';
+import DarkStor100GAirborneDARE from './components/pages/products/DarkStor100GAirborneDARE';
+import DarkLink100GEDE from './components/pages/products/DarkLink100GEDE';
+import DarkLink10GTacticalEDE from './components/pages/products/DarkLink10GTacticalEDE';
+import DarkLink400GEDE from './components/pages/products/DarkLink400GEDE';
 
 init("xf6bAX508-YyAqgck");
 
@@ -39,15 +36,12 @@ function App() {
         <Route path='/read-more' component={GoToPDF} />
         <Route path='/contact' component={Contact} />
         <Route path='/products' component={Products} />
-        <Route path='/gnd-dare' component={GndDare} />
-        <Route path='/air-dare' component={AirDare} />
-        <Route path='/10g-tactical-dare' component={TenGTacticalDare} />
-        <Route path='/1g-tactical-dare' component={OneGTacticalDare} />
-        <Route path='/1.6-macsec' component={OnePointSixTera} />
-        <Route path='/1g-tactical-dite' component={OneGTacticalDite} />
-        <Route path='/10g-tactical-dite' component={TenGTacticalDite} />
-        <Route path='/secure-enterprise' component={SecureEnterprise} />
-        <Route path='/secure-tactical' component={SecureTactical} />
+        <Route path='/darkstor-10g-tactical-dare' component={DarkStor10GTacticalDARE} />
+        <Route path='/darkstor-100g-ground-dare' component={DarkStor100GGroundDARE} />
+        <Route path='/darkstor-100g-airborne-dare' component={DarkStor100GAirborneDARE} />
+        <Route path='/darklink-100g-ede' component={DarkLink100GEDE} />
+        <Route path='/darklink-10g-tactical-ede' component={DarkLink10GTacticalEDE} />
+        <Route path='/darklink-400g-ede' component={DarkLink400GEDE} />
       </Switch>
       </div>
       <Footer />

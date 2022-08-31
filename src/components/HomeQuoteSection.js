@@ -23,13 +23,17 @@ function HomeQuoteSection() {
         <div className="quote-section-container">
             <div className="top-div">
                 <p className="quote-para">
-                    <span className="quotations">""</span><br /> "There are only two
-                    types of companies: <span className="large-font">those
-                        that have been hacked, and those that will be.</span> Event that is
-                    merging into one category: those that have been hacked
-                    <span className="large-underlined-font"> and will be again."</span><br /><br />
-                    <span className="quote-author">-ROBERT S. MUELLER, III,
-                        FBI DIRECTOR (2001-2013)</span>
+                    <span className="quotations">""</span><br /> "The scope, pace,
+                    and sophistication of &nbsp;
+                    <span className="large-font">malicious cyberspace activity
+                     </span> continues to
+                    rise globally. Growing dependence on the cyberspace domain for&nbsp;
+                     <span className="large-underlined-font">nearly every essential civilian
+                     and military function
+                     </span><span>
+                     &nbsp;makes this an urgent issue that must
+                        be addressed.</span><br /><br />
+                    <span className="quote-author">-DoD DIGITAL MODERNIZATION STRATEGY JUNE 5, 2019</span>
                 </p>
             </div>
 
@@ -39,7 +43,10 @@ function HomeQuoteSection() {
                 </figure>
                 <div className='mission'>
                     <p className='header'>OUR MISSION</p>
-                    <h1 className='protect-data'>Protecting Your Data</h1>
+                    <h1 className='protect-data'>A Safer Digital World</h1>
+                    <p className="small-quote">"We cannot solve our problems with the same thinking
+                    we used to create them."</p>
+                    <p className="small-quote-author">-ALBERT EINSTEIN</p>
                     <Button
                         buttonSize='btn--large'
                         buttonStyle='btn--primary-alt'
