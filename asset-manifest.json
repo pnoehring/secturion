@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/secturion/static/css/main.6187ac3b.chunk.css",
-    "main.js": "/secturion/static/js/main.411e270b.chunk.js",
-    "main.js.map": "/secturion/static/js/main.411e270b.chunk.js.map",
+    "main.js": "/secturion/static/js/main.037ac164.chunk.js",
+    "main.js.map": "/secturion/static/js/main.037ac164.chunk.js.map",
     "runtime-main.js": "/secturion/static/js/runtime-main.72342f84.js",
     "runtime-main.js.map": "/secturion/static/js/runtime-main.72342f84.js.map",
     "static/css/2.ed1298f3.chunk.css": "/secturion/static/css/2.ed1298f3.chunk.css",
@@ -40,6 +40,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.5abe4d5e.chunk.js",
     "static/css/main.6187ac3b.chunk.css",
-    "static/js/main.411e270b.chunk.js"
+    "static/js/main.037ac164.chunk.js"
   ]
 }
