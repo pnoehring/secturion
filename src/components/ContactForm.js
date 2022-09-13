@@ -23,12 +23,12 @@ function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs.sendForm('service_ewmm9pw', 'template_g3e8596',
-    // form.current, 'I7RBM3wsXYScz8hRH')
+    emailjs.sendForm('service_ewmm9pw', 'template_g3e8596',
+    form.current, 'I7RBM3wsXYScz8hRH')
 
     //paige's emailjs
-    emailjs.sendForm('service_ei7vths', 'template_78yvzsi',
-      form.current, 'xf6bAX508-YyAqgck')
+    // emailjs.sendForm('service_ei7vths', 'template_78yvzsi',
+    //   form.current, 'xf6bAX508-YyAqgck')
 
     window.setInterval(waitToRefresh, 1000);
   };
