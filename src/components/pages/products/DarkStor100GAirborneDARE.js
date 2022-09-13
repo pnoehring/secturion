@@ -23,7 +23,7 @@ function DarkStor100GAirborneDARE() {
           <span className='italic'>DarkStor</span>&trade;
           secures airborne network data storage systems.&nbsp;
           <span className='italic'>DarkStor</span>&trade;
-          -100G KG-268 Airborne DARE provides data rates up to
+          -100G (KG-268) Airborne DARE provides data rates up to
           100 Gbps with ultra-low latency.</span>}
         label={<span><span className='italic'>DarkStor</span>
           -100G (KG-268) Airborne DARE
@@ -44,7 +44,8 @@ function DarkStor100GAirborneDARE() {
         applications={<span>
           Uniquely designed for manned and unmanned aircraft.<br /><br />
         </span>}
-        linkText='Request DarkStor-100G (KG-268) Airborne DARE Brochure'
+        linkText='Click here to Request a DarkStor-100G (KG-268) 
+        Airborne DARE Brochure'
         cert='In the Certficiation Process'
         easeOfUse={<span>
           <li>Remote management using SNMP v2 or v3 or browser-based management</li>
@@ -64,7 +65,7 @@ function DarkStor100GAirborneDARE() {
           <p>Ethernet RJ-45 10/100/1000 Mbps</p>
         </span>}
         security={<span>
-          <li>AES-GCM 256-bit, and other cryptographic algorithms</li>
+          <li>AES-GCM 256-bit, MOOSE, and other cryptographic algorithms</li>
           <li>Cryptographic Ignition Key (CIK) for secure operation</li>
           <li>Key Loading: SKL and KMI aware</li>
           <li>Fail-safe and tamper features</li>

@@ -14,7 +14,7 @@ function HomeDescSection() {
                 TRANSPORT</span> critical DoD data and stop
                 the vicious cycle of cyberattacks. This unequaled
                 protection strengthens goverment operations and 
-                improves tactical comptetitiveness.
+                improves tactical competitiveness.
             </p>
             <div className='btn-div'>
                 {/* TODO: where does this button link to? */}

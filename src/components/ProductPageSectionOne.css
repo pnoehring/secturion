@@ -17,14 +17,15 @@
 
 .product_name_label {
     font-family: 'Inter';
-    font-size: larger;
+    font-size: x-large;
+    margin-bottom: 0;
     font-weight: 500;
     color: #2957CB;
     display: flex;
 }
 
 .product_desc_text {
-    font-size: smaller;
+    font-size: medium;
 }
 
 @media screen and (max-width: 900px) {

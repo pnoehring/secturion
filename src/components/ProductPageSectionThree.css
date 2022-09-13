@@ -19,12 +19,12 @@
 .sec-three-header {
     display: grid;
     font-weight: 500;
-    font-size: large;
+    font-size: x-large;
     max-width: inherit;
 }
 
 .sec-three-text {
-    font-size: small;
+    font-size: medium;
     max-width: inherit;
 
 }
@@ -82,7 +82,7 @@
     }
 
     .sec-three-text {
-        font-size: small;
+        font-size: medium;
         max-width: inherit;
         display: block;
     }

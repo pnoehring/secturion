@@ -5,7 +5,7 @@ import ProdFeatureCards from './ProdFeatureCards';
 import './ProductFeaturesSection.css';
 
 function WhyYouNeedDesktop() {
-    const [wide, setWide] = useState(false);
+    const [wide, setWide] = useState(true);
     const [isVisible, setIsVisible] = useState(true);
     const index = ["first", "second"];
     var [col, setCol] = useState("first");
@@ -50,7 +50,7 @@ function WhyYouNeedDesktop() {
                         <li className='prod-cards-cols'>
                             <ProdFeatureCards
                                 mobile={false}
-                                header='Un-hackable'
+                                header='Unhackable'
                                 subheader='FROM THE NETWORK'
                                 description={<span>Secturion products utilize hardware-based
                                     architecture with NO network access - making it impossible
@@ -92,7 +92,7 @@ function WhyYouNeedDesktop() {
                                 description={<span>High availability with 99.999&#x25; uptime.<br/><br/>
                                 Mean Time Before Failure (MTBF) of over 250,000 hours of 
                                 product operation, our highly reliable security encyptors
-                                deliver and excellent return on investment.<br/><br/>
+                                deliver an excellent return on investment.<br/><br/>
                                 Secure firmware upgradable to future protocols and 
                                 cryptographic standards.</span>}
                             />
@@ -131,7 +131,7 @@ function WhyYouNeedDesktop() {
                             <li className='prod-cards-cols'>
                                 <ProdFeatureCards
                                     mobile={false}
-                                    header='Un-hackable'
+                                    header='Unhackable'
                                     subheader='FROM THE NETWORK'
                                     description={<span>Secturion products utilize hardware-based
                                         architecture with NO network access - making it impossible
@@ -176,7 +176,7 @@ function WhyYouNeedDesktop() {
                                     description={<span>High availability with 99.999&#x25; uptime.<br/><br/>
                                     Mean Time Before Failure (MTBF) of over 250,000 hours of 
                                     product operation, our highly reliable security encyptors
-                                    deliver and excellent return on investment.<br/><br/>
+                                    deliver an excellent return on investment.<br/><br/>
                                     Secure firmware upgradable to future protocols and 
                                     cryptographic standards.</span>}
                                 />

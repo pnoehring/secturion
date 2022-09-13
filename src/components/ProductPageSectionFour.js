@@ -13,7 +13,10 @@ function ProductPageSectionFour(props) {
             </ul>
           </Expander>
         ) : ("")}
-      <Expander title="Ease of Use Setup and Maintenance">
+      <Expander 
+      title={<span><span>Ease of Use Setup and</span><br/>
+      <span>Maintenance</span>
+      </span>}>
         <ul className='no-bullets'>
           {props.easeOfUse}
         </ul>

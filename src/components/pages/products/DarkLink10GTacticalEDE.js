@@ -10,7 +10,7 @@ function DarkLink10GTacticalEDE() {
     <div>
       <ContentPageHero
         header=''
-        subHeader='Secturion Data In Transit Encryptor'
+        subHeader='Secturion Ethernet Data Encryptor'
       />
       <OneProductPage
         dir={false}
@@ -45,7 +45,7 @@ function DarkLink10GTacticalEDE() {
           Forward operating bases<br /><br />
           Mobile platforms: vehicles, drones<br /><br />
         </span>}
-        linkText='Request DarkLink-10G EDE Brochure'
+        linkText='Click Here to Request a DarkLink-10G EDE Brochure'
         easeOfUse={<span>
           <li>Remote management using SNMP v2 or v3 or browser-based management</li>
           <li>Operating system and media storage agnostic</li>

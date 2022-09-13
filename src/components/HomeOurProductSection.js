@@ -15,9 +15,6 @@ function HomeOurProductSection() {
             <p className='section-head'>NETWORK SECURITY SOLUTIONS</p>
             <p className='our-products'>Our Products</p>
             <p className='prods-body'>
-                Protect and secure end-to-end data storage and data
-                in transmit. Secturion offers two lines of network
-                security encryptors:&nbsp;
                 Secturion network encryptors&nbsp;
                 <Link to="/data-in-transit" className="paragraph-links"
                 >
@@ -32,15 +29,12 @@ function HomeOurProductSection() {
                 data rates up to 400 Gbps.
             </p>
 
-            {/* <div className='cards'> */}
             <div className='cards__container'>
-                {/* <div className='cards__wrapper'> */}
-                {/* <li className='cards__item'> */}
                 <CardItem
                     src={darkstor}
                     text={<span>Secure network data-at-rest encryptor.&nbsp;
                         <span className='italic'>DarkStor</span>
-                        &nbsp;swiftly and securely stores data in the cloud providers,
+                        &nbsp;swiftly and securely stores data into cloud providers,
                         data centers, and local storage units.&nbsp;
                         <span className='italic'>DarkStor</span>
                         &nbsp;supports data rates up to 100 Gbps.</span>}
@@ -49,8 +43,6 @@ function HomeOurProductSection() {
                     button='LEARN MORE'
                     font={darkstorFont}
                 />
-                {/* </li> */}
-                {/* <li className='cards__item'> */}
                 <CardItem
                     src={darklink}
                     text={<span>Secure Ethernet Data Encryptor (EDE).&nbsp;
@@ -64,10 +56,7 @@ function HomeOurProductSection() {
                     button='LEARN MORE'
                     font={darklinkFont}
                 />
-                {/* </li> */}
-                {/* </div> */}
             </div>
-            {/* </div> */}
         </div>
     );
 }

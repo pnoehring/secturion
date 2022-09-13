@@ -10,7 +10,7 @@ function DarkLink400GEDE() {
     <div>
       <ContentPageHero
         header=''
-        subHeader='Secturion Data In Transit Encryptor'
+        subHeader='Secturion Ethernet Data Encryptor'
       />
       <OneProductPage
         dir={false}
@@ -47,7 +47,7 @@ function DarkLink400GEDE() {
           Multi-site corporate/contractor networks<br /><br />
           Big data applications<br /><br />
         </span>}
-        linkText='Request DarkLink-400G EDE Brochure'
+        linkText='Click Here to Request a DarkLink-400G EDE Brochure'
         easeOfUse={<span>
           <li>Remote management using SNMP v2 or v3 or browser-based management</li>
           <li>Key manager support via KMIP (Key Management Interoperability Protocol),

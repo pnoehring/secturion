@@ -23,12 +23,12 @@
 
 .contact-explanation {
     margin-block-start: 0.25em;
-    font-size: small;
-    /* max-width: 600px; */
+    font-size: medium;
     line-height: 1.5;
 }
 
-.email-phone {
+.email-phone,
+.email-phone-mobile {
     list-style: none;
     font-weight: 500;
     font-size: 20px;
@@ -69,6 +69,12 @@
     margin-bottom: auto;
 }
 
+.email-phone-mobile img {
+    justify-self: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 @media screen and (max-width: 900px) {
     .contact-us-header {
         margin-right: 10%;
@@ -77,23 +83,36 @@
 
     .email-phone {
         grid-template-columns: 50px 300px 50px 200px;
-
     }
 
-    .email-phone p {
-        font-size: smaller;
+    .email-phone,
+    .email-phone-mobile p {
+        font-size: medium;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .email-phone {
+
+    .email-phone,
+    .email-phone-mobile {
         grid-template-columns: 50px 160px 50px 150px;
+        font-size: smaller;
+        display: inline-flex;
+    }
+
+    .email-phone-mobile {
+        grid-template-columns: 50px 160px 50px 150px;
+        display: inline-flex;
+    }
+
+    .email-phone,
+    .email-phone-mobile p {
+        font-size: medium;
+        letter-spacing: 1px;
 
     }
 
-    .email-phone p {
-        font-size: small;
-        letter-spacing: 1px;
-
+    .mobile-container {
+        display: inline-grid;
     }
 }

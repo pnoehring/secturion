@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import { Button } from './Button';
-import ProdFeatureCards from './ProdFeatureCards';
+import ProdFeatureCardsMobile from './ProdFeatureCardsMobile';
 import './ProductFeaturesSection.css';
 
 function WhyYouNeedMobile() {
@@ -36,9 +36,9 @@ function WhyYouNeedMobile() {
                     {/* TODO: Do we want a different :hover here? */}
                 </li>
                 <li className='prod-cards-cols'>
-                    <ProdFeatureCards
+                    <ProdFeatureCardsMobile
                         mobile={mobile}
-                        header='Un-hackable'
+                        header='Unhackable'
                         subheader='FROM THE NETWORK'
                         description={<span>Secturion products utilize hardware-based
                             architecture with NO network access - making it impossible
@@ -49,7 +49,7 @@ function WhyYouNeedMobile() {
                             encryptor if attackers physically tamper or alter our
                             encryptors.</span>}
                     />
-                    <ProdFeatureCards
+                    <ProdFeatureCardsMobile
                         mobile={mobile}
                         header='Transparent'
                         subheader='TO THE NETWORK'
@@ -61,7 +61,7 @@ function WhyYouNeedMobile() {
                     />
                 </li>
                 <li className='prod-cards-cols-2'>
-                    <ProdFeatureCards
+                    <ProdFeatureCardsMobile
                         mobile={mobile}
                         header='Consistent'
                         subheader='DATA &amp; LOW NETWORK LATENCY'
@@ -73,14 +73,14 @@ function WhyYouNeedMobile() {
                             Encryption with data rates up to 400 Gbps provides 
                             protection for every cybersecurity challenge.</span>}
                     />
-                    <ProdFeatureCards
+                    <ProdFeatureCardsMobile
                         mobile={mobile}
                         header='Reliable'
                         subheader='HIGH AVAILBILITY &amp; RELIABILITY' 
                         description={<span>High availability with 99.999&#x25; uptime.<br/><br/>
                         Mean Time Before Failure (MTBF) of over 250,000 hours of 
                         product operation, our highly reliable security encyptors
-                        deliver and excellent return on investment.<br/><br/>
+                        deliver an excellent return on investment.<br/><br/>
                         Secure firmware upgradable to future protocols and 
                         cryptographic standards.</span>}
                     />

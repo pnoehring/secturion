@@ -51,7 +51,7 @@ function DarkStor10GTacticalDARE() {
           Camps, posts, stations, installations<br /><br />
           Tactical operations centers<br /><br />
         </span>}
-        linkText='Request DarkStor-10G DARE Brochure'
+        linkText='Click Here to Request a DarkStor-10G DARE Brochure'
         easeOfUse={<span>
           <li>Remote management using SNMP v2 or v3 or browser-based management</li>
           <li>Operating system and media storage agnostic</li>

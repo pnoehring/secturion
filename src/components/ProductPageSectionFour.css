@@ -11,6 +11,7 @@
 .bolded-headers {
     font-weight: 600;
     margin-top: 1em;
+    font-size: medium;
 }
 
 .network-sec p {
@@ -28,21 +29,32 @@
 
 .no-bullets li {
     margin-bottom: 8px;
-    font-size: small;
+    font-size: medium;
 }
 
 .no-bullets ul {
     margin-top: 10px;
     list-style: disc;
+    padding: 0%;
 }
 
 .network-sec {
     margin-top: 1em;
+    font-size: medium;
     padding-inline-start: 40px;
-    font-size: small;
 }
 
 .algorithms-header {
-    margin-inline-start: 20px;
-    font-size: 15px;
+    margin-inline-start: 10px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 550px) {
+    .no-bullets {
+        padding-inline-start: 5px;
+    }
+
+    .network-sec {
+        padding-inline-start: 5px;
+    }
 }
