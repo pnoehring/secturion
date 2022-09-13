@@ -29,7 +29,7 @@ function ProductPageFooterDARE() {
           <div className='need-for-data-protection'>
             <h className='need-for-header'>The Need for Data-at-Rest Protection</h>
             <p className='need-for-desc'>
-                Commercial providers report nearly all their data in transmit is
+                Commercial providers report nearly all their data in transit is
                 encrypted while only 9.4% of data at rest is encrypted
                 <sup>&#91;1&#93;</sup>.
                 This practice leaves data at rest vulnerable to costly, 
@@ -61,7 +61,7 @@ function ProductPageFooterDARE() {
             <img src={hackerMobile} />
           </section>
           <p className='need-for-desc'>
-                Commercial providers report nearly all their data in transmit is
+                Commercial providers report nearly all their data in transit is
                 encrypted while only 9.4% of data at rest is encrypted
                 <sup>&#91;1&#93;</sup>.
                 This practice leaves data at rest vulnerable to costly, 

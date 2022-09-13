@@ -50,7 +50,7 @@ function DARProductContent() {
           src={HundredGAirborneDare}
           text={<span>The&nbsp;
             <span className='italic'>DarkStor</span>
-            -100 Gbps KG-268 Airborne DARE is an enterprise-level
+            -100 Gbps (KG-268) Airborne DARE is an enterprise-level
             network file and block encryptor that is agnostic to
             service providers, operating systems, storage controller,
             and storage media devices.</span>}

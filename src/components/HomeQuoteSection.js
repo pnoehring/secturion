@@ -23,7 +23,7 @@ function HomeQuoteSection() {
         <div className="quote-section-container">
             <div className="top-div">
                 <p className="quote-para">
-                    <span className="quotations">""</span><br /> "The scope, pace,
+                    "The scope, pace,
                     and sophistication of &nbsp;
                     <span className="large-font">malicious cyberspace activity
                      </span> continues to
@@ -32,7 +32,7 @@ function HomeQuoteSection() {
                      and military function
                      </span><span>
                      &nbsp;makes this an urgent issue that must
-                        be addressed.</span><br /><br />
+                        be addressed."</span><br /><br />
                     <span className="quote-author">-DoD DIGITAL MODERNIZATION STRATEGY JUNE 5, 2019</span>
                 </p>
             </div>
@@ -43,7 +43,7 @@ function HomeQuoteSection() {
                 </figure>
                 <div className='mission'>
                     <p className='header'>OUR MISSION</p>
-                    <h1 className='protect-data'>A Safer Digital World</h1>
+                    <h1 className='protect-data'>A Safer Digital Network</h1>
                     <p className="small-quote">"We cannot solve our problems with the same thinking
                     we used to create them."</p>
                     <p className="small-quote-author">-ALBERT EINSTEIN</p>

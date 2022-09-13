@@ -1,9 +1,7 @@
 .sec-container-features {
     background: url('./images/padlock-background_cropped.jpg') center center/cover;
     background-position: left;
-    /* min-height: 515px; */
     font-family: 'Inter';
-    /* vertical-align: center; */
     color: #fff;
     padding-bottom: 1em;
 }
@@ -16,10 +14,8 @@
 .prod-features-list {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* grid-gap: 5px; */
     margin-inline-start: 50px;
     margin-inline-start: 50px;
-    /* margin-block: 0; */
     list-style: none;
 }
 
@@ -27,7 +23,6 @@
     text-align: left;
     display: block;
     float: left;
-    /* display: inline-block; */
     width: 300px;
 }
 
@@ -49,11 +44,6 @@
 .sec-prod-cards {
     display: flex;
 }
-
-/* .prod-cards-list {
-    vertical-align: center;
-
-} */
 
 .prod-cards-rows {
     display: flex;
@@ -95,15 +85,9 @@
     border: 1px solid #2957CB;
 }
 
-/* @media screen and (max-width: 1120px) {
-    .prod-features-list {
-        display: grid;
-        grid-template-columns: auto auto;
-        margin-inline-start: 50px;
-        margin-inline-start: 50px;
-        list-style: none;
-    }
-} */
+.prod-cards-cols-2 {
+    display: block;
+}
 
 @media screen and (min-width: 1120px) {
     .btn-sec {
@@ -115,10 +99,7 @@
     .sec-container-features {
         background: url('./images/padlock-background_small.jpg') left top;
         background-color: #0F172D;
-
-        /* min-height: 515px; */
         font-family: 'Inter';
-        /* vertical-align: center; */
         color: #fff;
         padding-bottom: 1em;
     }
@@ -130,10 +111,7 @@
     .prod-features-list {
         display: grid;
         grid-template-columns: auto;
-        /* grid-gap: 5px; */
         margin-inline-start: 50px;
-        margin-inline-start: 50px;
-        /* margin-block: 0; */
         list-style: none;
         place-items: center;
         margin-left: auto;
@@ -156,10 +134,8 @@
 
     .sec-header {
         text-align: center;
-        /* width: 80%; */
         padding-bottom: 25px;
         border-bottom: 3px solid #2957CB;
-        /* width: auto; */
         width: 90%;
     }
 

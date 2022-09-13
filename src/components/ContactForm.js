@@ -16,19 +16,21 @@ function ContactForm() {
     }
   };
 
+  const waitToRefresh = () => {
+    window.location.reload(false);
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // emailjs.sendForm('service_ewmm9pw', 'template_g3e8596',
+    // form.current, 'I7RBM3wsXYScz8hRH')
+
+    //paige's emailjs
     emailjs.sendForm('service_ei7vths', 'template_78yvzsi',
       form.current, 'xf6bAX508-YyAqgck')
-    // .then((result) => {
-    //     console.log(result.text);
-    // }, (error) => {
-    //     console.log(error.text);
-    // });
 
-    window.location.reload(false);
+    window.setInterval(waitToRefresh, 1000);
   };
 
   const justRefresh = () => window.location.reload(false);
@@ -40,7 +42,7 @@ function ContactForm() {
   return (
     <>
       {/* to send email, change onSumbit to sendEmail */}
-      <form className='contact-form' ref={form} >
+      <form className='contact-form' ref={form} onSubmit={sendEmail} >
         <div className='name-email-div'>
           <div className='contact-info-textbox'>
             <input className='contact-textbox' type='text' placeholder='First Name' name='first_name' />

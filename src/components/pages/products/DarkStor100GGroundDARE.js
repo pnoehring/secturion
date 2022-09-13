@@ -53,7 +53,8 @@ function DarkStor100GGroundDARE() {
           Protects backup and recovery data<br /><br />
           Server rooms<br /><br />
         </span>}
-        linkText='Request DarkStor-100G (KG-267) Ground DARE Brochure'
+        linkText='Click Here to Request a DarkStor-100G (KG-267) 
+        Ground DARE Brochure'
         cert='In the Certficiation Process'
         easeOfUse={<span>
           <li>Remote management using SNMP v2 or v3 or browser-based management</li>
@@ -75,7 +76,7 @@ function DarkStor100GGroundDARE() {
           <p>Ethernet RJ-45 10/100/1000 Mbps</p>
         </span>}
         security={<span>
-          <li>AES-GCM 256-bit, and other cryptographic algorithms</li>
+          <li>AES-GCM 256-bit, MOOSE, and other cryptographic algorithms</li>
           <li>Cryptographic Ignition Key (CIK) for secure operation</li>
           <li>Key Loading: SKL and KMI aware</li>
           <li>Fail-safe and tamper features</li>

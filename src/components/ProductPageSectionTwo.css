@@ -7,13 +7,12 @@
 }
 
 .features-header {
-    font-size: larger;
+    font-size: x-large;
     font-weight: 300;
-    
 }
 
 .features-list {
-    font-size: small;
+    font-size: medium;
     margin-bottom: 30px;
 }
 

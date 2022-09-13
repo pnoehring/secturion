@@ -33,10 +33,12 @@
     margin-left: 20px;
     margin-right: 20px;
     min-width: 300px;
+    /* font-size: large; */
 }
 
 .abbr {
     text-decoration: none;
+    color: #2957CB;
     border-bottom: 2px solid #2957CB;
     cursor: pointer;
 }
