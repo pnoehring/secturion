@@ -31,6 +31,7 @@ function DARProductContent() {
           </span>}
           path='/darkstor-10g-tactical-dare'
           button='VIEW PRODUCT'
+          href=''
         />
         <ProductCards
           src={HundredGGroundDare}
@@ -45,6 +46,7 @@ function DARProductContent() {
           </span>}
           path='/darkstor-100g-ground-dare'
           button='VIEW PRODUCT'
+          href=''
         />
         <ProductCards
           src={HundredGAirborneDare}
@@ -60,6 +62,7 @@ function DARProductContent() {
           </span>}
           path='/darkstor-100g-airborne-dare'
           button='VIEW PRODUCT'
+          href=''
         />
       </div>
     </div>

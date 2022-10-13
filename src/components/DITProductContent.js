@@ -37,7 +37,7 @@ function DITProductContent() {
           src={DarkLinkTenGTacticalEDE}
           text={<span>The&nbsp;
             <span className='italic'>DarkLink</span>
-            -10G Tactical EDE designed to meet DoD Ethernet Data
+            -10G Tactical EDE is designed to meet DoD Ethernet Data
             Encryption (EDE) environmental requirements and
             specifications.</span>}
           label={<span>
@@ -45,6 +45,7 @@ function DITProductContent() {
           </span>}
           path='/darklink-10g-tactical-ede'
           button='VIEW PRODUCT'
+          href=''
         />
         <ProductCards
           src={DarkLinkHundredGEDE}
@@ -63,6 +64,7 @@ function DITProductContent() {
           </span>}
           path='/darklink-100g-ede'
           button='VIEW PRODUCT'
+          href=''
         />
         <ProductCards
           src={DarkLinkHundredGEDE}
@@ -81,6 +83,7 @@ function DITProductContent() {
           </span>}
           path='/darklink-400g-ede'
           button='VIEW PRODUCT'
+          href=''
         />
       </div>
 

@@ -15,6 +15,7 @@ function CardItem(props) {
             <Button 
               buttonSize='btn--medium'
               buttonStyle='btn--outline-alt'
+              href={props.href}
               link={props.path}>
               {props.button}
             </Button>

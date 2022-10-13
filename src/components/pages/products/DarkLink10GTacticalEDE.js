@@ -21,14 +21,14 @@ function DarkLink10GTacticalEDE() {
         text={<span>The&nbsp;
           <span className='italic'>DarkLink</span>
           &trade;-10G Tactical
-          EDE designed to meet DoD Ethernet
+          EDE is designed to meet DoD Ethernet
           Data Encryption (EDE) environmental
           requirements and specifications.</span>}
         label={<span>
           <span className='italic'>DarkLink</span>
           -10G Tactical EDE</span>}
         features={<span>
-          <li>Data rate: 10 Gbps full-duplex</li>
+          <li>Data rate: 10 Gbps full-duplex.</li>
           <li>Low latency &#60; 2 microseconds.</li>
           <li>Ruggedized small form factor.</li>
           <li>Mesh network.</li>
@@ -82,7 +82,7 @@ function DarkLink10GTacticalEDE() {
         physical={<span>
           <li><span className='bolded-headers'>Dimensions&nbsp;</span><span>(W x H x D) 5.5 x 1.7 x 10 in.</span></li>
           <li><span className='bolded-headers'>Weight&nbsp;</span><span>3.6 lb</span></li>
-          <li><span className='bolded-headers'>Battery&nbsp;</span><span>AA battery - user replaceable</span></li>
+          <li><span className='bolded-headers'>Battery&nbsp;</span><span>AA Lithium &#x2013; User-replaceable</span></li>
         </span>}
         environment={<span>
           <li><span className='bolded-headers'>Operating Temperature&nbsp;</span>

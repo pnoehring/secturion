@@ -1,6 +1,8 @@
 import React from 'react';
 import './ResourcesContent.css';
 import ProductCards from './ProductCards';
+import hardware from './resources/hardware-vs-software-security.pdf';
+import shift from './resources/shifting-from-software-to-hardware-for-network-security.pdf'
 
 function ResourcesContent() {
   return (
@@ -9,30 +11,25 @@ function ResourcesContent() {
 
           <ProductCards
             src=''
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua.'
-            label='EXTENDED PRODUCT REVIEW'
-            path='/read-more'
-            button='READ MORE'
-          />
-            <ProductCards
-            src=''
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua.'
+            text='The Role of Hardware in the Future of Cybersecurity'
             label='HARDWARE VS SOFTWARE SECURITY'
-            path='/read-more'
+            href={hardware}
             button='READ MORE'
           />
             <ProductCards
             src=''
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua.'
-            label='PRODUCT BRIEF BROCHURES'
-            path='/read-more'
+            text='Whitepaper featuring Richard Takahashi, CEO, Secturion Systems'
+            label='SHIFTING FROM SOFTWARE TO HARDWARE FOR NETWORK SECURITY'
+            href={shift}
             button='READ MORE'
+          />
+            <ProductCards
+            src=''
+            text='Please contact us for individual product brief brochures'
+            label='PRODUCT BRIEF BROCHURES'
+            path='/contact'
+            button='CONTACT'
+            href=''
           />
       </div>
     </div>

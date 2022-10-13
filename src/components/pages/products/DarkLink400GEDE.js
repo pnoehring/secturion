@@ -30,7 +30,7 @@ function DarkLink400GEDE() {
           <span className='italic'>DarkLink</span>
           -100G EDE</span>}
         features={<span>
-          <li>Data rate: 400 Gbps full-duplex EDE</li>
+          <li>Data rate: 400 Gbps full-duplex EDE.</li>
           <li>Low latency &#60; 2 microseconds.</li>
           <li>Mesh network.</li>
           <li>Transparent to network and end-users.</li>
@@ -94,7 +94,7 @@ function DarkLink400GEDE() {
           </li>
           <li>
             <span className='bolded-headers'>Battery&nbsp;</span>
-            <span>AA Lithium, +3.6V DC – User-replaceable</span>
+            <span>AA Lithium, +3.6V DC &#x2013; User-replaceable</span>
           </li>
           <li><span className='bolded-headers'>Fans&nbsp;</span><span>Hot-swappable fans (3) bank</span></li>
         </span>}

@@ -29,7 +29,7 @@ function DarkStor100GAirborneDARE() {
           -100G (KG-268) Airborne DARE
         </span>}
         features={<span>
-          <li>Data rate: 100 Gbps, full-duplex</li>
+          <li>Data rate: 100 Gbps, full-duplex.</li>
           <li>Saves significant time and mission operation costs.</li>
           <li>Moves data from platform to a secure area.</li>
           <li>Low latency &#60; 100 microseconds.</li>
@@ -46,7 +46,7 @@ function DarkStor100GAirborneDARE() {
         </span>}
         linkText='Click here to Request a DarkStor-100G (KG-268) 
         Airborne DARE Brochure'
-        cert='In the Certficiation Process'
+        cert='In the Certification Process'
         easeOfUse={<span>
           <li>Remote management using SNMP v2 or v3 or browser-based management</li>
           <li>Key manager support via KMIP (Key Management Interoperability Protocol),
@@ -84,7 +84,7 @@ function DarkStor100GAirborneDARE() {
           </li>
           <li>
             <span className='bolded-headers'>Battery&nbsp;</span>
-            <span>AA Lithium, +3.6V DC – User-replaceable</span>
+            <span>AA Lithium, +3.6V DC &#x2013; User-replaceable</span>
           </li>
         </span>}
         environment={<span>
