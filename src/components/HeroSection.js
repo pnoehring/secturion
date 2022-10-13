@@ -44,6 +44,7 @@ function HeroSection() {
                 buttonSize='btn--large'
                 buttonStyel='btn--primary'
                 link='/contact'
+                href=''
               >
                 CONTACT US
               </Button>
@@ -77,6 +78,7 @@ function HeroSection() {
               buttonSize='btn--large'
               buttonStyel='btn--primary'
               link='/contact'
+              href=''
             >
               CONTACT US
             </Button>

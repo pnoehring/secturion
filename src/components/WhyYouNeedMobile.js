@@ -30,6 +30,7 @@ function WhyYouNeedMobile() {
                     <p className='prod-features'>KEY PRODUCT FEATURES</p>
                     <Button
                         link='/contact'
+                        href=''
                     >
                         CONTACT US
                     </Button>
