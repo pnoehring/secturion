@@ -13,7 +13,8 @@ export const Button = ({
     onClick, 
     buttonStyle, 
     buttonSize,
-    link
+    link,
+    href
 }) => {
     // apply btn--primary style be default, if no style specified
         const checkButtonStyle = STYLES.includes(buttonStyle)
@@ -24,7 +25,8 @@ export const Button = ({
          ? buttonSize
          : SIZES[0]
 
-         return (
+         if (href === '') {
+            return (
              <Link to={link} className='btn-mobile'>
                  <button
                  className={`btn ${checkButtonStyle} ${checkButtonSize}`}
@@ -34,5 +36,16 @@ export const Button = ({
                      {children}
                  </button>
              </Link>
+         )}
+         return (
+            <a href={href} className='btn-mobile' target='_blank'>
+            <button
+            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+            onClick={onClick}
+            type={type}
+            >
+                {children}
+            </button>
+        </a>
          )
     };

@@ -28,12 +28,16 @@ function HeroSection() {
           <div>
             <p className='protecting-header'>Network Security Encryptors</p>
             <p className='protecting-paragraph'>
-              As global threats continue to escalate and evolve, providing
+              Secturion Hardware Encryptors provide uniform foundational technology 
+              that can be implemented across all networks and platforms, 
+              resulting in a secure, resilient, and transparent network 
+              infrastructure.
+              {/* As global threats continue to escalate and evolve, providing
               seamless, reliable data protection at every point in the
               digital operating environment is essential. Secturion encryptors
               provide uniform foundational technology that can be implemented
               across all agencies and platforms, resulting in a secure, resilient,
-              and transparent infrastructure.
+              and transparent infrastructure. */}
             </p>
             <div>
               <Button
@@ -63,12 +67,10 @@ function HeroSection() {
             </div>
           </section>
           <p className='protecting-paragraph'>
-            As global threats continue to escalate and evolve, providing
-            seamless, reliable data protection at every point in the
-            digital operating environment is essential. Secturion encryptors
-            provide uniform foundational technology that can be implemented
-            across all agencies and platforms, resulting in a secure, resilient,
-            and transparent infrastructure.
+          Secturion Hardware Encryptors provide uniform foundational technology 
+              that can be implemented across all networks and platforms, 
+              resulting in a secure, resilient, and transparent network 
+              infrastructure.
           </p>
           <div className='contact-button-div'>
             <Button

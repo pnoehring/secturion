@@ -42,7 +42,7 @@ function WhyYouNeedMobile() {
                         subheader='FROM THE NETWORK'
                         description={<span>Secturion products utilize hardware-based
                             architecture with NO network access - making it impossible
-                            to hack out products from the network.<br/><br/>
+                            to hack our products from the network.<br/><br/>
                             
                             As an added line
                             of defense, fail-safe and tamper features disable the 

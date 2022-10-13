@@ -13,7 +13,7 @@ function HomeDescSection() {
                 <span className='bold-blue'>PROTECT, SECURE, AND 
                 TRANSPORT</span> critical DoD data and stop
                 the vicious cycle of cyberattacks. This unequaled
-                protection strengthens goverment operations and 
+                protection strengthens government operations and 
                 improves tactical competitiveness.
             </p>
             <div className='btn-div'>

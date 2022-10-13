@@ -34,7 +34,7 @@ function DarkStor10GTacticalDARE() {
           <span className='italic'>DarkStor</span>
           -10G Tactical DARE</span>}
         features={<span>
-          <li>Data rate: 10 Gbps full-duplex</li>
+          <li>Data rate: 10 Gbps full-duplex.</li>
           <li>Small form factor chassis design.</li>
           <li>Saves significant time and mission operation costs.</li>
           <li>Low latency &#60; 100 microseconds.</li>
@@ -75,7 +75,7 @@ function DarkStor10GTacticalDARE() {
         physical={<span>
           <li><span className='bolded-headers'>Dimensions&nbsp;</span><span>(W x H x D) 5.5 x 1.7 x 10 in.</span></li>
           <li><span className='bolded-headers'>Weight&nbsp;</span><span>3.6 lb</span></li>
-          <li><span className='bolded-headers'>Battery&nbsp;</span><span>AA battery - user replaceable</span></li>
+          <li><span className='bolded-headers'>Battery&nbsp;</span><span>AA Lithium &#x2013; User-replaceable</span></li>
         </span>}
         environment={<span>
           <li><span className='bolded-headers'>Operating Temperature&nbsp;</span>

@@ -15,17 +15,17 @@ function HomeOurProductSection() {
             <p className='section-head'>NETWORK SECURITY SOLUTIONS</p>
             <p className='our-products'>Our Products</p>
             <p className='prods-body'>
-                Secturion network encryptors&nbsp;
-                <Link to="/data-in-transit" className="paragraph-links"
+                Secturion network encryptors,&nbsp;
+                <Link to="/data-at-rest" className="paragraph-links"
                 >
                     DarkStor&trade;
                 </Link>
                 &nbsp;and&nbsp;
-                <Link to="/data-at-rest" className="paragraph-links"
+                <Link to="/data-in-transit" className="paragraph-links"
                 >
                     DarkLink&trade;
                 </Link>
-                &nbsp;providing full-duplex throughput with
+                ,&nbsp;provide full-duplex throughput with
                 data rates up to 400 Gbps.
             </p>
 
@@ -41,6 +41,7 @@ function HomeOurProductSection() {
                     label='DarkStor'
                     path='/data-at-rest'
                     button='LEARN MORE'
+                    href=''
                     font={darkstorFont}
                 />
                 <CardItem
@@ -54,6 +55,7 @@ function HomeOurProductSection() {
                     label='DarkLink'
                     path='/data-in-transit'
                     button='LEARN MORE'
+                    href=''
                     font={darklinkFont}
                 />
             </div>
