@@ -124,6 +124,7 @@ function Navbar() {
                             <Button
                                 buttonStyle='btn--outline'
                                 link='/contact'
+                                href=''
                             >
                                 CONTACT
                             </Button>

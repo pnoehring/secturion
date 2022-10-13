@@ -51,6 +51,7 @@ function HomeQuoteSection() {
                         buttonSize='btn--large'
                         buttonStyle='btn--primary-alt'
                         link='/contact'
+                        href=''
                     >
                         CONTACT US
                     </Button>

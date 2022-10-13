@@ -10,6 +10,7 @@ function ProductPageSectionSix() {
                 <Button
                 buttonSize='btn--large'
                 buttonStyle='btn--primary-alt'
+                href=''
                 link='/contact' >
                     CONTACT US
                 </Button>

@@ -22,6 +22,7 @@ function HomeDescSection() {
                 buttonSize='btn--large'
                 buttonStyle='btn--primary-alt'
                 link='/products'
+                href=''
             >
                 SEE OUR PRODUCTS
             </Button>
