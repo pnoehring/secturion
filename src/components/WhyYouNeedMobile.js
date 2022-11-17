@@ -34,7 +34,6 @@ function WhyYouNeedMobile() {
                     >
                         CONTACT US
                     </Button>
-                    {/* TODO: Do we want a different :hover here? */}
                 </li>
                 <li className='prod-cards-cols'>
                     <ProdFeatureCardsMobile
@@ -84,9 +83,6 @@ function WhyYouNeedMobile() {
             </ul>
             <div className='btn-sec'>
                 <button className='more-button'
-                // onClick={() => {
-                //     setIsVisible(v => !v);
-                // }}
                 >
                     MORE&nbsp;&nbsp;
                     <i class="fas fa-caret-right" />

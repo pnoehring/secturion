@@ -34,12 +34,6 @@
     font-size: small;
 }
 
-/* .feature__card__description-small {
-    display: none;
-} */
-
-
-
 @media screen and (max-width: 765px) {
 .feature__card__container-small {
     display: block;
@@ -60,37 +54,27 @@
     margin-top: 3px;
 }
 
-/* TODO: fix this transition */
 
 .feature__card__description-small.active {
     opacity: 1;
     margin-bottom: 10px;
-    /* display: block; */
     margin-block: 0px;
     margin-top: 8px;
     font-size: medium;
     transition: all 0.3s ease-in;
     margin-bottom: 1em;
-    /* transform: scaleY(1); */
-
 }
 
 .feature__card__description-small {
     opacity: 0;
     display: none;
-    /* transition: all 0.3s ease-in-out; */
-    /* overflow: hidden; */
     transition: all 0.5s ease-out;
-    /* transform-origin: top; */
-    /* transform: scaleY(0); */
 }
 
 .read-more {
     margin-block-start: 0.5em;
     cursor: pointer;
     transition: all 0.3s ease;
-
-
 }
 
 }

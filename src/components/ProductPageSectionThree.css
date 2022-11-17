@@ -1,19 +1,13 @@
 .prod-page-section-three-container {
     color: black;
-    /* display: table; */
     margin: 0 auto;
     margin-top: 1em;
-    /* display: grid;
-    grid-template-columns: auto auto; */
 }
 
 .sec-three-list {
     list-style: none;
-    /* display: inline-block; */
-    /* display: flow-root; */
     display: grid;
     grid-template-columns: auto auto;
-    /* display: flex; */
 }
 
 .sec-three-header {
@@ -30,9 +24,6 @@
 }
 
 .sec-three-info {
-    /* float: left; */
-    /* margin-right: 100px;
-    margin-left: 100px; */
     max-width: 400px;
     display: inline;
     float: right;
@@ -64,7 +55,7 @@
         display: block;
         float: none;
     }
-    
+
     .sec-three-figure-section {
         margin-left: 20px;
         display: block;

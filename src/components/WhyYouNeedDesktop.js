@@ -46,7 +46,6 @@ function WhyYouNeedDesktop() {
                             >
                                 CONTACT US
                             </Button>
-                            {/* TODO: Do we want a different :hover here? */}
                         </li>
                         <li className='prod-cards-cols'>
                             <ProdFeatureCards
@@ -121,7 +120,6 @@ function WhyYouNeedDesktop() {
                         >
                             CONTACT US
                         </Button>
-                        {/* TODO: Do we want a different :hover here? */}
                     </li>
                     {col === "first" ?
                         <div>

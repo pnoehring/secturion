@@ -4,8 +4,6 @@
     margin-top: 70px;
     text-align: center;
     align-content: center;
-    /* padding-bottom: 4em;
-    border-bottom: solid 4px #2957CB; */
 }
 
 .empty-div {
@@ -42,10 +40,3 @@
 
     }
 }
-
-/* @media screen and (max-width: 700px) {
-    .empty-div {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-} */

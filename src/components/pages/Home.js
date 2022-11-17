@@ -11,13 +11,10 @@ function Home() {
     return (
         <>
         <HeroSection>
-
         </HeroSection>
         <HomeDescSection>
-            
         </HomeDescSection>
         <HomeOurProductSection>
-
         </HomeOurProductSection>
         <ProductFeaturesSection/>
         <HomeQuoteSection />

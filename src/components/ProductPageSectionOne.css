@@ -6,6 +6,7 @@
 }
 
 .prod-page-figure-section {
+    justify-self: right;
     display: grid;
     margin-top: auto;
     margin-bottom: auto;

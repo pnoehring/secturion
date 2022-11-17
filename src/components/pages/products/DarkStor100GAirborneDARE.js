@@ -12,7 +12,6 @@ function DarkStor100GAirborneDARE() {
         header=''
         subHeader='Secturion Data At Rest Encryptor'
       />
-      {/* TODO: Check mobile images */}
       <OneProductPage
         dir={true}
         src={HundredGAirborneDare}

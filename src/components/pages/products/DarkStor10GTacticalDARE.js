@@ -13,8 +13,6 @@ function DarkStor10GTacticalDARE() {
         header=''
         subHeader='Secturion Data At Rest Encryptor'
       />
-      {/* TODO: Check mobile images */}
-
       <OneProductPage
         dir={true}
         src={TenGTacticalDARE}

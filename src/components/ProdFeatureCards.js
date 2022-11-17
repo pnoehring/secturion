@@ -28,9 +28,6 @@ function ProdFeatureCards(props) {
                 </p>
                 <div className={isOpen ? 'feature__card__description-small.active' : 
                 'feature__card__description-small'}>{props.description}</div>
-                {/* {isOpen ? 
-                <div className='feature__card__description-small'>{props.description}</div>
-                : ''} */}
             </li>
         </div>
     );
