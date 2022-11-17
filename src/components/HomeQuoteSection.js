@@ -43,7 +43,7 @@ function HomeQuoteSection() {
                 </figure>
                 <div className='mission'>
                     <p className='header'>OUR MISSION</p>
-                    <h1 className='protect-data'>A Safer Digital Network</h1>
+                    <h1 className='protect-data'>Protecting Your Data</h1>
                     <p className="small-quote">"We cannot solve our problems with the same thinking
                     we used to create them."</p>
                     <p className="small-quote-author">-ALBERT EINSTEIN</p>

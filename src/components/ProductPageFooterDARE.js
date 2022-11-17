@@ -36,7 +36,7 @@ function ProductPageFooterDARE() {
                 malicious attacks. Today's warfighter requires a modern,
                 versatile data-at-rest encryptor that overcomes the challenges
                 and complexities of evolving protocol, storage controllers,
-                and interface standards, operating system differences, 
+                interface standards, operating system differences, 
                 emerging storage technologies, varying data storage architecture,
                 CONOPs, etc. <span className='italic'>DarkStor&nbsp;</span>
                 addresses these urgent issues.<br/><br/>
@@ -68,7 +68,7 @@ function ProductPageFooterDARE() {
                 malicious attacks. Today's warfighter requires a modern,
                 versatile data-at-rest encryptor that overcomes the challenges
                 and complexities of evolving protocol, storage controllers,
-                and interface standards, operating system differences, 
+                interface standards, operating system differences, 
                 emerging storage technologies, varying data storage architecture,
                 CONOPs, etc. <span className='italic'>DarkStor&nbsp;</span>
                 addresses these urgent issues.<br/><br/>

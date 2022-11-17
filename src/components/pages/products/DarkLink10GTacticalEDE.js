@@ -28,16 +28,16 @@ function DarkLink10GTacticalEDE() {
           <span className='italic'>DarkLink</span>
           -10G Tactical EDE</span>}
         features={<span>
-          <li>Data rate: 10 Gbps full-duplex.</li>
-          <li>Low latency &#60; 2 microseconds.</li>
-          <li>Ruggedized small form factor.</li>
-          <li>Mesh network.</li>
-          <li>Transparent to network and end-users.</li>
-          <li>Simple setup, operation, and maintenance.</li>
-          <li>Fail-safe and tamper features.</li>
-          <li>Secure firmware upgradeable to future protocols and cryptographic standards.</li>
-          <li>Comprehensive built-in test.</li>
-          <li>Hardware-based encryption.</li>
+          <li>Data rate: 10 Gbps full-duplex</li>
+          <li>Low latency &#60; 2 microseconds</li>
+          <li>Ruggedized small form factor</li>
+          <li>Mesh network</li>
+          <li>Transparent to network and end-users</li>
+          <li>Simple setup, operation, and maintenance</li>
+          <li>Fail-safe and tamper features</li>
+          <li>Secure firmware upgradeable to future protocols and cryptographic standards</li>
+          <li>Comprehensive built-in test</li>
+          <li>Hardware-based encryption</li>
         </span>}
         applications={<span>
           Mobile data centers<br /><br />
@@ -47,10 +47,9 @@ function DarkLink10GTacticalEDE() {
         </span>}
         linkText='Click Here to Request a DarkLink-10G EDE Brochure'
         easeOfUse={<span>
-          <li>Remote management using SNMP v2 or v3 or browser-based management</li>
-          <li>Operating system and media storage agnostic</li>
-          <li>Bump-in-the-wire: works with existing and future ethernet networks</li>
-          <li>Secure firmware user upgradable</li>
+          <li>Easy to install</li>
+          <li>Works with legacy, current, and future Ethernet networks</li>
+          <li>No maintenance required</li>
         </span>}
         networkInterfaces={<span>
           <h className='bolded-headers'>Data Interface I/O Connections</h>
@@ -65,7 +64,7 @@ function DarkLink10GTacticalEDE() {
           <p >Ethernet RJ-45 10/100/1000 Mbps</p>
         </span>}
         reliability={<span>
-          <li><span className='bolded-headers'>Mean Time Before Failure (MTBF)&nbsp;</span>
+          <li><span className='bolded-headers'>Mean Time Between Failure (MTBF)&nbsp;</span>
             <span>Over 250,000 hours</span>
           </li>
           <li><span className='bolded-headers'>Mean Time to Repair (MTTR)&nbsp;</span>
@@ -73,16 +72,15 @@ function DarkLink10GTacticalEDE() {
           </li>
         </span>}
         security={<span>
-          <li>AES-GCM 256-bit and other cryptographic algorithms</li>
+          <li>AES-GCM-256 and other cryptographic algorithms</li>
           <li>Cryptographic Ignition Key (CIK) for secure operation</li>
-          <li>Key Loading: SKL and KMI aware</li>
+          <li>Key Loading: KMI OTNK</li>
           <li>PDE enabled, variant 7</li>
           <li>Fail-safe and tamper features</li>
         </span>}
         physical={<span>
-          <li><span className='bolded-headers'>Dimensions&nbsp;</span><span>(W x H x D) 5.5 x 1.7 x 10 in.</span></li>
-          <li><span className='bolded-headers'>Weight&nbsp;</span><span>3.6 lb</span></li>
-          <li><span className='bolded-headers'>Battery&nbsp;</span><span>AA Lithium &#x2013; User-replaceable</span></li>
+          <li><span className='bolded-headers'>Dimensions&nbsp;</span><span>(W x H x D) 3.5 x 1.7 x 5.25 in.</span></li>
+          <li><span className='bolded-headers'>Weight&nbsp;</span><span>1.5 lbs.</span></li>
         </span>}
         environment={<span>
           <li><span className='bolded-headers'>Operating Temperature&nbsp;</span>
@@ -95,7 +93,7 @@ function DarkLink10GTacticalEDE() {
             <span className='bolded-headers'>MIL-STD-810 ruggedized</span>
           </li>
         </span>}
-        warranty='5 years hardware and software'
+        warranty='3 years hardware and software'
       />
     </div>
   );

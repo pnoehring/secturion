@@ -14,8 +14,7 @@ function DARProductContent() {
         <h className='prod-header'><img src={darkStor} />
           <br />Secure network data storage</h>
         <p className='prod-description'><span className='italic'>DarkStor</span> secures
-          network data storage for cloud
-          data providers, data centers, and on-premise storage.
+          network data storage.
           <span className='italic'>&nbsp;DarkStor&nbsp;</span>
           supports data rates up to 100 Gbps with ultra-low latency.</p>
       </div>
@@ -37,9 +36,9 @@ function DARProductContent() {
           src={HundredGGroundDare}
           text={<span>The&nbsp;
             <span className='italic'>DarkStor</span>
-            -100 Gbps (KG-267) Ground DARE is an enterprise-level
-            network file and block encryptor that is agnostic to service providers,
-            operating systems, storage controllers, and storage media devices.</span>}
+            -100 Gbps (KG-267) Ground DARE is a high-assurance network file and block 
+            encryptor that is agnostic to service providers, operating systems, 
+            storage controllers, and storage media devices.</span>}
           label={<span>
             <span className='italic'>DarkStor</span>-100G (KG-267)
             Ground DARE
@@ -52,10 +51,9 @@ function DARProductContent() {
           src={HundredGAirborneDare}
           text={<span>The&nbsp;
             <span className='italic'>DarkStor</span>
-            -100 Gbps (KG-268) Airborne DARE is an enterprise-level
-            network file and block encryptor that is agnostic to
-            service providers, operating systems, storage controller,
-            and storage media devices.</span>}
+            -100 Gbps (KG-268) Airborne DARE is a high-assurance network 
+            file and block encryptor that is agnostic to service providers, 
+            operating systems, storage controllers, and storage media devices.</span>}
           label={<span>
             <span className='italic'>DarkStor</span>-100G (KG-268)
             Airborne DARE

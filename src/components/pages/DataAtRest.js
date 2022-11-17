@@ -9,7 +9,7 @@ export default function DataAtRest() {
     <div>
     <ContentPageHero
         header='OUR PRODUCTS'
-        subHeader='Secturion Data-at-Rest Encryptors (DARE)'
+        subHeader='High-Assurance Data-at-Rest Encryptors (DARE)'
     />
     <DARProductContent/>
     <ProductPageFooterDARE />

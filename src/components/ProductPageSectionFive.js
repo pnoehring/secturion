@@ -4,7 +4,7 @@ import './ProductPageSectionFive.css';
 function ProductPageSectionFive() {
   return (
     <div className='sec-five-container'>
-        <span>Combining DarkStor and DarkLink offers an unparalleled end-to-end cloud security solution</span>
+        <span>Combining DarkStor and DarkLink offers an unparalleled end-to-end security solution </span>
         <div className='empty-div'></div>
         </div>
   )

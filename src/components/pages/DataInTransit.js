@@ -8,7 +8,7 @@ export default function DataInTransit() {
     return( <div>
     <ContentPageHero
         header='OUR PRODUCTS'
-        subHeader='Secturion Ethernet Data Encryptors'
+        subHeader='Ethernet Data Encryptors'
     />
     <DITProductContent/>
     <ProductPageFooter />
