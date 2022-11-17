@@ -2,11 +2,8 @@
     background-color: #fff;
     background-image: url('./images/binary-cloud.png') ;
     background-position: center top;
-    /* justify-content: center; */
     font-family: 'Inter';
-    /* align-items: center; */
     text-align: center;
-    /* min-height: 1800px; */
     margin-right: 8%;
     margin-left: 8%;
 }
@@ -33,7 +30,6 @@
     margin-left: 20px;
     margin-right: 20px;
     min-width: 300px;
-    /* font-size: large; */
 }
 
 .abbr {

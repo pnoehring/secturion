@@ -46,7 +46,6 @@ function WhyYouNeedDesktop() {
                             >
                                 CONTACT US
                             </Button>
-                            {/* TODO: Do we want a different :hover here? */}
                         </li>
                         <li className='prod-cards-cols'>
                             <ProdFeatureCards
@@ -54,7 +53,7 @@ function WhyYouNeedDesktop() {
                                 header='Unhackable'
                                 subheader='FROM THE NETWORK'
                                 description={<span>Secturion products utilize hardware-based
-                                    architecture with NO network access - making it impossible
+                                    architecture - making it impossible
                                     to hack our products from the network.<br /><br />
 
                                     As an added line
@@ -69,33 +68,28 @@ function WhyYouNeedDesktop() {
                                 description={<span>Easy to install plug-and-play design.<br/><br/>
                                     Designed to be seamless with your Ethernet network,
                                     providing a transparent experience for all users.<br/><br/>
-                                    File-based technology is agnostic to all lower-level
-                                    data storage protocols.</span>}
+                                    File-based technology is agnostic to all operating systems, 
+                                    software, storage devices, and storage architecture.</span>}
                             />
                         </li>
                         <li className='prod-cards-cols-2'>
                             <ProdFeatureCards
                                 mobile={false}
-                                header='Consistent'
-                                subheader='DATA &amp; LOW NETWORK LATENCY'
-                                description={<span>Delivers consistent data rates with 
-                                    faster throughputs, allowing your network to be flexible
-                                    and collaborative anywhere in the world.<br/><br/>
-                                    Data is delivered
-                                    securely and swiftly with ultra-low latency.<br/><br/>
+                                header='High Speed'
+                                subheader='DATA RATES &amp; LOW NETWORK LATENCY'
+                                description={<span>Consistently high data rates with 
+                                    faster throughputs.<br/><br/>
+                                    Ultra-low latency of less than 2 microseconds.<br/><br/>
                                     Encryption with data rates up to 400 Gbps provides 
                                     protection for every cybersecurity challenge.</span>}
                             />
                             <ProdFeatureCards
                                 mobile={false}
                                 header='Reliable'
-                                subheader='HIGH AVAILBILITY &amp; RELIABILITY'
+                                subheader='HIGH AVAILABILITY &amp; RELIABILITY'
                                 description={<span>High availability with 99.999&#x25; uptime.<br/><br/>
-                                Mean Time Before Failure (MTBF) of over 250,000 hours of 
-                                product operation, our highly reliable security encyptors
-                                deliver an excellent return on investment.<br/><br/>
-                                Secure firmware upgradable to future protocols and 
-                                cryptographic standards.</span>}
+                                Mean Time Between Failure (MTBF) of over 250,000 hours.<br/><br/>
+                                Field upgradable to future encryption protocols and cryptographic standards.</span>}
                             />
                         </li></ul>
                 </div>
@@ -126,7 +120,6 @@ function WhyYouNeedDesktop() {
                         >
                             CONTACT US
                         </Button>
-                        {/* TODO: Do we want a different :hover here? */}
                     </li>
                     {col === "first" ?
                         <div>
@@ -136,7 +129,7 @@ function WhyYouNeedDesktop() {
                                     header='Unhackable'
                                     subheader='FROM THE NETWORK'
                                     description={<span>Secturion products utilize hardware-based
-                                        architecture with NO network access - making it impossible
+                                        architecture - making it impossible
                                         to hack our products from the network.<br /><br />
 
                                         As an added line
@@ -151,8 +144,8 @@ function WhyYouNeedDesktop() {
                                     description={<span>Easy to install plug-and-play design.<br/><br/>
                                     Designed to be seamless with your Ethernet network,
                                     providing a transparent experience for all users.<br/><br/>
-                                    File-based technology is agnostic to all lower-level
-                                    data storage protocols.</span>}
+                                    File-based technology is agnostic to all operating systems, 
+                                    software, storage devices, and storage architecture.</span>}
                                 />
                             </li>
                         </div> : ''}
@@ -161,26 +154,21 @@ function WhyYouNeedDesktop() {
                             <li className='prod-cards-cols-2'>
                                 <ProdFeatureCards
                                     mobile={false}
-                                    header='Consistent'
-                                    subheader='DATA &amp; LOW NETWORK LATENCY'
-                                    description={<span>Delivers consistent data rates with 
-                                        faster throughputs, allowing your network to be flexible
-                                        and collaborative anywhere in the world.<br/><br/>
-                                        Data is delivered
-                                        securely and swiftly with ultra-low latency.<br/><br/>
+                                    header='High Speed'
+                                    subheader='DATA RATES &amp; LOW NETWORK LATENCY'
+                                    description={<span>Consistently high data rates with 
+                                        faster throughputs.<br/><br/>
+                                        Ultra-low latency of less than 2 microseconds.<br/><br/>
                                         Encryption with data rates up to 400 Gbps provides 
                                         protection for every cybersecurity challenge.</span>}
                                 />
                                 <ProdFeatureCards
                                     mobile={false}
                                     header='Reliable'
-                                    subheader='HIGH AVAILABILITY-RELIABILITY'
+                                    subheader='HIGH AVAILABILITY &amp; RELIABILITY'
                                     description={<span>High availability with 99.999&#x25; uptime.<br/><br/>
-                                    Mean Time Before Failure (MTBF) of over 250,000 hours of 
-                                    product operation, our highly reliable security encyptors
-                                    deliver an excellent return on investment.<br/><br/>
-                                    Secure firmware upgradable to future protocols and 
-                                    cryptographic standards.</span>}
+                                    Mean Time Between Failure (MTBF) of over 250,000 hours.<br/><br/>
+                                    Field upgradable to future encryption protocols and cryptographic standards.</span>}
                                 />
                             </li>
                         </div> : ''}

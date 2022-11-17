@@ -13,24 +13,6 @@ function ProductFeaturesSection() {
 
     const [mobile, setMobile] = useState(false);
     const [isVisible, setIsVisible] = useState(true);
-    // const transition = useTransition(isVisible, {
-    //     from: {x:0, y:0, opacity: 0},
-    //     enter: {x: 0, y: 0, opacity: 1},
-    //     // leave: {x:0, y:0, opacity: 0}
-    // });
-    // const transition = useTransition(isVisible, {
-    //     from: {x:200, opacity: 0},
-    //     enter: {x: 0, y: 0, opacity: 1},
-    //     leave: {x:-200, opacity: 0},
-    // });
-    // const transitionOpp = useTransition(!isVisible, {
-    //     from: {x:200, opacity: 0},
-    //     enter: {x: 0, y: 0, opacity: 1},
-    //     leave: {x:-200, opacity: 0},
-
-    // });
-
-    // const [activeSlide, setActiveSlide] = useState(0);
 
     const isMobile = () => {
         if (window.innerWidth <= 765) {

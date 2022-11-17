@@ -32,10 +32,10 @@ function HomeOurProductSection() {
             <div className='cards__container'>
                 <CardItem
                     src={darkstor}
-                    text={<span>Secure network data-at-rest encryptor.&nbsp;
+                    text={<span>Secure data-at-rest encryptor.&nbsp;
                         <span className='italic'>DarkStor</span>
-                        &nbsp;swiftly and securely stores data into cloud providers,
-                        data centers, and local storage units.&nbsp;
+                        &nbsp;swiftly and securely encrypts data into 
+                        data centers and local storage units.&nbsp;
                         <span className='italic'>DarkStor</span>
                         &nbsp;supports data rates up to 100 Gbps.</span>}
                     label='DarkStor'

@@ -1,13 +1,10 @@
 .sec-container {
     background: url('./images/inverted-background.png') center center/cover;
-    /* no-repeat; */
     background-size: 872px 586px;
-    /* height: 600px; */
-    /* margin-top: 10px; */
-    /* background-position: right; */
     background-color: #ebebeb;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
     min-width: 300px;
 }
 
@@ -29,10 +26,6 @@
     color: #000;
     border-bottom: 2px solid #2957CB;
 }
-
-/* .product-div {
-    text-align: center;
-} */
 
 .our-products {
     font-weight: 500;
