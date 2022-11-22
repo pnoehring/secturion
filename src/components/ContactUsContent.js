@@ -30,8 +30,7 @@ function ContactUsContent() {
           <div className='contact-us-header'>
             <h className='contact-us' >Contact Us</h>
             <p className='contact-explanation' >{<span>
-              <span>Contact us now to get help
-                creating a safer digital network.</span><br /><span>Complete
+              <span>Complete
                   the request form below and our Secturion team
                   will contact you shortly.</span> </span>}
             </p>
@@ -40,7 +39,7 @@ function ContactUsContent() {
             <img src={desktop ? email : emailSmall} />
             <p>&nbsp;&nbsp;contact@secturion.com</p>
             <img src={desktop ? phone : phoneSmall} />
-            <p>&nbsp;&nbsp;1-801-898-5840</p>
+            <p>&nbsp;&nbsp;1-385-240-0329</p>
           </div>
           <ContactForm />
         </div>
@@ -49,8 +48,7 @@ function ContactUsContent() {
           <div className='contact-us-header'>
             <h className='contact-us' >Contact Us</h>
             <p className='contact-explanation' >{<span>
-              <span>Contact us now to get help
-                creating a safer digital network.</span><br /><span>Complete
+              <span>Complete
                   the request form below and our Secturion team
                   will contact you shortly.</span> </span>}
             </p>
@@ -62,7 +60,7 @@ function ContactUsContent() {
             </div>
             <div className='email-phone-mobile'>
               <img src={desktop ? phone : phoneSmall} />
-              <p>&nbsp;&nbsp;1-801-898-5840</p>
+              <p>&nbsp;&nbsp;1-385-240-0329</p>
             </div>
           </div>
           <ContactForm />
